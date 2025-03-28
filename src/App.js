@@ -23,17 +23,17 @@ function App() {
             building websites and apps. I'm located in Stroud, England 🇬🇧
           </p>
           <div className="social-links">
-            <a href="#" className="resume-button">
+            <a href="https://docs.google.com/document/d/100zsncuXnsUDuHOZTpneII6VzWVtNfkC3cCa-wCKBZs/edit?usp=sharing" className="resume-button">
               <span>↓</span> Resume
             </a>
             <div className="icon-links">
-              <a href="https://github.com/yourusername" className="social-icon github">
+              <a href="https://github.com/davidkneely" className="social-icon github">
                 <img src="/github-icon.svg" alt="GitHub" />
               </a>
-              <a href="https://linkedin.com/in/yourusername" className="social-icon linkedin">
+              <a href="https://www.linkedin.com/in/david-neely-7a180b34b/" className="social-icon linkedin">
                 <img src="/linkedin-icon.svg" alt="LinkedIn" />
               </a>
-              <a href="mailto:your.email@example.com" className="social-icon email">
+              <a href="mailto:contactvisionrunner@gmail.com.com" className="social-icon email">
                 <img src="/email-icon.svg" alt="Email" />
               </a>
             </div>

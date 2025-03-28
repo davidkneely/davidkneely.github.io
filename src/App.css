@@ -119,8 +119,9 @@
 
 .social-links {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
+  justify-content: center;
   gap: 1.5rem;
 }
 
@@ -144,7 +145,7 @@
 .icon-links {
   display: flex;
   gap: 1.5rem;
-  margin-top: 1rem;
+  margin: 0;
 }
 
 .social-icon {
