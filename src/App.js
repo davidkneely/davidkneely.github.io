@@ -4,7 +4,9 @@ function App() {
   return (
     <div className="App">
       <nav className="navbar">
-        <div className="navbar-brand">Dave Neely</div>
+        <div className="navbar-brand">
+          <a href="#home">Dave Neely</a>
+        </div>
         <div className="navbar-links">
           <a href="#projects">Projects</a>
           <a href="#blog">Blog</a>
