@@ -4,6 +4,25 @@
         "id": 1,
         "title": "Career Fair App",
         "description": "An interactive mobile application designed for university career fairs, facilitating real-time connections between students and employers. Features include interactive maps, schedule management, and instant messaging.",
+        "fullContent": {
+          "overview": "The Career Fair App revolutionizes how universities manage career fairs by providing a comprehensive digital solution for both students and employers. This mobile application streamlines the entire career fair experience, from pre-event planning to post-event follow-ups.",
+          "features": [
+            "Interactive venue maps with real-time booth locations",
+            "Smart scheduling system for student-employer meetings",
+            "Real-time messaging between students and recruiters",
+            "Digital resume sharing and collection",
+            "Analytics dashboard for event organizers"
+          ],
+          "technologies": [
+            "React Native for cross-platform mobile development",
+            "Node.js backend with Express",
+            "Firebase for real-time updates and messaging",
+            "MongoDB for data persistence",
+            "AWS for hosting and scalability"
+          ],
+          "challenges": "One of the main challenges was implementing real-time location tracking while maintaining privacy and managing battery consumption. We solved this using geofencing and efficient background processes.",
+          "outcome": "The app has been successfully used at multiple university career fairs, receiving positive feedback from both students and employers. It has increased engagement rates by 45% and reduced queue times by 60%."
+        },
         "tags": ["React Native", "Node.js", "Firebase"],
         "liveUrl": "https://careerfair.app",
         "githubUrl": "https://github.com/davidkneely/career-fair-app",
@@ -13,6 +32,25 @@
         "id": 2,
         "title": "Portfolio Website",
         "description": "A modern, responsive portfolio website built with React and styled with custom CSS. Features include dark mode, dynamic content loading, and smooth animations.",
+        "fullContent": {
+          "overview": "A personal portfolio website showcasing my work and experience. Built with modern web technologies and featuring a clean, responsive design that works seamlessly across all devices.",
+          "features": [
+            "Responsive design that works on all devices",
+            "Dark mode support",
+            "Dynamic content loading",
+            "Smooth page transitions",
+            "SEO optimized"
+          ],
+          "technologies": [
+            "React for frontend development",
+            "Custom CSS with modern features",
+            "React Router for navigation",
+            "Framer Motion for animations",
+            "Netlify for hosting"
+          ],
+          "challenges": "Creating a performant and accessible website while maintaining visual appeal was the main challenge. This was achieved through careful optimization and thorough testing.",
+          "outcome": "The portfolio has received positive feedback for its clean design and smooth user experience, leading to increased client inquiries and professional opportunities."
+        },
         "tags": ["React", "CSS", "JavaScript"],
         "liveUrl": "https://daveneely.com",
         "githubUrl": "https://github.com/davidkneely/portfolio",
@@ -22,6 +60,25 @@
         "id": 3,
         "title": "Casino Game Platform",
         "description": "A suite of casino-style games developed for mobile platforms. Implemented engaging gameplay mechanics and user retention features using modern gaming frameworks.",
+        "fullContent": {
+          "overview": "A comprehensive mobile gaming platform featuring various casino-style games. The platform includes user accounts, virtual currency, and social features to enhance player engagement.",
+          "features": [
+            "Multiple casino games including slots, poker, and blackjack",
+            "Virtual currency system",
+            "Player achievements and rewards",
+            "Social features including friends and leaderboards",
+            "Daily bonuses and challenges"
+          ],
+          "technologies": [
+            "Unity for game development",
+            "C# for game logic",
+            "PlayFab for backend services",
+            "Azure for cloud infrastructure",
+            "Firebase for analytics"
+          ],
+          "challenges": "Balancing game mechanics and implementing fair play systems while maintaining engaging gameplay was a significant challenge. We implemented sophisticated algorithms for game balance.",
+          "outcome": "The platform has achieved over 100,000 downloads with a 4.5-star rating, demonstrating strong user engagement and retention metrics."
+        },
         "tags": ["Unity", "C#", "Mobile Gaming"],
         "liveUrl": "https://casinogames.example.com",
         "githubUrl": "https://github.com/davidkneely/casino-games",

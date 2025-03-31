@@ -12,7 +12,7 @@ const BlogPosts = () => {
 
   return (
     <div className="blog-content">
-      <h1 className="section-title">Blog Posts</h1>
+      <h1 className="section-title">Blog</h1>
       <div className="blog-posts">
         {posts.map((post) => (
           <article key={post.id} className="blog-post">

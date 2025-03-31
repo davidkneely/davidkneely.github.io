@@ -1,4 +1,5 @@
-import { useEffect, useState } from "react";
+import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 const ProjectPosts = () => {
   const [projects, setProjects] = useState([]);
@@ -12,7 +13,7 @@ const ProjectPosts = () => {
 
   return (
     <div className="projects-content">
-      <h1 className="section-title">My Projects</h1>
+      <h1 className="section-title">Projects</h1>
       <div className="projects-grid">
         {projects.map((project) => (
           <article key={project.id} className="project-card">
@@ -27,9 +28,9 @@ const ProjectPosts = () => {
             </div>
             <p>{project.description}</p>
             <div className="project-links">
-              <a href={project.liveUrl} className="project-link" target="_blank" rel="noopener noreferrer">
+              <Link to={`/project/${project.id}`} className="project-link">
                 View Project
-              </a>
+              </Link>
               <a href={project.githubUrl} className="project-link" target="_blank" rel="noopener noreferrer">
                 GitHub
               </a>

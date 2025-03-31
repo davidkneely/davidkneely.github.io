@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import './App.css';
 import Projects from './components/Projects';
+import Project from './components/Project';
 import Blog from './components/Blog';
 import ExperienceToggle from './components/ExperienceToggle';
 
@@ -51,6 +52,7 @@ function App() {
             </div>
           } />
           <Route path="/projects" element={<Projects />} />
+          <Route path="/project/:id" element={<Project />} />
           <Route path="/blog" element={<Blog />} />
         </Routes>
       </div>
