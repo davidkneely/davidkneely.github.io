@@ -28,12 +28,9 @@ const ProjectPosts = () => {
             </div>
             <p>{project.description}</p>
             <div className="project-links">
-              <Link to={`/project/${project.id}`} className="project-link">
-                View Project
+              <Link to={`/project/${project.id}`} className="read-more">
+              Read more →
               </Link>
-              <a href={project.githubUrl} className="project-link" target="_blank" rel="noopener noreferrer">
-                GitHub
-              </a>
             </div>
           </article>
         ))}
