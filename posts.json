@@ -1,0 +1,25 @@
+{
+    "posts": [
+      {
+        "id": 1,
+        "title": "Building Modern Web Applications with React",
+        "date": "2024-03-15",
+        "tags": ["Web Development", "React", "JavaScript"],
+        "htmlContent": "<p>Exploring best practices for creating scalable and maintainable React applications, including state management, component architecture, and performance optimization techniques.</p>"
+      },
+      {
+        "id": 2,
+        "title": "The Future of AI in Software Development",
+        "date": "2024-03-01",
+        "tags": ["Technology", "AI", "Software Development"],
+        "htmlContent": "<p>Discussing how artificial intelligence is transforming the software development landscape, from code generation to automated testing and beyond.</p>"
+      },
+      {
+        "id": 3,
+        "title": "Optimizing User Experience in Mobile Apps",
+        "date": "2024-02-15",
+        "tags": ["UX Design", "Mobile Development"],
+        "htmlContent": "<p>Deep dive into mobile app UX design principles and practical strategies for creating engaging and user-friendly mobile experiences.</p>"
+      }
+    ]
+  }
