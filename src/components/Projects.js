@@ -10,7 +10,7 @@ function Projects() {
           {/* Example project card */}
           <div className="project-card">
             <h3>Project Name</h3>
-            <p>Project description goes here. This is a brief overview of what the project does and what technologies were used.</p>
+            <p>Project description goes here. This is a brief overview of what this project does and what technologies were used.</p>
             <div className="project-links">
               <a href="#" className="project-link">View Project</a>
               <a href="#" className="project-link">GitHub</a>
