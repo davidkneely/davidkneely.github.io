@@ -588,3 +588,98 @@
   font-size: 1.2rem;
   color: #888;
 }
+
+/* Blog Post Detail Page Styles */
+.post-detail {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  color: white;
+}
+
+.post-detail-header {
+  margin-bottom: 2rem;
+  text-align: left;
+}
+
+.post-detail h1 {
+  font-size: 2.5rem;
+  margin: 1rem 0;
+  background: linear-gradient(90deg, #4e9eff 0%, #9747FF 50%, #ff47c7 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.post-detail-content {
+  text-align: left;
+}
+
+.post-section {
+  margin-bottom: 2rem;
+}
+
+.post-section h2 {
+  font-size: 1.8rem;
+  margin: 1.5rem 0 1rem;
+  color: white;
+}
+
+.post-introduction {
+  font-size: 1.2rem;
+  line-height: 1.7;
+  color: #e0e0e0;
+  margin-bottom: 2rem;
+  border-left: 3px solid #4e9eff;
+  padding-left: 1rem;
+}
+
+.post-conclusion {
+  font-size: 1.2rem;
+  line-height: 1.7;
+  color: #e0e0e0;
+  margin-top: 2rem;
+  border-left: 3px solid #ff47c7;
+  padding-left: 1rem;
+}
+
+.post-section p {
+  color: #e0e0e0;
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+}
+
+.post-list {
+  margin: 1rem 0 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.post-list li {
+  color: #e0e0e0;
+  margin-bottom: 0.5rem;
+  line-height: 1.7;
+}
+
+.code-block {
+  background: #1a1a1a;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  overflow-x: auto;
+  margin: 1.5rem 0;
+  border-left: 3px solid #9747FF;
+}
+
+code {
+  font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+  color: #e0e0e0;
+  line-height: 1.6;
+}
+
+.post-loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  font-size: 1.2rem;
+  color: #888;
+}

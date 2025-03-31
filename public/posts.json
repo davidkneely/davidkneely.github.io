@@ -2,24 +2,86 @@
     "posts": [
       {
         "id": 1,
-        "title": "Building Modern Web Applications with React",
-        "date": "2024-03-15",
-        "tags": ["Web Development", "React", "JavaScript"],
-        "htmlContent": "<p>Exploring best practices for creating scalable and maintainable React applications, including state management, component architecture, and performance optimization techniques.</p>"
+        "title": "Getting Started with React Hooks",
+        "date": "May 15, 2023",
+        "description": "An introduction to React Hooks and how they can simplify your functional components.",
+        "tags": ["React", "JavaScript", "Web Development"],
+        "fullContent": {
+          "introduction": "React Hooks were introduced in React 16.8 as a way to use state and other React features without writing a class component. They've quickly become an essential tool for React developers, simplifying code and making it more reusable.",
+          "sections": [
+            {
+              "title": "What are React Hooks?",
+              "content": "Hooks are functions that let you 'hook into' React state and lifecycle features from function components. They allow you to use React without classes, making your code more concise and easier to understand. Some of the most commonly used hooks include useState, useEffect, useContext, and useRef."
+            },
+            {
+              "title": "The useState Hook",
+              "content": "The useState hook allows you to add state to your functional components. It returns a stateful value and a function to update it. The initial state is passed as an argument to useState. Here's a simple example:\n\n```javascript\nconst [count, setCount] = useState(0);\n```\n\nThis creates a state variable 'count' with an initial value of 0 and a function 'setCount' to update it."
+            },
+            {
+              "title": "The useEffect Hook",
+              "content": "The useEffect hook lets you perform side effects in function components. It serves the same purpose as componentDidMount, componentDidUpdate, and componentWillUnmount in React class components. useEffect takes two arguments: a function that contains the side-effect logic, and a dependency array:\n\n```javascript\nuseEffect(() => {\n  document.title = `You clicked ${count} times`;\n}, [count]);\n```\n\nIn this example, the effect runs when the component mounts and whenever the 'count' state changes."
+            }
+          ],
+          "conclusion": "React Hooks provide a more direct API to the React concepts you already know and love: props, state, context, refs, and lifecycle. They make it easier to reuse stateful logic between components and make your code more readable. As you grow more comfortable with hooks, you'll find they simplify your React components and make your code more maintainable."
+        }
       },
       {
         "id": 2,
-        "title": "The Future of AI in Software Development",
-        "date": "2024-03-01",
-        "tags": ["Technology", "AI", "Software Development"],
-        "htmlContent": "<p>Discussing how artificial intelligence is transforming the software development landscape, from code generation to automated testing and beyond.</p>"
+        "title": "CSS Grid vs Flexbox: When to Use Each",
+        "date": "June 3, 2023",
+        "description": "A comparison of CSS Grid and Flexbox layout systems and guidelines on when to use each approach.",
+        "tags": ["CSS", "Web Design", "Frontend"],
+        "fullContent": {
+          "introduction": "CSS Grid and Flexbox are two powerful layout systems that have revolutionized web design. While they share some similarities, they're designed for different use cases. Understanding when to use each can significantly improve your development workflow and the structure of your websites.",
+          "sections": [
+            {
+              "title": "Understanding Flexbox",
+              "content": "Flexbox (Flexible Box Module) is designed for one-dimensional layouts - either a row or a column. It excels at aligning items and distributing space along a single axis. Flexbox is ideal for:\n\n- Navigation bars and menus\n- Centering elements\n- Aligning elements in a row or column\n- Creating flexible item sizes that adapt to available space"
+            },
+            {
+              "title": "Understanding CSS Grid",
+              "content": "CSS Grid is designed for two-dimensional layouts - rows and columns together. It gives you precise control over placement in both dimensions and is perfect for:\n\n- Overall page layouts\n- Complex grid-based designs\n- Placing items in exact positions\n- Creating responsive layouts that change dramatically between breakpoints"
+            },
+            {
+              "title": "When to Choose Flexbox",
+              "content": "Choose Flexbox when:\n\n- You're laying out items in a single dimension (row OR column)\n- You want content to determine the layout\n- You need alignment and space distribution for similar items\n- You're working with small-scale layouts"
+            },
+            {
+              "title": "When to Choose Grid",
+              "content": "Choose Grid when:\n\n- You're creating a two-dimensional layout (rows AND columns)\n- You need precise placement of elements\n- You want the layout to determine content flow\n- You're working with larger-scale layouts"
+            }
+          ],
+          "conclusion": "The best approach is often to use both: CSS Grid for the overall page layout, and Flexbox for alignment within grid items. They complement each other perfectly, and modern browsers support both layout systems. By understanding the strengths of each, you can create more maintainable and responsive layouts with less code."
+        }
       },
       {
         "id": 3,
-        "title": "Optimizing User Experience in Mobile Apps",
-        "date": "2024-02-15",
-        "tags": ["UX Design", "Mobile Development"],
-        "htmlContent": "<p>Deep dive into mobile app UX design principles and practical strategies for creating engaging and user-friendly mobile experiences.</p>"
+        "title": "Building Accessible Web Applications",
+        "date": "July 22, 2023",
+        "description": "Best practices for making your web applications accessible to all users, including those with disabilities.",
+        "tags": ["Accessibility", "Web Development", "UX"],
+        "fullContent": {
+          "introduction": "Web accessibility ensures that people with disabilities can perceive, understand, navigate, and interact with the web. It's not just a moral and legal obligation but also improves the user experience for everyone. This post explores key strategies for building truly accessible web applications.",
+          "sections": [
+            {
+              "title": "Semantic HTML",
+              "content": "Using semantic HTML elements is the foundation of accessibility. Elements like <nav>, <main>, <header>, <footer>, and <article> provide meaning to screen readers and other assistive technologies. Always prefer semantic elements over generic <div> and <span> elements when appropriate."
+            },
+            {
+              "title": "Keyboard Navigation",
+              "content": "Many users with motor disabilities rely on keyboard navigation. Ensure all interactive elements are focusable and operable with a keyboard alone. Use logical tab order and provide visible focus states. Test your application by navigating it using only the keyboard."
+            },
+            {
+              "title": "ARIA Attributes",
+              "content": "ARIA (Accessible Rich Internet Applications) attributes help communicate states and properties to assistive technologies. Use them when semantic HTML alone isn't sufficient. Examples include aria-label, aria-expanded, and aria-hidden. However, remember that ARIA doesn't change the behavior or appearance of elements - it only affects how they're interpreted by assistive technologies."
+            },
+            {
+              "title": "Color and Contrast",
+              "content": "Ensure sufficient color contrast between text and its background. The WCAG 2.1 guidelines recommend a contrast ratio of at least 4.5:1 for normal text and 3:1 for large text. Also, never use color alone to convey information - always provide additional indicators for users with color blindness."
+            }
+          ],
+          "conclusion": "Building accessible web applications is about inclusion - ensuring that everyone can use your product regardless of their abilities. By implementing these best practices from the start of your project, you'll create better experiences for all users while meeting legal requirements in many jurisdictions. Remember, accessibility isn't a feature or a checklist; it's a commitment to all your users."
+        }
       }
     ]
   }

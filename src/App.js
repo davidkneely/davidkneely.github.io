@@ -3,6 +3,7 @@ import './App.css';
 import Projects from './components/Projects';
 import Project from './components/Project';
 import Blog from './components/Blog';
+import Post from './components/Post';
 import ExperienceToggle from './components/ExperienceToggle';
 
 function App() {
@@ -54,6 +55,7 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/project/:id" element={<Project />} />
           <Route path="/blog" element={<Blog />} />
+          <Route path="/post/:id" element={<Post />} />
         </Routes>
       </div>
     </Router>
