@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import './App.css';
 import Projects from './components/Projects';
 import Blog from './components/Blog';
+import ExperienceToggle from './components/ExperienceToggle';
 
 function App() {
   return (
@@ -45,6 +46,7 @@ function App() {
                     </a>
                   </div>
                 </div>
+                <ExperienceToggle />
               </div>
             </div>
           } />
