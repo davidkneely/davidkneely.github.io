@@ -2,24 +2,30 @@
     "projects": [
       {
         "id": 1,
-        "title": "Bookmark Manager App",
-        "htmlContent": "<p>A simple and efficient bookmark manager built with PHP and Firebase.</p>",
-        "date": "2025-03-20",
-        "tags": ["PHP", "Firebase", "Web Development"]
+        "title": "Career Fair App",
+        "description": "An interactive mobile application designed for university career fairs, facilitating real-time connections between students and employers. Features include interactive maps, schedule management, and instant messaging.",
+        "tags": ["React Native", "Node.js", "Firebase"],
+        "liveUrl": "https://careerfair.app",
+        "githubUrl": "https://github.com/davidkneely/career-fair-app",
+        "image": "/images/800x600.jpg"
       },
       {
         "id": 2,
-        "title": "Local Hawaii Trivia Game",
-        "htmlContent": "<p>A fun game that tests how local you are with Hawaii-themed questions.</p>",
-        "date": "2024-06-07",
-        "tags": ["Game", "Hawaii", "Trivia"]
+        "title": "Portfolio Website",
+        "description": "A modern, responsive portfolio website built with React and styled with custom CSS. Features include dark mode, dynamic content loading, and smooth animations.",
+        "tags": ["React", "CSS", "JavaScript"],
+        "liveUrl": "https://daveneely.com",
+        "githubUrl": "https://github.com/davidkneely/portfolio",
+        "image": "/images/800x600.jpg"
       },
       {
         "id": 3,
-        "title": "SMART Goals Learning Module",
-        "htmlContent": "<p>An interactive course teaching time management through SMART goals.</p>",
-        "date": "2025-03-13",
-        "tags": ["Education", "Soft Skills", "Time Management"]
+        "title": "Casino Game Platform",
+        "description": "A suite of casino-style games developed for mobile platforms. Implemented engaging gameplay mechanics and user retention features using modern gaming frameworks.",
+        "tags": ["Unity", "C#", "Mobile Gaming"],
+        "liveUrl": "https://casinogames.example.com",
+        "githubUrl": "https://github.com/davidkneely/casino-games",
+        "image": "/images/800x600.jpg"
       }
     ]
   }
