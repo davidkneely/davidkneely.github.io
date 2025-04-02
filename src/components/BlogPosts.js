@@ -26,7 +26,7 @@ function BlogPosts() {
                 ))}
               </div>
             </div>
-            <p className="post-content">{post.description}</p>
+            <p className="post-description">{post.description}</p>
             <Link to={`/post/${post.id}`} className="read-more">
               Read more →
             </Link>
