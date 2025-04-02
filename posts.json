@@ -2,27 +2,27 @@
     "posts": [
       {
         "id": 1,
-        "title": "Getting Started with React Hooks",
-        "date": "May 15, 2023",
-        "description": "An introduction to React Hooks and how they can simplify your functional components.",
-        "tags": ["React", "JavaScript", "Web Development"],
+        "title": "Project Updates: Slomo, Inflight Entertainment App, and Bookmark Manager",
+        "date": "April 2, 2025",
+        "description": "A progress update on the Slomo music slowdown app, plans for launching an inflight entertainment app, and the technology stack decision for our bookmark manager project.",
+        "tags": ["SwiftUI", "MacOS", "Laravel", "React", "App Development"],
         "fullContent": {
-          "introduction": "React Hooks were introduced in React 16.8 as a way to use state and other React features without writing a class component. They've quickly become an essential tool for React developers, simplifying code and making it more reusable.",
+          "introduction": "This week, we made significant progress on several projects, including our Slomo app, a potential inflight entertainment app, and a new bookmark manager project. Here’s a breakdown of what we discussed and our next steps.",
           "sections": [
             {
-              "title": "What are React Hooks?",
-              "content": "Hooks are functions that let you 'hook into' React state and lifecycle features from function components. They allow you to use React without classes, making your code more concise and easier to understand. Some of the most commonly used hooks include useState, useEffect, useContext, and useRef."
+              "title": "Slomo: A MacOS Music Slowdown App",
+              "content": "We had a productive meeting with Aron regarding Slomo, our MacOS music slowdown app built with Catalyst and SwiftUI. We've identified a few bugs: (1) The waveform does not resize properly when resizing the window, and (2) There's an issue with retrieving MP3 files from the bundle due to permission errors when restarting the app. Additionally, using Cursor AI's Auto model selection has caused errors: one where Cursor fails to recognize an existing class file and another where the Swift linter introduces issues that Cursor keeps iterating on unnecessarily. Aron will investigate these bugs this week."
             },
             {
-              "title": "The useState Hook",
-              "content": "The useState hook allows you to add state to your functional components. It returns a stateful value and a function to update it. The initial state is passed as an argument to useState. Here's a simple example:\n\n```javascript\nconst [count, setCount] = useState(0);\n```\n\nThis creates a state variable 'count' with an initial value of 0 and a function 'setCount' to update it."
+              "title": "Inflight Entertainment App: A New Launch Strategy",
+              "content": "We revisited an app we developed last year, originally pitched to local airline companies for inflight entertainment. Since those partnerships didn’t work out, we’re considering launching it ourselves on the iOS App Store for free with Google Ads. I plan to experiment with TikTok marketing to drive organic interest. This will also give me an opportunity to log into my Google AdSense account and check on an issue affecting ads in my other game, Mathogen."
             },
             {
-              "title": "The useEffect Hook",
-              "content": "The useEffect hook lets you perform side effects in function components. It serves the same purpose as componentDidMount, componentDidUpdate, and componentWillUnmount in React class components. useEffect takes two arguments: a function that contains the side-effect logic, and a dependency array:\n\n```javascript\nuseEffect(() => {\n  document.title = `You clicked ${count} times`;\n}, [count]);\n```\n\nIn this example, the effect runs when the component mounts and whenever the 'count' state changes."
+              "title": "Bookmark Manager App: Choosing the Right Stack",
+              "content": "Instead of jumping into coding with Cursor, we took a step back to research the best stack for our bookmark manager project. After evaluating our options, we decided on Laravel for the backend and React for the frontend. This week, I'll be looking into hosting solutions, and Aron and I will check in next week to finalize details and plan our next steps."
             }
           ],
-          "conclusion": "React Hooks provide a more direct API to the React concepts you already know and love: props, state, context, refs, and lifecycle. They make it easier to reuse stateful logic between components and make your code more readable. As you grow more comfortable with hooks, you'll find they simplify your React components and make your code more maintainable."
+          "conclusion": "We’ve made great strides in debugging Slomo, pivoting our inflight entertainment app strategy, and finalizing the tech stack for our bookmark manager. Next week, we’ll continue refining these projects and making key implementation decisions. Stay tuned for more updates!"
         }
       },
       {
