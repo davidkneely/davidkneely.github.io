@@ -25,14 +25,11 @@ function ExperienceToggle() {
         <div className="experience-content">
           <div className="experience-item">
             <div className="experience-header">
-              <div className="experience-logo">
-                <img src="/career-center-logo.svg" alt="UH Career Center" />
-              </div>
               <div className="experience-title">
                 <h3>Technology and Web Coordinator</h3>
                 <p className="experience-company">The University of Hawaii at Mānoa Career Center</p>
               </div>
-              <div className="experience-date">2007 - 2025</div>
+              <div className="experience-date">2007 - 2024</div>
             </div>
             <ul className="experience-details">
               <li>Website Development & Management – Designed, developed, and maintained the department website, ensuring functionality, accessibility, and an improved user experience for students and faculty.</li>
@@ -43,9 +40,6 @@ function ExperienceToggle() {
 
           <div className="experience-item">
             <div className="experience-header">
-              <div className="experience-logo">
-                <img src="/tiny-mobile-logo.svg" alt="Tiny Mobile Inc" />
-              </div>
               <div className="experience-title">
                 <h3>Software Developer (Contract)</h3>
                 <p className="experience-company">Tiny Mobile Inc</p>
@@ -61,28 +55,10 @@ function ExperienceToggle() {
         </div>
       ) : (
         <div className="experience-content">
-          <div className="experience-item">
-            <div className="experience-header">
-              <div className="experience-logo">
-                <img src="/uh-logo.svg" alt="UH Mānoa" />
-              </div>
-              <div className="experience-title">
-                <h3>Bachelor of Arts in Information and Computer Science</h3>
-                <p className="experience-company">The University of Hawaii at Mānoa</p>
-              </div>
-              <div className="experience-date">2006</div>
-            </div>
-            <ul className="experience-details">
-              <li>Creative & Technical Skills – Specialized in Software Engineering and Web Development, with additional studies in Graphic Design and Animation to enhance user experience and digital storytelling.</li>
-              <li>Web Design Champion – Won a college web design competition, showcasing innovation and technical expertise.</li>
-            </ul>
-          </div>
+          
 
           <div className="experience-item">
             <div className="experience-header">
-              <div className="experience-logo">
-                <img src="/uh-logo.svg" alt="UH Mānoa" />
-              </div>
               <div className="experience-title">
                 <h3>M.Ed. Learning Design and Technology</h3>
                 <p className="experience-company">The University of Hawaii at Mānoa</p>
@@ -92,6 +68,20 @@ function ExperienceToggle() {
             <ul className="experience-details">
               <li>Instructional Design Expertise – Knowledgeable in learning theories and frameworks such as ARCS Model of Motivation, Gagné's Nine Events of Instruction, and Bloom's Taxonomy, applying them to enhance learner engagement and instructional effectiveness.</li>
               <li>Master's Research Project – Investigating how AI-assisted learning impacts new professionals' affective states, exploring strategies to improve confidence, motivation, and adaptability in AI-integrated learning environments.</li>
+            </ul>
+          </div>
+
+          <div className="experience-item">
+            <div className="experience-header">
+              <div className="experience-title">
+                <h3>Bachelor of Arts in Information and Computer Science</h3>
+                <p className="experience-company">The University of Hawaii at Mānoa</p>
+              </div>
+              <div className="experience-date">2006</div>
+            </div>
+            <ul className="experience-details">
+              <li>Creative & Technical Skills – Specialized in Software Engineering and Web Development, with additional studies in Graphic Design and Animation to enhance user experience and digital storytelling.</li>
+              <li>Web Design Champion – Won a college web design competition, showcasing innovation and technical expertise.</li>
             </ul>
           </div>
         </div>
