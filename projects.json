@@ -1,88 +1,112 @@
 {
     "projects": [
-      {
-        "id": 1,
-        "title": "Career Fair App",
-        "description": "An interactive mobile application designed for university career fairs, facilitating real-time connections between students and employers. Features include interactive maps, schedule management, and instant messaging.",
-        "fullContent": {
-          "overview": "The Career Fair App revolutionizes how universities manage career fairs by providing a comprehensive digital solution for both students and employers. This mobile application streamlines the entire career fair experience, from pre-event planning to post-event follow-ups.",
-          "features": [
-            "Interactive venue maps with real-time booth locations",
-            "Smart scheduling system for student-employer meetings",
-            "Real-time messaging between students and recruiters",
-            "Digital resume sharing and collection",
-            "Analytics dashboard for event organizers"
-          ],
-          "technologies": [
-            "React Native for cross-platform mobile development",
-            "Node.js backend with Express",
-            "Firebase for real-time updates and messaging",
-            "MongoDB for data persistence",
-            "AWS for hosting and scalability"
-          ],
-          "challenges": "One of the main challenges was implementing real-time location tracking while maintaining privacy and managing battery consumption. We solved this using geofencing and efficient background processes.",
-          "outcome": "The app has been successfully used at multiple university career fairs, receiving positive feedback from both students and employers. It has increased engagement rates by 45% and reduced queue times by 60%."
+        {
+            "id": 1,
+            "title": "Mathogen: A Math-Powered Game for Enrichment",
+            "description": "Mathogen is an educational game designed to make math engaging and rewarding. Inspired by Tetris, it transforms problem-solving into an endless challenge that enriches players' skills.",
+            "fullContent": {
+              "overview": "I've always loved video games, but I wanted to create something that not only entertained but also provided lasting value. That's how Mathogen was born—an educational game centered around math, the universal language. It draws inspiration from Tetris, where mistakes shape the experience, and every session leaves players feeling accomplished rather than empty-handed.",
+              "features": [
+                "Engaging math-based gameplay with infinite challenge",
+                "Inspired by Tetris mechanics to encourage continuous improvement",
+                "Ported from Objective-C to Flash and adapted for multiple platforms",
+                "Designed to be an endless runner experience, rewarding accuracy over speed",
+                "Integrated with analytics to track player engagement and improve performance"
+              ],
+              "technologies": [
+                "Objective-C for initial iOS development",
+                "Flash for web-based gameplay",
+                "Flurry Analytics for tracking player behavior",
+                "Facebook integration for social gaming features"
+              ],
+              "challenges": "During development, I encountered multiple challenges: submission hurdles with Apple, unexpected crash reports from early users, and the need to adapt the game across different platforms. Transitioning from a timer-based model to an endless runner format also required careful design adjustments.",
+              "outcome": "Mathogen has gone through multiple iterations and continues to evolve. By removing the timer constraint and focusing on accuracy, I aim to create a game that players can enjoy endlessly while sharpening their math skills. The project has also connected me with a wider programming community, leading to opportunities in tutoring and game development."
+            },
+            "tags": ["Educational Game", "Math", "iOS Development", "Flash"],
+            "liveUrl": "https://mathogen.com",
+            "githubUrl": "https://github.com/davidkneely/mathogen",
+            "image": "/images/800x600.jpg"
         },
-        "tags": ["React Native", "Node.js", "Firebase"],
-        "liveUrl": "https://careerfair.app",
-        "githubUrl": "https://github.com/davidkneely/career-fair-app",
-        "image": "/images/800x600.jpg"
-      },
-      {
-        "id": 2,
-        "title": "Portfolio Website",
-        "description": "A modern, responsive portfolio website built with React and styled with custom CSS. Features include dark mode, dynamic content loading, and smooth animations.",
-        "fullContent": {
-          "overview": "A personal portfolio website showcasing my work and experience. Built with modern web technologies and featuring a clean, responsive design that works seamlessly across all devices.",
-          "features": [
-            "Responsive design that works on all devices",
-            "Dark mode support",
-            "Dynamic content loading",
-            "Smooth page transitions",
-            "SEO optimized"
-          ],
-          "technologies": [
-            "React for frontend development",
-            "Custom CSS with modern features",
-            "React Router for navigation",
-            "Framer Motion for animations",
-            "Netlify for hosting"
-          ],
-          "challenges": "Creating a performant and accessible website while maintaining visual appeal was the main challenge. This was achieved through careful optimization and thorough testing.",
-          "outcome": "The portfolio has received positive feedback for its clean design and smooth user experience, leading to increased client inquiries and professional opportunities."
+        {
+            "id": 2,
+            "title": "Bible Scripture Word Match",
+            "description": "An engaging mobile game that helps users memorize and reinforce Bible verses by filling in missing words. Designed for iPad and iPhone, it offers an ad-free experience with no internet required.",
+            "fullContent": {
+              "overview": "Bible Scripture Word Match is a faith-based word game that encourages users to deepen their understanding of the Bible. The game presents scripture passages with missing words, and players must select the correct word to complete the verse. With topics like love, faith, friendship, and forgiveness, this app is designed to inspire and educate.",
+              "features": [
+                "Fill-in-the-blank scripture puzzles",
+                "Levels focused on key biblical themes",
+                "No internet required for offline play",
+                "Ad-free experience for uninterrupted learning",
+                "Encouraging Bible quotes throughout gameplay"
+              ],
+              "technologies": [
+                "Swift for iOS development",
+                "UIKit for user interface design",
+                "CoreData for local storage",
+                "Apple's Game Center for tracking progress"
+              ],
+              "challenges": "One challenge was designing a user-friendly interface that appeals to all age groups while ensuring a smooth offline experience. We optimized local data storage and refined the game flow to provide an enjoyable and educational gameplay experience.",
+              "outcome": "Bible Scripture Word Match has been well-received by users looking for a meaningful and engaging way to memorize scripture. The app maintains a positive rating and continues to attract new players through its simple yet effective gameplay."
+            },
+            "tags": ["iOS", "Swift", "Bible", "Educational Game"],
+            "liveUrl": "https://apps.apple.com/app/bible-scripture-word-match/idXXXXX",
+            "githubUrl": "",
+            "image": "/images/800x600.jpg"
         },
-        "tags": ["React", "CSS", "JavaScript"],
-        "liveUrl": "https://daveneely.com",
-        "githubUrl": "https://github.com/davidkneely/portfolio",
-        "image": "/images/800x600.jpg"
-      },
-      {
-        "id": 3,
-        "title": "Casino Game Platform",
-        "description": "A suite of casino-style games developed for mobile platforms. Implemented engaging gameplay mechanics and user retention features using modern gaming frameworks.",
-        "fullContent": {
-          "overview": "A comprehensive mobile gaming platform featuring various casino-style games. The platform includes user accounts, virtual currency, and social features to enhance player engagement.",
-          "features": [
-            "Multiple casino games including slots, poker, and blackjack",
-            "Virtual currency system",
-            "Player achievements and rewards",
-            "Social features including friends and leaderboards",
-            "Daily bonuses and challenges"
-          ],
-          "technologies": [
-            "Unity for game development",
-            "C# for game logic",
-            "PlayFab for backend services",
-            "Azure for cloud infrastructure",
-            "Firebase for analytics"
-          ],
-          "challenges": "Balancing game mechanics and implementing fair play systems while maintaining engaging gameplay was a significant challenge. We implemented sophisticated algorithms for game balance.",
-          "outcome": "The platform has achieved over 100,000 downloads with a 4.5-star rating, demonstrating strong user engagement and retention metrics."
+        {
+            "id": 3,
+            "title": "Type the Truth: Bible Scripture Typing",
+            "description": "A fun and educational macOS app that helps users improve their typing speed while memorizing Bible verses. Designed for all ages, it works offline and allows users to add custom verses.",
+            "fullContent": {
+              "overview": "Type the Truth is a unique typing practice app that combines scripture memorization with keyboarding skills. Originally created for the son of an assistant pastor who was learning to type, this app has since become a favorite among users looking to strengthen both their faith and typing abilities.",
+              "features": [
+                "Includes over 100 Bible verses",
+                "Allows users to add custom Bible verses",
+                "Works without an internet connection",
+                "Tracks typing speed and accuracy",
+                "Encouraging feedback and scripture-based motivation"
+              ],
+              "technologies": [
+                "Swift for macOS development",
+                "SwiftUI for a clean and intuitive interface",
+                "CoreData for local storage of custom verses",
+                "Apple's GameKit for progress tracking"
+              ],
+              "challenges": "One challenge was ensuring a smooth and responsive typing experience while keeping the app lightweight and offline-friendly. Optimizing text rendering and input processing was key to delivering an engaging user experience.",
+              "outcome": "Type the Truth has received a 4.7-star rating on the Mac App Store, with users praising its simplicity and effectiveness. It has helped many users improve their typing skills while deepening their knowledge of scripture."
+            },
+            "tags": ["macOS", "Swift", "Bible", "Typing Game"],
+            "liveUrl": "https://apps.apple.com/app/type-the-truth/idXXXXX",
+            "githubUrl": "",
+            "image": "/images/800x600.jpg"
         },
-        "tags": ["Unity", "C#", "Mobile Gaming"],
-        "liveUrl": "https://casinogames.example.com",
-        "githubUrl": "https://github.com/davidkneely/casino-games",
-        "image": "/images/800x600.jpg"
-      }
+        {
+            "id": 4,
+            "title": "Hawaii Local Quiz",
+            "description": "A fun and engaging trivia game that tests how local you are to Hawaii! Answer questions about local culture, food, and history to see where you rank.",
+            "fullContent": {
+              "overview": "Hawaii Local Quiz is an entertaining mobile app that challenges users with trivia questions about Hawaii's unique culture, history, and lifestyle. Players answer multiple-choice questions and receive a 'local' ranking based on their score. The app is designed for both locals and visitors who want to test their knowledge and learn more about Hawaii.",
+              "features": [
+                "Hundreds of Hawaii-themed trivia questions",
+                "Engaging multiple-choice format",
+                "Local ranking system based on quiz performance",
+                "Works offline for on-the-go fun",
+                "Available on both iOS and Android"
+              ],
+              "technologies": [
+                "Unity for cross-platform game development",
+                "C# for game logic and interactions",
+                "Firebase for user progress tracking",
+                "Google Play and Apple Game Center for achievements"
+              ],
+              "challenges": "Balancing the difficulty level of the questions while keeping the game fun and informative was a challenge. We refined the quiz content through user feedback to ensure a rewarding experience for both locals and newcomers.",
+              "outcome": "Hawaii Local Quiz has received positive reviews for its entertaining and educational gameplay. It has been popular among locals and visitors alike, making learning about Hawaii fun and interactive."
+            },
+            "tags": ["Unity", "C#", "Trivia Game", "Hawaii"],
+            "liveUrl": "https://hawaiilocalquiz.app",
+            "githubUrl": "",
+            "image": "/images/800x600.jpg"
+        }
     ]
-  }
+}
