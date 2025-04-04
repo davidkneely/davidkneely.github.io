@@ -7,7 +7,15 @@ function BlogPosts() {
   useEffect(() => {
     fetch('/posts.json')
       .then(response => response.json())
-      .then(data => setPosts(data.posts))
+      .then(data => {
+        // Sort posts by date, newest first
+        const sortedPosts = [...data.posts].sort((a, b) => {
+          const dateA = new Date(a.date);
+          const dateB = new Date(b.date);
+          return dateB - dateA; // Descending order (newest first)
+        });
+        setPosts(sortedPosts);
+      })
       .catch(error => console.error('Error loading posts:', error));
   }, []);
 
