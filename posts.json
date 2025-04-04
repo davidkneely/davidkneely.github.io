@@ -24,6 +24,40 @@
           ],
           "conclusion": "We’ve made great strides in debugging Slomo, pivoting our inflight entertainment app strategy, and finalizing the tech stack for our bookmark manager. Next week, we’ll continue refining these projects and making key implementation decisions. Stay tuned for more updates!"
         }
+      },
+      {
+        "id": 2,
+        "title": "Building Better Word Search Puzzles with Code",
+        "date": "April 4, 2025",
+        "description": "How I used automation, SVGs, and a bit of creative thinking to improve the quality of my digital word search puzzle products.",
+        "tags": ["Python", "SVG", "Automation", "Small Business", "Cursor"],
+        "fullContent": {
+          "introduction": "As someone who's been building apps and websites for over 15 years, I love applying those skills to personal creative projects. One of my favorites is a small digital shop where I sell word search puzzle books. It’s fun, rewarding, and—like any product venture—full of opportunities to grow when users share feedback.",
+          "sections": [
+            {
+              "title": "Turning Criticism Into Improvement",
+              "content": "Recently, a customer left a review pointing out a duplicated word in one of my puzzles. That kind of feedback can sting, but I see it as a gift. I opened up Cursor and loaded the Python script I use to generate the puzzles. Using the Claude Sonnet 3.7 model, I updated the logic to filter out duplicates and sort the word list alphabetically. A small change, but it ensures a smoother experience for future customers—and shows them I care about the details."
+            },
+            {
+              "title": "Answer Keys Without the Manual Labor",
+              "content": "Another customer suggested including answer keys at the back of the book. Great idea—but solving every puzzle by hand wasn’t scalable. I spent a while stuck, unsure how to programmatically highlight the solution words in a clear and scalable way. Then, during a chat with my friend Aron (who needed a logo), I mentioned I’d been generating SVGs for icons using Cursor. That idea stuck with me: what if I rendered the answer keys as SVGs?"
+            },
+            {
+              "title": "The SVG Solution",
+              "content": "SVGs turned out to be the perfect format. They scale well, print cleanly, and allow for flexible layouts. I spent about 90 minutes working with Cursor to refine the rendering: early attempts either circled every letter or drew unreadable lines through diagonals. Eventually, I got the styling right—but I hit another problem. Overlapping highlights obscured shared letters, which made the solution unreadable. So I updated the generation logic to intelligently layer highlights without sacrificing clarity."
+            },
+            {
+              "title": "Overlapping Letters and Layout Challenges",
+              "content": "I also realized the puzzles weren’t overlapping words at all—each letter was used by only one word. That’s not how real puzzles work! I tweaked the code to allow for shared letters and better word placement. It felt like a small but meaningful win: not just fixing the issue, but improving the product. And now, with SVGs for both puzzles and solutions, everything looks better and is easier to manage."
+            },
+            {
+              "title": "Next Steps: Automating the Layout",
+              "content": "My next goal is to automate the layout further. I want to generate an SVG that includes the puzzle number, the word search grid, and a two-column list of hidden words—all in one go. That way, I can ditch the clunky Pages mail merge and use a clean CSV-to-SVG pipeline instead. With just three columns—puzzle, solution, and metadata—I’ll be able to produce hundreds of pages with consistent, beautiful formatting."
+            }
+          ],
+          "conclusion": "This project has reminded me how much joy there is in solving problems—not just for myself, but for the people who use my work. Whether it's refining an old Python script or designing better UX through automation, I approach every project with care, curiosity, and an eye for detail. If you’re looking for someone to help build thoughtful, well-engineered digital products, I’d love to collaborate."
+        }
       }
+      
     ]
   }
