@@ -57,35 +57,7 @@
           ],
           "conclusion": "This project has reminded me how much joy there is in solving problems—not just for myself, but for the people who use my work. Whether it's refining an old Python script or designing better UX through automation, I approach every project with care, curiosity, and an eye for detail. If you’re looking for someone to help build thoughtful, well-engineered digital products, I’d love to collaborate."
         }
-      },
-      {
-          "id": 3,
-          "title": "Streamlining Puzzle Delivery: SVGs, PDFs, and Automation",
-          "date": "April 8, 2025",
-          "description": "How I automated the creation of puzzle books and solutions for my Etsy shop using Python and Cursor AI.",
-          "tags": ["Python", "SVG", "Automation", "Etsy", "Digital Products"],
-          "fullContent": {
-            "introduction": "After a refreshing weekend away in Ireland, I was eager to dive back into my work. One of the projects I’d been planning was to improve the way I deliver my word search puzzles and solutions to customers. I had the vision and the tools ready, and I knew exactly what I wanted to achieve.",
-            "sections": [
-              {
-                "title": "Automating Puzzle Creation",
-                "content": "I started with an SVG file containing both the puzzle grid and the answer key. My goal was to programmatically add the hidden words and the puzzle ID to each SVG, and then export those completed files in bulk. I set up a Python script to handle it, which was surprisingly smooth thanks to the help of Cursor AI. With just a few tweaks, I managed to export 1,000 SVGs to a folder—exactly what I needed to streamline the process."
-              },
-              {
-                "title": "Overcoming Limitations with Mac Pages",
-                "content": "Initially, I thought about using Mac Pages for a mail merge, but I quickly hit a wall with its limitations—particularly when it came to handling images in bulk. Rather than let that slow me down, I decided to tackle it head-on. I used Cursor AI to write a Python script that would merge the SVGs into a single PDF file. This worked perfectly for both the puzzles and the solutions, and the automation saved me hours of manual work."
-              },
-              {
-                "title": "Seamlessly Updating My Etsy Shop",
-                "content": "With the PDFs created, the next step was to update my Etsy shop. I uploaded the completed puzzle PDFs and solution PDFs to Google Drive and updated the links for each product. This ensured that customers could easily download the files once they purchased them. The entire process, from creating the PDFs to updating my Etsy listings, took just two hours—efficiency at its finest."
-              },
-              {
-                "title": "Taking a Break and Gaining Perspective",
-                "content": "After a productive couple of hours, I took a 30-minute break to watch 'Love on the Spectrum' season three. Sometimes, a short break is all it takes to refresh your mind and come back with even more creative ideas. It's a reminder that balance and downtime are just as important as hard work."
-              }
-            ],
-            "conclusion": "The entire process went off without a hitch, thanks to automation and a bit of problem-solving along the way. Whether it's tackling challenges with Python, exploring new tools like Cursor AI, or updating my shop to improve the customer experience, I always strive to work efficiently and with attention to detail. If you’re looking for someone to help build and optimize digital products—whether through automation or creative problem-solving—I'd love to help bring your ideas to life."
-          }
-        }
+      }
+      
     ]
   }
