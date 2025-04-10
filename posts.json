@@ -11,7 +11,7 @@
           "sections": [
             {
               "title": "Slomo: A MacOS Music Slowdown App",
-              "content": "We had a productive meeting with Aron regarding Slomo, our MacOS music slowdown app built with Catalyst and SwiftUI. We've identified a few bugs: (1) The waveform does not resize properly when resizing the window, and (2) There's an issue with retrieving MP3 files from the bundle due to permission errors when restarting the app. Additionally, using Cursor AI's Auto model selection has caused errors: one where Cursor fails to recognize an existing class file and another where the Swift linter introduces issues that Cursor keeps iterating on unnecessarily. Aron will investigate these bugs this week."
+              "content": "We had a productive meeting with Adam regarding Slomo, our MacOS music slowdown app built with Catalyst and SwiftUI. We've identified a few bugs: (1) The waveform does not resize properly when resizing the window, and (2) There's an issue with retrieving MP3 files from the bundle due to permission errors when restarting the app. Additionally, using Cursor AI's Auto model selection has caused errors: one where Cursor fails to recognize an existing class file and another where the Swift linter introduces issues that Cursor keeps iterating on unnecessarily. Adam will investigate these bugs this week."
             },
             {
               "title": "Inflight Entertainment App: A New Launch Strategy",
@@ -19,7 +19,7 @@
             },
             {
               "title": "Bookmark Manager App: Choosing the Right Stack",
-              "content": "Instead of jumping into coding with Cursor, we took a step back to research the best stack for our bookmark manager project. After evaluating our options, we decided on Laravel for the backend and React for the frontend. This week, I'll be looking into hosting solutions, and Aron and I will check in next week to finalize details and plan our next steps."
+              "content": "Instead of jumping into coding with Cursor, we took a step back to research the best stack for our bookmark manager project. After evaluating our options, we decided on Laravel for the backend and React for the frontend. This week, I'll be looking into hosting solutions, and Adam and I will check in next week to finalize details and plan our next steps."
             }
           ],
           "conclusion": "We’ve made great strides in debugging Slomo, pivoting our inflight entertainment app strategy, and finalizing the tech stack for our bookmark manager. Next week, we’ll continue refining these projects and making key implementation decisions. Stay tuned for more updates!"
@@ -40,7 +40,7 @@
             },
             {
               "title": "Answer Keys Without the Manual Labor",
-              "content": "Another customer suggested including answer keys at the back of the book. Great idea—but solving every puzzle by hand wasn’t scalable. I spent a while stuck, unsure how to programmatically highlight the solution words in a clear and scalable way. Then, during a chat with my friend Aron (who needed a logo), I mentioned I’d been generating SVGs for icons using Cursor. That idea stuck with me: what if I rendered the answer keys as SVGs?"
+              "content": "Another customer suggested including answer keys at the back of the book. Great idea—but solving every puzzle by hand wasn’t scalable. I spent a while stuck, unsure how to programmatically highlight the solution words in a clear and scalable way. Then, during a chat with my friend Adam (who needed a logo), I mentioned I’d been generating SVGs for icons using Cursor. That idea stuck with me: what if I rendered the answer keys as SVGs?"
             },
             {
               "title": "The SVG Solution",
@@ -86,7 +86,37 @@
           ],
           "conclusion": "The entire process went off without a hitch, thanks to automation and a bit of problem-solving along the way. Whether it's tackling challenges with Python, exploring new tools like Cursor AI, or updating my shop to improve the customer experience, I always strive to work efficiently and with attention to detail. If you’re looking for someone to help build and optimize digital products—whether through automation or creative problem-solving—I'd love to help bring your ideas to life."
         }
+      },
+      {
+        "id": 4,
+        "title": "Progress, Pivots, and Planning Ahead",
+        "date": "April 10, 2025",
+        "description": "A behind-the-scenes look at the current projects I'm building, the small hurdles along the way, and how I'm thinking about what's next.",
+        "tags": ["Web Development", "App Development", "Teamwork", "Freelance"],
+        "fullContent": {
+          "introduction": "Some weeks are about big wins. Others are about progress, persistence, and the small steps that move a project forward. This week’s update is more of the latter — full of little lessons, technical tweaks, and forward motion in a few different areas. I had another great check-in with my longtime collaborator Adam, and we covered a lot of ground.",
+          "sections": [
+            {
+              "title": "App Store Hurdles & Plans for Growth",
+              "content": "I recently submitted *How Local* to the iOS App Store — always a great milestone, but this time it came with a bump. Apple rejected it because the current screenshots didn’t reflect the latest version of the app. Totally fair. I’ll be updating the visuals and resubmitting soon. \n\nOnce it's live, I'm planning to integrate a bottom banner for ads to start testing monetization. I also want to experiment with short-form video content — TikTok, Instagram, and YouTube Shorts — to try and generate some organic traction. These kinds of small bets are exciting, especially when you have a product you believe in."
+            },
+            {
+              "title": "Hosting Decisions and Tech Stack Trade-offs",
+              "content": "Adam and I dug into hosting for one of our Laravel + React projects. Originally, we hoped to run it on our shared hosting plan, but after some digging, Adam found that Node.js is going to be necessary — something the shared host doesn’t support. \n\nHe’s now looking into other options. DigitalOcean looks like a solid pick at $4/month. It’s a minor pivot, but one that will give us a lot more flexibility as we continue development."
+            },
+            {
+              "title": "Collaboration and Design Tweaks",
+              "content": "One of the best parts of working with Adam is how naturally we’ve developed a rhythm around version control, design updates, and feedback. He recently resolved a GitHub hiccup and is finalizing a new push with updated code. Once that’s in, I’ll be updating the color scheme based on our latest design direction.\n\nHe also created new buttons using SVGs with Cursor, which I’m really looking forward to seeing. Small things like icons can really shape the feel of a product, and I appreciate that we both take pride in those details."
+            },
+            {
+              "title": "Looking Ahead: Categorization with AI",
+              "content": "Our next project is starting to take shape — and one of the big technical challenges will be categorizing a large collection of data in a way that feels intuitive and smart. I don’t have a fully fleshed-out architecture yet, but that’s part of the fun.\n\nWe’re planning to leverage AI in the workflow, especially for tagging and search. Maybe we’ll even experiment with location-aware features. One big lesson from our past attempts: we’re going to be more intentional this time about how AI generates code. Specifically, we’ll make sure it sticks to a markdown file structure we define upfront. That kind of structure saves a lot of cleanup later on."
+            }
+          ],
+          "conclusion": "This kind of week is a reminder that building digital products isn’t just about code — it’s about communication, curiosity, and iteration. I love that I get to work with thoughtful collaborators, push through the little snags, and think creatively about what’s possible. If you’re looking for someone who brings both experience and excitement to a project — let’s talk."
+        }
       }
+      
       
     ]
   }
