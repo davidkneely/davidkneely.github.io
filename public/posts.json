@@ -115,7 +115,33 @@
           ],
           "conclusion": "This kind of week is a reminder that building digital products isn’t just about code — it’s about communication, curiosity, and iteration. I love that I get to work with thoughtful collaborators, push through the little snags, and think creatively about what’s possible. If you’re looking for someone who brings both experience and excitement to a project — let’s talk."
         }
+      },
+      {
+        "id": 5,
+        "title": "What I’ve Been Working On: Local Vibes, App Store Prep, and a Little Sudoku",
+        "date": "April 12, 2025",
+        "description": "A behind-the-scenes look at this week’s projects: improving a local trivia app, polishing UI details, and getting ready to launch a new Sudoku experience.",
+        "tags": ["Unity", "iOS", "App Development", "Indie Dev", "Soft Skills"],
+        "fullContent": {
+          "introduction": "One of my favorite things about building digital products is watching them go from idea to polished experience. This past week, I’ve been elbows-deep in code, design tweaks, and the kind of tiny UI details that make a big difference in the long run. Here’s a quick snapshot of what I’ve been up to.",
+          "sections": [
+            {
+              "title": "Fixing Bugs, Clarifying Rewards",
+              "content": "I kicked things off by fixing a tricky issue with Google AdMob that was preventing ads from displaying. It wasn’t glamorous work, but it’s the kind of thing that matters when you want a polished, professional product.\n\nAfter that, I fine-tuned the wording in the treasure chest reward box. Players weren’t always clear on what they were getting, so I rewrote the message to say clearly that prizes are random. I also added the exact odds of getting each prize—especially the coveted mathematician cards. It’s a small tweak, but it builds trust with players."
+            },
+            {
+              "title": "Are You Local? Gets a Fresh Look",
+              "content": "Next up, I gave a little extra love to *Are You Local?*, a trivia app celebrating Hawaii's local culture. I added a fun new splash screen featuring a cartoon-style uncle and aunty, both characters I created using ChatGPT’s image tools. It’s colorful, warm, and instantly gives the app a cozy, local vibe.\n\nOnce the visuals were ready, I exported the app from Unity and ran it in the iPhone XS Max simulator to capture the required 6.5-inch screenshots for the App Store. I also tested it on a 13-inch iPad to grab the larger screenshots. Everything is now submitted to Apple and waiting for review!"
+            },
+            {
+              "title": "What’s Next: TikTok, Sudoku, and New Grids",
+              "content": "While I wait on Apple’s green light, I’ve already got plans for the next steps. I’m going to create a TikTok campaign to generate organic buzz for *Are You Local?* I’ve brainstormed a few video ideas that blend humor and heart—because the app is all about community.\n\nOn the side, I’ve also started working on a new grid layout using Cursor to build out a visual for my Samurai Sudoku puzzle. I’ve already created the number sets, and I’m planning to release it on my store later this week.\n\nIt’s all coming together piece by piece."
+            }
+          ],
+          "conclusion": "This week has been a reminder that good software is made in the details—clear communication, thoughtful UX, and persistence through the technical stuff that no one sees. I care deeply about the products I work on and the people who use them. If you're looking for someone who brings heart, humor, and a ton of hands-on experience to your next digital project, let’s talk."
+        }
       }
+      
       
       
     ]
