@@ -140,7 +140,37 @@
           ],
           "conclusion": "This week has been a reminder that good software is made in the details—clear communication, thoughtful UX, and persistence through the technical stuff that no one sees. I care deeply about the products I work on and the people who use them. If you're looking for someone who brings heart, humor, and a ton of hands-on experience to your next digital project, let’s talk."
         }
+      },
+      {
+        "id": 6,
+        "title": "A Busy Week of Progress and Polish",
+        "date": "April 14, 2025",
+        "description": "Wrapping up app updates, launching new puzzle products, and polishing every detail along the way.",
+        "tags": ["App Development", "Etsy", "Mobile Games", "Python", "Marketing"],
+        "fullContent": {
+          "introduction": "Some weeks are for big ideas. Others are about rolling up your sleeves and getting things done. This past week was definitely the second kind—but in the best way.",
+          "sections": [
+            {
+              "title": "Video Ads Are Live for Mathogen",
+              "content": "First, I got confirmation from Google that the video ads I integrated into *Mathogen* are now officially live. That was a nice win. There’s still a hiccup with the banner ad not showing at the bottom of the screen, but I’ll dig into that bug next. These little moments—where something works after a bunch of behind-the-scenes code wrangling—always feel good."
+            },
+            {
+              "title": "More Polish on 'Are You Local?'",
+              "content": "On the Apple side of things, I received feedback on *Are You Local?*—my trivia app all about Hawaii. I had mistakenly left in some screenshots from an older build, so I cleaned those up and resubmitted everything for review. Fingers crossed for approval soon! Once it’s live, I’m planning to spin up a TikTok account to start sharing memes and behind-the-scenes clips to build organic buzz."
+            },
+            {
+              "title": "Samurai Sudoku Launch",
+              "content": "In between app builds, I also finished something I’ve been excited about: a massive *Samurai Sudoku* puzzle pack. I wrote a Python script to generate 1,000 puzzles, and another script to stitch them all into a clean, print-ready PDF. Same for the solutions. Those are now available on my Etsy shop—and I’ve bundled them into my mega puzzle packs as well. After that, I refreshed all the product thumbnails in Canva to keep everything looking sharp and consistent."
+            },
+            {
+              "title": "Looking Ahead",
+              "content": "My next step for *Are You Local?* is to add in-app purchases for additional trivia question packs and to remove ads for users who prefer an ad-free experience. I want this app to feel thoughtful, fun, and rooted in local pride—while also supporting the work that goes into building it."
+            }
+          ],
+          "conclusion": "It’s been a steady week of progress—lots of moving parts, lots of quiet wins. I love this kind of work: refining products, listening to feedback, and staying focused on the small details that make big differences. If you're looking for someone who can help you bring your next digital idea to life—with care, clarity, and a good sense of humor—I'd love to hear from you."
+        }
       }
+      
       
       
       
