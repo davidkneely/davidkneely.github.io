@@ -169,10 +169,35 @@
           ],
           "conclusion": "It’s been a steady week of progress—lots of moving parts, lots of quiet wins. I love this kind of work: refining products, listening to feedback, and staying focused on the small details that make big differences. If you're looking for someone who can help you bring your next digital idea to life—with care, clarity, and a good sense of humor—I'd love to hear from you."
         }
+      },
+      {
+        "id": 7,
+        "title": "Making Steady Progress: App Launches, Ad Improvements, and New Marketing Ideas",
+        "date": "April 28, 2025",
+        "description": "Sharing updates from a busy week of final projects, app launches, and new marketing strategies — and how steady, thoughtful work is helping build momentum.",
+        "tags": ["App Development", "Marketing", "Soft Skills", "Client Work", "Unity"],
+        "fullContent": {
+          "introduction": "It's been a busy and exciting week. Between finishing my final grad school presentation, preparing my last paper for submission, and making strides on several app projects, I've had my hands full — but I'm grateful for the momentum that's building.",
+          "sections": [
+            {
+              "title": "Finishing Grad School and Staying Focused",
+              "content": "This week marked a big personal milestone: I finished my final presentation for grad school! Now, I’m putting the finishing touches on my final paper. Balancing school with client work has taught me a lot about communication, time management, and staying organized under pressure — skills that directly carry over into every project I build."
+            },
+            {
+              "title": "Refining Ads in Mathogen and Launching 'Are You Local?'",
+              "content": "I also spent time refining how ads are delivered in Mathogen. The banner ad at the bottom of the start page now displays correctly and feels more polished. Meanwhile, I got ads working smoothly inside 'Are You Local?' — a trivia app I'm especially proud of — and submitted it to Apple. I'm happy to share that it was approved! Launch days are always a great reminder that patient, careful iteration pays off."
+            },
+            {
+              "title": "Exploring TikTok for Marketing",
+              "content": "I’ve also been thinking about marketing strategies. I took inspiration from the creator of the Puff Count app and started exploring TikTok. By downloading the app and searching for 'Hawaii trivia,' I found top-performing videos to study. The most successful videos featured two friends competing to answer trivia questions, opening large plastic eggs to reveal smaller ones as they advanced. The visual progression was clear and rewarding to watch. I'll be sharing this idea with Adam in our meeting tonight to brainstorm next steps for promoting 'Are You Local?'."
+            },
+            {
+              "title": "Thinking Ahead: Challenges, Leaderboards, and Monetization",
+              "content": "We’re also discussing the role of interstitial ads and the possibility of offering an in-app purchase to remove ads entirely. Another idea I’m excited about is creating a daily trivia challenge, similar to Wordle — giving all players the same 10 questions each day and adding a global leaderboard. It could really help build a community around the game. Steady progress like this, week by week, keeps the momentum growing."
+            }
+          ],
+          "conclusion": "This past week reminded me how important it is to stay flexible, curious, and open to new ideas. Whether it's polishing ad delivery, launching new apps, exploring fresh marketing strategies, or dreaming up new game features, every small step adds up. I’m excited to keep the momentum going and to keep building digital products that are thoughtful, fun, and built to last."
+        }
       }
-      
-      
-      
-      
     ]
   }
