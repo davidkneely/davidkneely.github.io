@@ -198,6 +198,40 @@
           ],
           "conclusion": "This past week reminded me how important it is to stay flexible, curious, and open to new ideas. Whether it's polishing ad delivery, launching new apps, exploring fresh marketing strategies, or dreaming up new game features, every small step adds up. I’m excited to keep the momentum going and to keep building digital products that are thoughtful, fun, and built to last."
         }
+      },
+      {
+        "id": 8,
+        "title": "Sharing Progress, One TikTok at a Time",
+        "date": "May 1, 2025",
+        "description": "A look at the latest updates on 'Are You Local?', starting TikTok outreach, and what's next after finishing grad school.",
+        "tags": ["App Development", "TikTok", "Hawaii", "Soft Launch", "Personal Journey"],
+        "fullContent": {
+          "introduction": "This past week has been a blend of creative exploration, software tweaks, and personal milestones. I'm documenting the journey not only to stay accountable but also to share the process—wins, bumps, and all—with clients and collaborators who might enjoy seeing the behind-the-scenes of how digital products are made.",
+          "sections": [
+            {
+              "title": "Testing the Waters on TikTok",
+              "content": "This week, I started posting TikTok videos for my app *Are You Local?*. So far, I’ve had two favorites and one new follower—not viral, but it’s a start. I’m learning that consistency matters, and each video teaches me something. For example, I’ve been fine-tuning the placement of on-screen elements like the countdown timer, and making sure the phrase *Made with Aloha in Hawaii* is always visible. It’s important to me that viewers, especially locals, recognize this app as something homegrown and authentic."
+            },
+            {
+              "title": "Who’s Downloading?",
+              "content": "The app has been installed on 20 devices so far. What’s interesting is that most downloads are on desktop computers—not what I expected. iPhones come next, followed by iPads. I'm tracking all this through App Store Connect analytics. It’s fascinating to see how people are choosing to interact with the app."
+            },
+            {
+              "title": "Content Ideas for the Future",
+              "content": "While browsing trending TikToks, I came across a fun video where two people compete in a trivia challenge at a county fair, with a cash prize at the end. I love that format. It’s energetic, community-focused, and feels like something *Are You Local?* could naturally grow into. I’m not quite ready to shoot those kinds of videos yet, but I can imagine setting up a booth at a farmers market, offering small prizes to local trivia champs. It would be a great way to blend real-life interaction with the app’s digital core."
+            },
+            {
+              "title": "New Hosting, New Projects",
+              "content": "On the technical side, I signed up for a new hosting server this week so that Adam and I can get started on a Laravel and React SaaS project we’ve been planning. He sent me a detailed Medium article on how to set it up, but to be honest, it was a bit dense. So I found a walkthrough video on YouTube that breaks it down visually. Sometimes the fastest way to learn is just to see someone else do it and follow along."
+            },
+            {
+              "title": "A Big Personal Milestone",
+              "content": "Lastly, a personal update: I just completed my final grad school class! Graduation is next week, and it’s a surreal feeling. I started the program during the height of the pandemic, and after three long years, it’s finally done. That constant feeling of 'I should be working on schoolwork' is starting to fade. I’m really looking forward to the summer—to building things, collaborating with great people, and exploring the next chapter with fresh energy."
+            }
+          ],
+          "conclusion": "Whether it’s crafting an app, learning from user behavior, or creating content that connects with real people, this past week has reminded me why I love this work. Every project is a mix of strategy, empathy, and iteration. If you're looking for someone who brings not just technical skills but a real care for users, storytelling, and follow-through—I’d love to connect."
+        }
       }
+      
     ]
   }
