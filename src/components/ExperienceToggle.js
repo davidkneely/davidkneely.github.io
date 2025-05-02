@@ -81,7 +81,6 @@ function ExperienceToggle() {
             </div>
             <ul className="experience-details">
               <li>Creative & Technical Skills – Specialized in Software Engineering and Web Development, with additional studies in Graphic Design and Animation to enhance user experience and digital storytelling.</li>
-              <li>Web Design Champion – Won a college web design competition, showcasing innovation and technical expertise.</li>
             </ul>
           </div>
         </div>
