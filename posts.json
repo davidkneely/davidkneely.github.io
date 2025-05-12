@@ -231,7 +231,37 @@
           ],
           "conclusion": "Whether it’s crafting an app, learning from user behavior, or creating content that connects with real people, this past week has reminded me why I love this work. Every project is a mix of strategy, empathy, and iteration. If you're looking for someone who brings not just technical skills but a real care for users, storytelling, and follow-through—I’d love to connect."
         }
+      },
+      {
+        "id": 9,
+        "title": "What I've Been Working On: From London to Laravel",
+        "date": "May 11, 2025",
+        "description": "Reflections on recent projects, milestones, and what's next in digital product development.",
+        "tags": ["Laravel", "React", "Instructional Design", "Freelance", "Soft Skills"],
+        "fullContent": {
+          "introduction": "The past few weeks have been a whirlwind—early mornings, new skills, client work, and even a bit of TikTok. If you’ve been following along, you’ll know I’ve always believed that building great products takes more than just code. It takes communication, persistence, and a little heart. Here's a peek into what I’ve been up to lately.",
+          "sections": [
+            {
+              "title": "I Finished My Master's Degree!",
+              "content": "Well, it’s official. I graduated from the University of Hawaiʻi at Mānoa with a Master’s in Learning Design and Technology. It wasn’t easy—especially those 4 a.m. wakeups for class—but I made it through. Over the past two years, I’ve learned how to sustain learner motivation with the ARCS model, design structured outcomes using Bloom’s Revised Taxonomy, and iterate on course design using the ADDIE model. All of that theory is already influencing how I build software that teaches, engages, and adapts."
+            },
+            {
+              "title": "Laravel + React: Deployment Success",
+              "content": "This week, I was hoping to meet with Adam to walk through our latest milestone—but schedules didn’t align. Still, I was excited to get our Laravel and React project successfully deployed to the virtual machine on our hosting platform. Progress like this reminds me how far persistence can take a project. I’m currently diving deeper into Laravel’s built-in authentication and billing modules. Stripe integration is top priority, and I’m confident that once that’s in place, we’ll be unstoppable."
+            },
+            {
+              "title": "TikTok Experiments and Game Design Decisions",
+              "content": "On the marketing front, I’ve been running some TikTok tests for the game *Are You Local*. Each video is landing close to 1,000 views, which is encouraging—but the engagement rate is low. Few favorites. That tells me I either need to tighten the content strategy or give players more incentive to care. I’ve been torn between two next steps: adding a leaderboard to the game or producing more videos. Honestly? I’ve decided to do both."
+            },
+            {
+              "title": "Side Project: A Local Walking Tour App",
+              "content": "There’s another project I’m quietly passionate about: an audio-guided walking tour for our local heritage center. I haven’t built it out yet, but I’d love to mock something up soon. It blends education, community, and storytelling—three things I deeply care about. I’ve also been trying to find a local musician to collaborate with. No responses yet. I may need to rewrite my ad or go about it a different way. In the meantime, I’ve been playing drums. It keeps me grounded and creative."
+            }
+          ],
+          "conclusion": "Between building client software, finishing grad school, and exploring new creative projects, I’ve been stretching both my technical and soft skills lately. I love this kind of work—where strategy meets heart—and I’m always looking for teams and projects that share that mindset. If you're building something and want a thoughtful, reliable partner to help bring it to life, I’d love to talk."
+        }
       }
+      
       
     ]
   }
