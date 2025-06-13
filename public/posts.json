@@ -260,7 +260,37 @@
           ],
           "conclusion": "Between building client software, finishing grad school, and exploring new creative projects, I’ve been stretching both my technical and soft skills lately. I love this kind of work—where strategy meets heart—and I’m always looking for teams and projects that share that mindset. If you're building something and want a thoughtful, reliable partner to help bring it to life, I’d love to talk."
         }
+      },
+      {
+        "id": 10,
+        "title": "Closing Loops and Opening Doors",
+        "date": "June 12, 2025",
+        "description": "Reflecting on personal milestones, AI-assisted creativity, and Etsy experimentation—all while keeping the human side of software development in focus.",
+        "tags": ["Entrepreneurship", "Etsy", "AI Tools", "Planner Design", "Personal Growth"],
+        "fullContent": {
+          "introduction": "It’s been a full season lately—personally, creatively, and professionally. I recently got back from a trip to Hawaii where I visited family, unplugged a little, and spent time recharging. That time away, as usual, gave me space to reflect and rethink how I’m approaching my projects and clients this year.",
+          "sections": [
+            {
+              "title": "What's Selling and What's Shifting",
+              "content": "While in Hawaii, I renewed my subscription to everbee.io—a tool I use to keep tabs on what's performing well on Etsy. I noticed something interesting: the top-selling item in my niche is a planner. Not a huge surprise, but it was a helpful nudge. Sales on my Etsy shop have been slowly dipping, and I’ve been wondering if it’s just the season or if I’ve gone too quiet. Maybe both.\n\nInstead of waiting around, I’ve decided to shift into creation mode. I’m experimenting with new planners—each tailored to a different kind of person. A budget planner. A workout planner. A visual planner for people who think in images. I want to meet people where they are, and Etsy is a great place to do that."
+            },
+            {
+              "title": "Letting AI Help Me Create",
+              "content": "To speed things up, I’ve been using a tool called Cursor AI to help write the code for these planners. It’s honestly kind of wild how quickly the AI picks up on what I’m aiming to build. What used to take me hours by hand—especially trying to force Canva to do something it wasn’t built for—now takes a fraction of the time.\n\nCursor helps me go from idea to prototype without getting stuck on the boring stuff. It’s made the whole process feel more like play again, and less like grinding through glue."
+            },
+            {
+              "title": "A New Tool for Etsy Sellers",
+              "content": "Aside from the planners, I’ve been working on something I’m really excited about: an Etsy newsletter creation tool. This came out of my own pain point—wanting to communicate better with my shop followers but not having a smooth, low-effort way to do it.\n\nI’ve been quietly building the backend, testing some templates, and thinking about how to make it simple but effective. It’s one of those side projects that has the potential to grow into something much bigger."
+            },
+            {
+              "title": "Personal Milestones and Resolutions",
+              "content": "This past month, I celebrated two big things: my birthday and my graduation from grad school. At the celebration, my sister-in-law asked me what I was looking forward to in the coming year. My answer: peace. \n\nBut while driving home the next day, I realized something. What I really want is to close loops. Not just start things, but finish them. Wrap them up. Deliver. That’s where the real peace comes from for me. Not in doing less, but in completing what matters.\n\nAlso, Seth Godin just released a new book. That’s now at the top of my reading list. He always has a way of reminding me why I build things the way I do—with heart, intention, and a desire to serve."
+            }
+          ],
+          "conclusion": "Whether I’m designing tools for Etsy sellers, creating planners with AI, or just trying to finish the things I start, my work is always driven by a love of craft and a deep respect for people. Clients who’ve worked with me know that I bring that same energy to every project: clear communication, thoughtful collaboration, and a commitment to results.\n\nThis year, I’m closing loops—and opening new doors. If you're building something meaningful and want a partner who cares as much as you do, let’s talk."
+        }
       }
+      
       
       
     ]
