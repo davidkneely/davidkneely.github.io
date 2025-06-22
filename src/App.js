@@ -17,7 +17,7 @@ function App() {
           <div className="navbar-links">
             <Link to="/projects">Projects</Link>
             <Link to="/blog">Blog</Link>
-            <a href="mailto:contactvisionrunner@gmail.com">Contact</a>
+            <a href="mailto:dave@daveneely.com">Contact</a>
           </div>
         </nav>
         <Routes>
@@ -43,7 +43,7 @@ function App() {
                     <a href="https://www.linkedin.com/in/david-neely-7a180b34b/" className="social-icon linkedin">
                       <img src="/linkedin-icon.svg" alt="LinkedIn" />
                     </a>
-                    <a href="mailto:contactvisionrunner@gmail.com" className="social-icon email">
+                    <a href="mailto:dave@daveneely.com" className="social-icon email">
                       <img src="/email-icon.svg" alt="Email" />
                     </a>
                   </div>

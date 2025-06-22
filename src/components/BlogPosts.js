@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 function BlogPosts() {
   const [posts, setPosts] = useState([]);
+  const navigate = useNavigate();
 
   useEffect(() => {
     fetch('/posts.json')
@@ -24,7 +25,12 @@ function BlogPosts() {
       <h1 className="section-title">Blog Posts</h1>
       <div className="blog-posts">
         {posts.map(post => (
-          <article key={post.id} className="blog-post">
+          <article
+            key={post.id}
+            className="blog-post"
+            style={{ cursor: 'pointer' }}
+            onClick={() => navigate(`/post/${post.id}`)}
+          >
             <h2>{post.title}</h2>
             <div className="post-meta">
               <span className="post-date">{post.date}</span>
@@ -35,7 +41,11 @@ function BlogPosts() {
               </div>
             </div>
             <p className="post-description">{post.description}</p>
-            <Link to={`/post/${post.id}`} className="read-more">
+            <Link
+              to={`/post/${post.id}`}
+              className="read-more"
+              onClick={e => e.stopPropagation()}
+            >
               Read more →
             </Link>
           </article>
