@@ -24,7 +24,6 @@
             },
             "tags": ["Educational Game", "Math", "iOS Development", "Flash"],
             "liveUrl": "https://mathogen.com",
-            "githubUrl": "https://github.com/davidkneely/mathogen",
             "image": "/images/Mathogen_icon.png"
         },
         {
@@ -51,7 +50,6 @@
             },
             "tags": ["iOS", "Swift", "Bible", "Educational Game"],
             "liveUrl": "https://apps.apple.com/app/bible-scripture-word-match/idXXXXX",
-            "githubUrl": "",
             "image": "/images/BSWM_icon.png"
         },
         {
@@ -78,7 +76,6 @@
             },
             "tags": ["macOS", "Swift", "Bible", "Typing Game"],
             "liveUrl": "https://apps.apple.com/us/app/bible-scripture-typing-daily/id1484895431?mt=12",
-            "githubUrl": "",
             "image": "/images/BSTD_icon.png"
         },
         {
@@ -105,7 +102,6 @@
             },
             "tags": ["Unity", "C#", "Trivia Game", "Hawaii"],
             "liveUrl": "https://hawaiilocalquiz.app",
-            "githubUrl": "",
             "image": "/images/AYL_icon.png"
         }
     ]

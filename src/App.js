@@ -27,7 +27,9 @@ function App() {
                 <div className="profile-image-container">
                   <img src="/dave.jpg" alt="Profile" className="profile-image" />
                 </div>
-                <h1 className="greeting">Hi, I'm Dave</h1>
+                <h1 className="greeting">
+                  Hi, I'm Dave <span role="img" aria-label="shaka" style={{ background: 'none', WebkitBackgroundClip: 'initial', backgroundClip: 'initial', WebkitTextFillColor: 'initial', color: 'inherit' }}>🤙</span>
+                </h1>
                 <p className="bio">
                   I'm a Software Engineer with 15+ years of experience
                   building websites and apps. I'm located in Stroud, England 🇬🇧

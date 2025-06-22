@@ -73,9 +73,6 @@ function Project() {
           <a href={project.liveUrl} className="project-link" target="_blank" rel="noopener noreferrer">
             View Live Project
           </a>
-          <a href={project.githubUrl} className="project-link" target="_blank" rel="noopener noreferrer">
-            View on GitHub
-          </a>
         </div>
       </div>
     </div>
