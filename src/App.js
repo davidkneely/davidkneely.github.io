@@ -29,7 +29,7 @@ function App() {
                 </div>
                 <h1 className="greeting">Hi, I'm Dave</h1>
                 <p className="bio">
-                  I'm a Full-Stack Software Engineer with 15+ years of experience
+                  I'm a Software Engineer with 15+ years of experience
                   building websites and apps. I'm located in Stroud, England 🇬🇧
                 </p>
                 <div className="social-links">

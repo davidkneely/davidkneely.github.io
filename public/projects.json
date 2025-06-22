@@ -25,7 +25,7 @@
             "tags": ["Educational Game", "Math", "iOS Development", "Flash"],
             "liveUrl": "https://mathogen.com",
             "githubUrl": "https://github.com/davidkneely/mathogen",
-            "image": "/images/800x600.jpg"
+            "image": "/images/Mathogen_icon.png"
         },
         {
             "id": 2,
@@ -52,11 +52,11 @@
             "tags": ["iOS", "Swift", "Bible", "Educational Game"],
             "liveUrl": "https://apps.apple.com/app/bible-scripture-word-match/idXXXXX",
             "githubUrl": "",
-            "image": "/images/800x600.jpg"
+            "image": "/images/BSWM_icon.png"
         },
         {
             "id": 3,
-            "title": "Type the Truth: Bible Scripture Typing",
+            "title": "Bible Scripture Typing Daily",
             "description": "A fun and educational macOS app that helps users improve their typing speed while memorizing Bible verses. Designed for all ages, it works offline and allows users to add custom verses.",
             "fullContent": {
               "overview": "Type the Truth is a unique typing practice app that combines scripture memorization with keyboarding skills. Originally created for the son of an assistant pastor who was learning to type, this app has since become a favorite among users looking to strengthen both their faith and typing abilities.",
@@ -77,13 +77,13 @@
               "outcome": "Type the Truth has received a 4.7-star rating on the Mac App Store, with users praising its simplicity and effectiveness. It has helped many users improve their typing skills while deepening their knowledge of scripture."
             },
             "tags": ["macOS", "Swift", "Bible", "Typing Game"],
-            "liveUrl": "https://apps.apple.com/app/type-the-truth/idXXXXX",
+            "liveUrl": "https://apps.apple.com/us/app/bible-scripture-typing-daily/id1484895431?mt=12",
             "githubUrl": "",
-            "image": "/images/800x600.jpg"
+            "image": "/images/BSTD_icon.png"
         },
         {
             "id": 4,
-            "title": "Hawaii Local Quiz",
+            "title": "Are You Local?",
             "description": "A fun and engaging trivia game that tests how local you are to Hawaii! Answer questions about local culture, food, and history to see where you rank.",
             "fullContent": {
               "overview": "Hawaii Local Quiz is an entertaining mobile app that challenges users with trivia questions about Hawaii's unique culture, history, and lifestyle. Players answer multiple-choice questions and receive a 'local' ranking based on their score. The app is designed for both locals and visitors who want to test their knowledge and learn more about Hawaii.",
@@ -106,7 +106,7 @@
             "tags": ["Unity", "C#", "Trivia Game", "Hawaii"],
             "liveUrl": "https://hawaiilocalquiz.app",
             "githubUrl": "",
-            "image": "/images/800x600.jpg"
+            "image": "/images/AYL_icon.png"
         }
     ]
 }
