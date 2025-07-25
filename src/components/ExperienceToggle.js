@@ -63,7 +63,7 @@ function ExperienceToggle() {
                 <h3>M.Ed. Learning Design and Technology</h3>
                 <p className="experience-company">The University of Hawaii at Mānoa</p>
               </div>
-              <div className="experience-date">2025</div>
+              <div className="experience-date">2025 (Completed)</div>
             </div>
             <ul className="experience-details">
               <li>Instructional Design Expertise – Knowledgeable in learning theories and frameworks such as ARCS Model of Motivation, Gagné's Nine Events of Instruction, and Bloom's Taxonomy, applying them to enhance learner engagement and instructional effectiveness.</li>
