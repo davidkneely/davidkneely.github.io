@@ -34,7 +34,7 @@
               "features": [
                 "Fill-in-the-blank scripture puzzles",
                 "Levels focused on key biblical themes",
-                "No internet required for offline play",
+                "No internet required for offline play"
               ],
               "technologies": [
                 "C# for Unity Development and exported to iOS",
