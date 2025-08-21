@@ -2,27 +2,26 @@
     "projects": [
         {
             "id": 1,
-            "title": "Mathogen: A Math-Powered Game for Enrichment",
+            "title": "Mathogen: An Educational Game for Math training",
             "description": "Mathogen is an educational game designed to make math engaging and rewarding. Inspired by Tetris, it transforms problem-solving into an endless challenge that enriches players' skills.",
             "fullContent": {
               "overview": "I've always loved video games, but I wanted to create something that not only entertained but also provided lasting value. That's how Mathogen was born—an educational game centered around math, the universal language. It draws inspiration from Tetris, where mistakes shape the experience, and every session leaves players feeling accomplished rather than empty-handed.",
               "features": [
                 "Engaging math-based gameplay with infinite challenge",
-                "Inspired by Tetris mechanics to encourage continuous improvement",
-                "Ported from Objective-C to Flash and adapted for multiple platforms",
+                "Collectible cards mechanic to keep players engaged",
+                "Made with C# in Unity and adapted for multiple platforms",
                 "Designed to be an endless runner experience, rewarding accuracy over speed",
                 "Integrated with analytics to track player engagement and improve performance"
               ],
               "technologies": [
-                "Objective-C for initial iOS development",
-                "Flash for web-based gameplay",
-                "Flurry Analytics for tracking player behavior",
-                "Facebook integration for social gaming features"
+                "Objective-C using the Cocos2d-x Engine for initial iOS development",
+                "C# for Unity Development and exported to iOS",
+                "Google Admob for monetization"
               ],
               "challenges": "During development, I encountered multiple challenges: submission hurdles with Apple, unexpected crash reports from early users, and the need to adapt the game across different platforms. Transitioning from a timer-based model to an endless runner format also required careful design adjustments.",
               "outcome": "Mathogen has gone through multiple iterations and continues to evolve. By removing the timer constraint and focusing on accuracy, I aim to create a game that players can enjoy endlessly while sharpening their math skills. The project has also connected me with a wider programming community, leading to opportunities in tutoring and game development."
             },
-            "tags": ["Educational Game", "Math", "iOS Development", "Flash"],
+            "tags": ["Unity", "C#", "Educational Game", "Math", "iOS Development"],
             "liveUrl": "https://apps.apple.com/us/app/mathogen/id323507276",
             "image": "/images/Mathogen_icon.png"
         },
@@ -36,19 +35,15 @@
                 "Fill-in-the-blank scripture puzzles",
                 "Levels focused on key biblical themes",
                 "No internet required for offline play",
-                "Ad-free experience for uninterrupted learning",
-                "Encouraging Bible quotes throughout gameplay"
               ],
               "technologies": [
-                "Swift for iOS development",
-                "UIKit for user interface design",
-                "CoreData for local storage",
-                "Apple's Game Center for tracking progress"
+                "C# for Unity Development and exported to iOS",
+                "Google Admob for monetization"
               ],
               "challenges": "One challenge was designing a user-friendly interface that appeals to all age groups while ensuring a smooth offline experience. We optimized local data storage and refined the game flow to provide an enjoyable and educational gameplay experience.",
               "outcome": "Bible Scripture Word Match has been well-received by users looking for a meaningful and engaging way to memorize scripture. The app maintains a positive rating and continues to attract new players through its simple yet effective gameplay."
             },
-            "tags": ["iOS", "Swift", "Bible", "Educational Game"],
+            "tags": ["Unity", "C#", "Bible", "Educational Game"],
             "liveUrl": "https://apps.apple.com/app/bible-scripture-word-match/idXXXXX",
             "image": "/images/BSWM_icon.png"
         },
@@ -67,12 +62,11 @@
               ],
               "technologies": [
                 "Swift for macOS development",
-                "SwiftUI for a clean and intuitive interface",
                 "CoreData for local storage of custom verses",
                 "Apple's GameKit for progress tracking"
               ],
               "challenges": "One challenge was ensuring a smooth and responsive typing experience while keeping the app lightweight and offline-friendly. Optimizing text rendering and input processing was key to delivering an engaging user experience.",
-              "outcome": "Type the Truth has received a 4.7-star rating on the Mac App Store, with users praising its simplicity and effectiveness. It has helped many users improve their typing skills while deepening their knowledge of scripture."
+              "outcome": "Bible Scripture Typing Daily has received a 4.7-star rating on the Mac App Store, with users praising its simplicity and effectiveness. It has helped many users improve their typing skills while deepening their knowledge of scripture."
             },
             "tags": ["macOS", "Swift", "Bible", "Typing Game"],
             "liveUrl": "https://apps.apple.com/us/app/bible-scripture-typing-daily/id1484895431?mt=12",
@@ -94,8 +88,8 @@
               "technologies": [
                 "Unity for cross-platform game development",
                 "C# for game logic and interactions",
-                "Firebase for user progress tracking",
-                "Google Play and Apple Game Center for achievements"
+                "Google Admob for monetization",
+                "Designed for both iOS and Android"
               ],
               "challenges": "Balancing the difficulty level of the questions while keeping the game fun and informative was a challenge. We refined the quiz content through user feedback to ensure a rewarding experience for both locals and newcomers.",
               "outcome": "Hawaii Local Quiz has received positive reviews for its entertaining and educational gameplay. It has been popular among locals and visitors alike, making learning about Hawaii fun and interactive."
