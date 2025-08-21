@@ -23,7 +23,7 @@
               "outcome": "Mathogen has gone through multiple iterations and continues to evolve. By removing the timer constraint and focusing on accuracy, I aim to create a game that players can enjoy endlessly while sharpening their math skills. The project has also connected me with a wider programming community, leading to opportunities in tutoring and game development."
             },
             "tags": ["Educational Game", "Math", "iOS Development", "Flash"],
-            "liveUrl": "https://mathogen.com",
+            "liveUrl": "https://apps.apple.com/us/app/mathogen/id323507276",
             "image": "/images/Mathogen_icon.png"
         },
         {
@@ -101,7 +101,7 @@
               "outcome": "Hawaii Local Quiz has received positive reviews for its entertaining and educational gameplay. It has been popular among locals and visitors alike, making learning about Hawaii fun and interactive."
             },
             "tags": ["Unity", "C#", "Trivia Game", "Hawaii"],
-            "liveUrl": "https://hawaiilocalquiz.app",
+            "liveUrl": "https://apps.apple.com/us/app/are-you-local/id6466523161",
             "image": "/images/AYL_icon.png"
         }
     ]
