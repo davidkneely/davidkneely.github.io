@@ -32,7 +32,7 @@ function App() {
                 </h1>
                 <p className="bio">
                   I'm a Software Engineer with 15+ years of experience
-                  building websites and apps. I'm located in Stroud, England 🇬🇧
+                  building websites and apps. I'm located in Dursley, England 🇬🇧
                 </p>
                 <div className="social-links">
                   <a href="https://drive.google.com/file/d/1wpGSdOeZc_oVidO1sOsOkB2-vMuP38Lz/view?usp=sharing" className="resume-button">
