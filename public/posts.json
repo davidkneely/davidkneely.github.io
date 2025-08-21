@@ -289,7 +289,41 @@
           ],
           "conclusion": "Whether I’m designing tools for Etsy sellers, creating planners with AI, or just trying to finish the things I start, my work is always driven by a love of craft and a deep respect for people. Clients who’ve worked with me know that I bring that same energy to every project: clear communication, thoughtful collaboration, and a commitment to results.\n\nThis year, I’m closing loops—and opening new doors. If you're building something meaningful and want a partner who cares as much as you do, let’s talk."
         }
+      },
+      {
+        "id": 11,
+        "title": "What I’ve Been Working On Lately (And Why It’s Been Fun)",
+        "date": "August 21, 2025",
+        "description": "A quick update on some personal and client projects, from a dad joke app to a classroom-friendly WebGL tool. Also: Laravel Herd, high scores, and a little London inspiration.",
+        "tags": ["Apps", "watchOS", "WebGL", "Laravel", "Personal Projects"],
+        "fullContent": {
+          "introduction": "Every few months, I like to post a quick update about what I’ve been building lately. It gives clients (and future clients) a peek into how I think through problems, how I build, and—maybe most important—how much I enjoy the process. Here’s what’s been going on behind the scenes.",
+          "sections": [
+            {
+              "title": "A Dad Jokes App—Built for Laughs (and Groans)",
+              "content": "Every morning, I tell my daughter a new joke. She’s 7, so the cringe is half the fun. But I was running out of clean, funny material that wasn’t buried in some paperback from 1986. So I built a simple dad jokes app for Apple Watch.\n\nIt’s a watchOS complication that sits right on the watch face. Tap it once in the morning and—boom—you get a fresh dad joke. No digging. No weird ads. Just peak dad humor on demand.\n\nMy brother has been testing it too and had one solid note: change the emoji next to the joke from the laughing-crying face to a groaning one. Honestly? He’s not wrong. The jokes are *that* good/bad."
+            },
+            {
+              "title": "A New Math App in the Works",
+              "content": "I'm starting to collaborate with someone new on a math app that will use WebGL. The idea is to build something that works in a shared classroom setting—possibly with live collaboration features.\n\nWe’re still figuring out the final scope, but the conversations have been exciting so far. Once we settle on the roadmap, I’ll start posting regular dev updates. This one’s shaping up to be something special."
+            },
+            {
+              "title": "Quick Dev Tools Update: Laravel Herd + DigitalOcean",
+              "content": "On the more technical side of things, I finally installed Laravel Herd for local development. It's been a smooth setup—fast, clean, and a nice change from some older workflows I've used.\n\nI've also spun up a new droplet on DigitalOcean so we're ready for deployment as soon as we hit a solid beta build. Feels good to have the groundwork ready ahead of time. One less thing to worry about later."
+            },
+            {
+              "title": "Are You Local? Needs High Scores",
+              "content": "One of the first games I ever built for my daughter was a little location quiz called *Are You Local?*. We still play it together now and then, and yesterday she crushed it—and then asked where her high score was.\n\nFair point.\n\nSo next up: adding a high scores page. It’ll be simple, just a way to track top players and celebrate wins, but I think it’ll give the app a nice little boost of fun (and competition)."
+            },
+            {
+              "title": "A Quick Trip to London—and a Creative Recharge",
+              "content": "I just got back from a day in London. Sometimes a change of scenery is all it takes to feel creatively recharged. There’s something about the buzz of that city that really lit a fire under me.\n\nI came home with fresh ideas and a full notebook—ready to keep building, iterating, and pushing things forward."
+            }
+          ],
+          "conclusion": "It’s been a full stretch lately—jokes, math, games, and a little travel thrown in. But that’s the sweet spot for me: making useful, fun, and thoughtful digital tools that bring people a little joy or clarity.\n\nIf you’re working on something and looking for a partner who loves the details as much as the big picture, feel free to reach out. I’d love to hear what you’re building."
+        }
       }
+      
       
       
       
