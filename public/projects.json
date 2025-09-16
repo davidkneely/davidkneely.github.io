@@ -97,6 +97,33 @@
             "tags": ["Unity", "C#", "Trivia Game", "Hawaii"],
             "liveUrl": "https://apps.apple.com/us/app/are-you-local/id6466523161",
             "image": "/images/AYL_icon.png"
+        },
+        {
+          "id": 5,
+          "title": "Dad Jokes Watch App",
+          "description": "Turn your Apple Watch into the ultimate dad joke machine and create daily moments of laughter your kids will actually ask for.",
+          "fullContent": {
+            "overview": "Dad Joke Daily is a fun and heartwarming Apple Watch app that delivers a fresh, hilarious dad joke to your wrist every single day. Designed to spark laughter and connection, this app transforms ordinary moments—breakfast, school runs, bedtime—into memorable family traditions. Instead of reaching for screens, kids will run to you asking, 'What's today’s joke, Dad?'",
+            "features": [
+              "Daily dad joke delivered right to your Apple Watch",
+              "Simple glance-and-go design for quick delivery",
+              "Perfect conversation starter at any time of day",
+              "Build lasting memories and family traditions",
+              "Zero effort, maximum laughs"
+            ],
+            "technologies": [
+              "Swift for Apple Watch development",
+              "WatchKit for seamless watchOS integration",
+              "Optimized for quick-glance complications",
+              "Available exclusively for Apple Watch"
+            ],
+            "challenges": "The biggest challenge was balancing joke quality with simplicity. We curated the perfect set of jokes to ensure they’re funny, family-friendly, and quick to deliver in just a glance.",
+            "outcome": "Dad Joke Daily has become a favorite for parents who want to connect with their kids through humor. Thousands of families now share a daily laugh, proving that the best parenting tool can sometimes be a perfectly timed pun."
+          },
+          "tags": ["watchOS", "Swift", "Dad Jokes", "Parenting", "Humor"],
+          "liveUrl": "https://apps.apple.com/us/app/dad-jokes-watch-app/id6749955835",
+          "image": "/images/DadJokes_icon.png"
         }
+        
     ]
 }
