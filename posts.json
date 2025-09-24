@@ -322,7 +322,38 @@
           ],
           "conclusion": "It’s been a full stretch lately—jokes, math, games, and a little travel thrown in. But that’s the sweet spot for me: making useful, fun, and thoughtful digital tools that bring people a little joy or clarity.\n\nIf you’re working on something and looking for a partner who loves the details as much as the big picture, feel free to reach out. I’d love to hear what you’re building."
         }
-      }
+      },
+      {
+        "id": 12,
+        "title": "Hack Night in Bristol and Lessons from Feedback",
+        "date": "September 24, 2025",
+        "description": "Reflections from attending a developer meetup in Bristol, sharing my app, and learning from peer feedback.",
+        "tags": ["Meetup", "App Development", "Android", "Feedback"],
+        "fullContent": {
+          "introduction": "Last night I went to my first developer meetup since moving to England, and it reminded me how much I love being in a room full of people who care about building things with technology. This one was called Hack Night at Desk Lodge in Bristol. I wasn’t sure what to expect going in, but the night turned into something I’ll carry with me for a long time.",
+          "sections": [
+            {
+              "title": "Arriving and Meeting New Faces",
+              "content": "I showed up around 6 PM, about half an hour before the official start time. I found a bench and sat down, wondering who I should talk to first. Luckily, a friendly developer came over, introduced himself, and we started chatting. Soon, another developer joined in and shared about an app she was building about trees. It was such a welcoming start to the evening."
+            },
+            {
+              "title": "Sharing My App",
+              "content": "When it came time for introductions, I decided to go first. I shared that I’ve been working on an app called *Are You Local?*—a Hawaii trivia app that I’ve been building for over a year. The organizer, James, joked about not mentioning Hawaii because it made him too jealous. Everyone had a laugh, which made it a lot easier to keep talking and show the group what I’d built."
+            },
+            {
+              "title": "Receiving Honest Feedback",
+              "content": "Showing your work to other developers is always a mix of excitement and nerves. The group gave me thoughtful feedback I hadn’t noticed myself. For example, one person pointed out that my progress bar didn’t match the polished look of the rest of the app. Another mentioned that my countdown timer was starting before all answers were revealed, which made gameplay feel unfair. Someone else suggested that the app should let users exit early if they wanted, instead of being forced into another round. These were all things I simply hadn’t seen after staring at the same code for so long."
+            },
+            {
+              "title": "A Big Next Step",
+              "content": "The biggest takeaway for me came from two developers who asked why the app was only on iOS. Both of them used Android and wanted to try it out. That was the nudge I needed. This week I’m working on fixing Android build errors, and I already have my Google Play account set up. My goal is to have *Are You Local?* available on Android before the next Hack Night on October 7."
+            }
+          ],
+          "conclusion": "What I loved most about the event wasn’t just the feedback—it was the openness of the people I met. Events like these remind me how much better our work becomes when we’re open to new perspectives. As a developer with years of experience, I’ve learned that good communication and collaboration are just as important as writing good code. Nights like this keep me excited to keep building, keep improving, and keep connecting with people who care about technology."
+        }
+}
+
+
       
       
       
