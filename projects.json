@@ -123,7 +123,34 @@
           "tags": ["watchOS", "Swift", "Dad Jokes", "Parenting", "Humor"],
           "liveUrl": "https://apps.apple.com/us/app/dad-jokes-watch-app/id6749955835",
           "image": "/images/DadJokes_icon.png"
+        },
+        {
+          "id": 6,
+          "title": "Affirmations Watch App",
+          "description": "A focused, dad-centered affirmations app for Apple Watch that helps Dads in their 30s and 40s stay grounded, patient, confident, and intentional—right from their wrist.",
+          "fullContent": {
+            "overview": "Affirmations Watch App is a mindful, purpose-driven experience designed specifically for Dads who juggle work, family, and personal growth. It delivers powerful, dad-focused affirmations throughout the day to help you stay calm during stress, reconnect with your purpose, and show up as the father and leader you strive to be. Whether you need patience during a tough parenting moment, confidence before a big meeting, or a reminder of the dad you're becoming—this app keeps you centered, right from your wrist.",
+            "features": [
+              "Dad-focused affirmation categories across fatherhood, patience, leadership, marriage, confidence, and more",
+              "Add your own custom affirmations tailored to your goals and family values",
+              "Smart wrist notifications delivered at times you choose",
+              "Ultra-simple watchOS experience designed for quick mental resets",
+              "Favorites and quick-access tools for moments when you need encouragement fast",
+              "Daily Dad Mode—set a mindset theme like Patience, Gratitude, or Leadership"
+            ],
+            "technologies": [
+              "Swift for native watchOS development",
+              "WatchKit for fast and seamless Apple Watch UI",
+              "Optimized for quick-glance interactions and minimal distraction"
+            ],
+            "challenges": "The main challenge was designing an experience that supports emotional wellbeing without overwhelming the user. The interface needed to be distraction-free while still offering depth, personalization, and powerful content that resonates specifically with modern fathers.",
+            "outcome": "Affirmations Watch App provides Dads with a reliable, uplifting tool they can use throughout their day to stay grounded and intentional. Early testers report feeling calmer during stressful moments, more connected to their identity as fathers, and more aligned with the habits and mindset they want to model for their families."
+          },
+          "tags": ["watchOS", "Swift", "Affirmations", "Parenting", "Mindfulness", "Wellbeing"],
+          "liveUrl": "",
+          "image": "/images/appIconAffirmations.png"
         }
+
         
     ]
 }
