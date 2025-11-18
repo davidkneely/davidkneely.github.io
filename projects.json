@@ -146,8 +146,35 @@
             "outcome": "Affirmations Watch App provides Dads with a reliable, uplifting tool they can use throughout their day to stay grounded and intentional. Early testers report feeling calmer during stressful moments, more connected to their identity as fathers, and more aligned with the habits and mindset they want to model for their families."
           },
           "tags": ["watchOS", "Swift", "Affirmations", "Parenting", "Mindfulness", "Wellbeing"],
-          "liveUrl": "",
+          "liveUrl": "https://apps.apple.com/us/app/affirmations-watch-app/id6755359641",
           "image": "/images/appIconAffirmations.png"
+        },
+        {
+          "id": 7,
+          "title": "Tap Tally Watch App",
+          "description": "A fast, simple Apple Watch counter app that lets you track anything with a tap, from habits to routines to daily tasks.",
+          "fullContent": {
+            "overview": "Tap Tally Watch App is a clean, tap-first counter system designed specifically for Apple Watch. Whether you are tracking habits, tallying tasks, logging reps during workouts, or monitoring daily routines, Tap Tally helps you stay consistent and aware of your progress. With multiple customizable counters and instant tap-to-update interactions, you can track anything quickly and without distractions. No clutter, no complex menus, just fast and reliable counting right on your wrist.",
+            "features": [
+              "Create and manage multiple counters for habits, routines, tasks, or goals",
+              "Instant one tap interaction for fast, frictionless tallying",
+              "Custom counter labels to match exactly what you are tracking",
+              "Minimal, quick-glance design optimized for watchOS",
+              "Reset or reorder counters anytime to adapt to changing needs",
+              "Lightweight experience built for speed and simplicity"
+            ],
+            "technologies": [
+              "Swift for Apple Watch development",
+              "WatchKit for seamless watchOS UI",
+              "Optimized for quick tap interactions",
+              "Designed exclusively for Apple Watch"
+            ],
+            "challenges": "The main challenge was creating a multi-counter system that remained fast and uncluttered on the smaller Apple Watch screen. It required balancing simplicity with flexibility while keeping the core experience centered around instant tap interactions.",
+            "outcome": "Tap Tally Watch App provides users with a simple, reliable way to track repeated actions throughout their day. From fitness to productivity to everyday routines, users love how effortless it feels to keep count, stay consistent, and maintain awareness of their progress."
+          },
+          "tags": ["watchOS", "Swift", "Productivity", "Tracking", "Counters"],
+          "liveUrl": "",
+          "image": "/images/counterIcon.png"
         }
 
         
