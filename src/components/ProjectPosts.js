@@ -20,7 +20,6 @@ const ProjectPosts = () => {
   const handleChange = (e) => {
     e.preventDefault();
     const searchTerm = e.target.value;
-    console.log(searchTerm);
     const filteredItems = projects.filter((project) => 
       project.title.toLowerCase().includes(searchTerm.toLowerCase()));
     setFilteredProjects(filteredItems);
