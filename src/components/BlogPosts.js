@@ -3,6 +3,8 @@ import { Link, useNavigate } from 'react-router-dom';
 
 function BlogPosts() {
   const [posts, setPosts] = useState([]);
+  const [filteredPosts, setFilteredPosts] = useState([]);
+
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -16,15 +18,29 @@ function BlogPosts() {
           return dateB - dateA; // Descending order (newest first)
         });
         setPosts(sortedPosts);
+        setFilteredPosts(sortedPosts);
       })
       .catch(error => console.error('Error loading posts:', error));
   }, []);
 
+  const handleChange = (e) => {
+    e.preventDefault();
+    const searchTerm = e.target.value;
+    console.log(searchTerm);
+    const filteredItems = posts.filter((post) => 
+      post.title.toLowerCase().includes(searchTerm.toLowerCase()));
+    setFilteredPosts(filteredItems);
+  }
+
   return (
     <div className="blog-content">
       <h1 className="section-title">Blog Posts</h1>
+      <div className="search-container">
+      <h1>Search</h1>
+        <input type="text" placeholder="Type to search posts" name="search" onChange={handleChange} />
+      </div>
       <div className="blog-posts">
-        {posts.map(post => (
+        {filteredPosts.map(post => (
           <article
             key={post.id}
             className="blog-post"

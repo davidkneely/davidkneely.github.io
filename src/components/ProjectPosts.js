@@ -31,7 +31,7 @@ const ProjectPosts = () => {
       <h1 className="section-title">Projects</h1>
       <div className="search-container">
       <h1>Search</h1>
-        <input type="text" placeholder="Search projects" name="search" onChange={handleChange}/>
+        <input type="text" placeholder="Type to search projects" name="search" onChange={handleChange}/>
       </div>
       <div className="projects-grid">
         {filteredProjects.map((project) => (
