@@ -122,7 +122,7 @@
           },
           "tags": ["watchOS", "Swift", "Dad Jokes", "Parenting", "Humor"],
           "liveUrl": "https://apps.apple.com/us/app/dad-jokes-watch-app/id6749955835",
-          "image": "/images/DadJokes_icon.png"
+          "image": "/images/dadJokesWatchPhoto.png"
         },
         {
           "id": 6,
@@ -147,7 +147,7 @@
           },
           "tags": ["watchOS", "Swift", "Affirmations", "Parenting", "Mindfulness", "Wellbeing"],
           "liveUrl": "https://apps.apple.com/us/app/affirmations-watch-app/id6755359641",
-          "image": "/images/appIconAffirmations.png"
+          "image": "/images/affirmationsWatchPhoto.png"
         },
         {
           "id": 7,
@@ -173,8 +173,8 @@
             "outcome": "Tap Tally Watch App provides users with a simple, reliable way to track repeated actions throughout their day. From fitness to productivity to everyday routines, users love how effortless it feels to keep count, stay consistent, and maintain awareness of their progress."
           },
           "tags": ["watchOS", "Swift", "Productivity", "Tracking", "Counters"],
-          "liveUrl": "",
-          "image": "/images/counterIcon.png"
+          "liveUrl": "https://apps.apple.com/us/app/tap-tally-watch-app/id6752353940",
+          "image": "/images/tapTallyWatchPhoto002.png"
         }
 
         
