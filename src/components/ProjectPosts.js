@@ -1,28 +1,40 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import Search from './Search';
 
 const ProjectPosts = () => {
   const [projects, setProjects] = useState([]);
+  const [filteredProjects, setFilteredProjects] = useState([]);
+
   const navigate = useNavigate();
 
   useEffect(() => {
     fetch("/projects.json")
       .then((response) => response.json())
-      .then((data) => setProjects(data.projects))
+      .then((data) => {
+        setProjects(data.projects)
+        setFilteredProjects(data.projects)
+      })
       .catch((error) => console.error("Error fetching projects:", error));
   }, []);
 
-  const handleFilteredProjects = (filteredProjects) => {
-    setProjects(filteredProjects);
+  const handleChange = (e) => {
+    e.preventDefault();
+    const searchTerm = e.target.value;
+    console.log(searchTerm);
+    const filteredItems = projects.filter((project) => 
+      project.title.toLowerCase().includes(searchTerm.toLowerCase()));
+    setFilteredProjects(filteredItems);
   };
 
   return (
     <div className="projects-content">
       <h1 className="section-title">Projects</h1>
-      <Search projects={projects} setProjects={setProjects} onFilter={handleFilteredProjects}/>
+      <div className="search-container">
+      <h1>Search</h1>
+        <input type="text" placeholder="Search projects" name="search" onChange={handleChange}/>
+      </div>
       <div className="projects-grid">
-        {projects.map((project) => (
+        {filteredProjects.map((project) => (
           <article
             key={project.id}
             className="project-card"
