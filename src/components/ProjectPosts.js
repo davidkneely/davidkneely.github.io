@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
+import Search from './Search';
 
 const ProjectPosts = () => {
   const [projects, setProjects] = useState([]);
@@ -12,9 +13,14 @@ const ProjectPosts = () => {
       .catch((error) => console.error("Error fetching projects:", error));
   }, []);
 
+  const handleFilteredProjects = (filteredProjects) => {
+    setProjects(filteredProjects);
+  };
+
   return (
     <div className="projects-content">
       <h1 className="section-title">Projects</h1>
+      <Search projects={projects} setProjects={setProjects} onFilter={handleFilteredProjects}/>
       <div className="projects-grid">
         {projects.map((project) => (
           <article
