@@ -70,9 +70,10 @@ function Project() {
         </section>
 
         <div className="project-links">
-          <a href={project.liveUrl} className="project-link" target="_blank" rel="noopener noreferrer">
+          {project.liveUrl !== '' && <a href={project.liveUrl} className="project-link" target="_blank" rel="noopener noreferrer">
             View Live Project
-          </a>
+          </a>}
+          
         </div>
       </div>
     </div>

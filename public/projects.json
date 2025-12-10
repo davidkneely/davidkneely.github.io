@@ -175,7 +175,36 @@
           "tags": ["watchOS", "Swift", "Productivity", "Tracking", "Counters"],
           "liveUrl": "https://apps.apple.com/us/app/tap-tally-watch-app/id6752353940",
           "image": "/images/tapTallyWatchPhoto002.png"
+        },
+        {
+          "id": 8,
+          "title": "ISBNspy",
+          "description": "A fast, simple book lookup tool that helped readers instantly compare in-store book prices with Amazon long before smartphones made it easy.",
+          "fullContent": {
+            "overview": "ISBNspy was a lightweight web service I built in 2003 to solve a personal problem: I loved buying books at local bookstores, but I never knew if I was overpaying compared to Amazon. Mobile browsers were extremely limited at the time, so the only real solution was to build my own tool. ISBNspy let readers type in a book’s ISBN and instantly get Amazon prices, ratings, and reviews—it worked like a Google search just for books.",
+            "features": [
+              "Instant ISBN search for any book",
+              "Real-time Amazon price comparison",
+              "Live ratings and reviews from the Amazon API",
+              "Simple, fast interface optimized for early mobile browsers",
+              "Affiliate link support that generated referral revenue"
+            ],
+            "technologies": [
+              "Amazon REST API (Amazon Associates Program)",
+              "Custom-built server-side ISBN lookup service",
+              "Early mobile web optimization techniques",
+              "Real-time data fetching and caching logic"
+            ],
+            "challenges": "The main challenge was building a smooth, fast experience in a time when mobile browsers could barely load full web pages. It required careful API work, lightweight page design, and fast server responses. Years later, Amazon restricted access to ratings and reviews, which removed a core feature and led to a decline in daily users.",
+            "outcome": "ISBNspy was featured on LifeHacker and built a steady user base. The affiliate revenue even covered my book-buying habit for years. Although I eventually retired the project after Amazon changed its API rules, ISBNspy marked an important milestone in my development career and paved the way for later mobile projects like Mathogen."
+          },
+          "tags": ["Web Development", "APIs", "Amazon Associates", "Mobile Web", "Price Comparison"],
+          "liveUrl": "",
+          "image": "/images/lifehacker-logo.png"
         }
+
+        
+
 
         
     ]
