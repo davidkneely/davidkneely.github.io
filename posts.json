@@ -356,7 +356,7 @@
         "id": 13,
         "title": "What I’ve Been Building This Week",
         "date": "December 10, 2025",
-        "description": "A quick and friendly look at the updates I’ve made to my portfolio and the projects I’m preparing to share.",
+        "description": "A quick look at the updates I’ve made to my portfolio and the projects I’m preparing to share.",
         "tags": ["React", "TypeScript", "Web Development", "Portfolio"],
         "fullContent": {
           "introduction": "Every week I try to set aside a little time to sharpen my skills and improve the tools I rely on for client work. This week has been full of small wins, a few late-night coding sessions, and some exciting steps forward on a couple of projects I’ve been quietly building in the background.",
