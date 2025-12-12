@@ -71,7 +71,7 @@ function Project() {
 
         <div className="project-links">
           {project.liveUrl !== '' && <a href={project.liveUrl} className="project-link" target="_blank" rel="noopener noreferrer">
-            View Live Project
+            View Project
           </a>}
           
         </div>
