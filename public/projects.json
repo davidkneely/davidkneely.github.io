@@ -23,7 +23,8 @@
             },
             "tags": ["Unity", "C#", "Educational Game", "Math", "iOS Development"],
             "liveUrl": "https://apps.apple.com/us/app/mathogen/id323507276",
-            "image": "/images/Mathogen_icon.png"
+            "image": "/images/Mathogen_icon.png",
+            "videoUrl": ""
         },
         {
             "id": 2,
@@ -45,7 +46,8 @@
             },
             "tags": ["Unity", "C#", "Bible", "Educational Game"],
             "liveUrl": "https://apps.apple.com/us/app/bible-scripture-word-match/id6462538578",
-            "image": "/images/BSWM_icon.png"
+            "image": "/images/BSWM_icon.png",
+            "videoUrl": ""
         },
         {
             "id": 3,
@@ -70,7 +72,8 @@
             },
             "tags": ["macOS", "Swift", "Bible", "Typing Game"],
             "liveUrl": "https://apps.apple.com/us/app/bible-scripture-typing-daily/id1484895431?mt=12",
-            "image": "/images/BSTD_icon.png"
+            "image": "/images/BSTD_icon.png",
+            "videoUrl": ""
         },
         {
             "id": 4,
@@ -96,7 +99,8 @@
             },
             "tags": ["Unity", "C#", "Trivia Game", "Hawaii"],
             "liveUrl": "https://apps.apple.com/us/app/are-you-local/id6466523161",
-            "image": "/images/AYL_icon.png"
+            "image": "/images/AYL_icon.png",
+            "videoUrl": ""
         },
         {
           "id": 5,
@@ -122,7 +126,8 @@
           },
           "tags": ["watchOS", "Swift", "Dad Jokes", "Parenting", "Humor"],
           "liveUrl": "https://apps.apple.com/us/app/dad-jokes-watch-app/id6749955835",
-          "image": "/images/dadJokesWatchPhoto.png"
+          "image": "/images/dadJokesWatchPhoto.png",
+          "videoUrl": ""
         },
         {
           "id": 6,
@@ -147,7 +152,8 @@
           },
           "tags": ["watchOS", "Swift", "Affirmations", "Parenting", "Mindfulness", "Wellbeing"],
           "liveUrl": "https://apps.apple.com/us/app/affirmations-watch-app/id6755359641",
-          "image": "/images/affirmationsWatchPhoto.png"
+          "image": "/images/affirmationsWatchPhoto.png",
+          "videoUrl": ""
         },
         {
           "id": 7,
@@ -174,7 +180,8 @@
           },
           "tags": ["watchOS", "Swift", "Productivity", "Tracking", "Counters"],
           "liveUrl": "https://apps.apple.com/us/app/tap-tally-watch-app/id6752353940",
-          "image": "/images/tapTallyWatchPhoto002.png"
+          "image": "/images/tapTallyWatchPhoto002.png",
+          "videoUrl": ""
         },
         {
           "id": 8,
@@ -200,7 +207,8 @@
           },
           "tags": ["Web Development", "APIs", "Amazon Associates", "Mobile Web", "Price Comparison"],
           "liveUrl": "",
-          "image": "/images/lifehacker-logo.png"
+          "image": "/images/lifehacker-logo.png",
+          "videoUrl": ""
         },
         {
           "id": 9,
@@ -223,8 +231,38 @@
           },
           "tags": ["Music", "Game Soundtrack", "DDR", "Xbox 360", "Rhythm Game"],
           "liveUrl": "https://en.wikipedia.org/wiki/Dance_Dance_Revolution_Universe_2",
-          "image": "/images/danceDanceRevolution2.jpg"
+          "image": "/images/danceDanceRevolution2.jpg",
+          "videoUrl": ""
+        },
+        {
+          "id": 10,
+          "title": "Team Number Dash",
+          "description": "A fast-paced collaborative math game designed to help students build number sense, teamwork skills, and confidence through play.",
+          "fullContent": {
+            "overview": "Team Number Dash is a classroom-friendly, multiplayer math game I designed to help students practice number sense in a fun, low-pressure way. Players race together against the clock to build equations, hit targets, and solve number challenges as a team. The game was originally created as a prototype for collaborative learning, and it focuses on communication, strategy, and quick thinking—making math feel more like a fast-paced sport than a worksheet.",
+            "features": [
+              "Real-time multiplayer math challenges where players work together to reach target numbers",
+              "Clean, kid-friendly interface designed for fast decisions and group participation",
+              "Levels that gradually increase in difficulty to encourage growth and confidence",
+              "Perfect for classrooms, math clubs, or families looking for a playful way to practice math",
+              "Built-in visual feedback that helps students see how numbers combine and interact",
+              "Supports short sessions, making it easy for teachers to fit into lesson plans"
+            ],
+            "technologies": [
+              "React for building a responsive, interactive game interface",
+              "TypeScript for predictable, maintainable code",
+              "Real-time game logic optimized for quick feedback",
+              "Reusable component architecture for future game expansions"
+            ],
+            "challenges": "The biggest challenge was designing a game that feels fast, exciting, and social while still reinforcing real math skills. Classroom tools must be intuitive enough for students to pick up quickly, but sturdy enough for repeated use. Balancing difficulty, pacing, and clarity took many iterations, along with lots of testing to ensure the experience feels cooperative rather than stressful.",
+            "outcome": "Team Number Dash has become a lively way for students to practice mental math while building trust and communication within groups. Teachers love the energy it brings to the classroom, and students enjoy the sense of shared accomplishment when they solve challenges together. The prototype has already sparked interest from educators looking for more collaborative math tools."
+          },
+          "tags": ["Math Education", "React", "TypeScript", "EdTech", "Game Development"],
+          "liveUrl": "http://64.227.45.55:3000/teacher_signin.html",
+          "image": "/images/teamNumberDash.png",
+          "videoUrl": "/videos/teamNumberDash001.mov"
         }
+
 
 
         

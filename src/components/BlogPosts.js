@@ -26,7 +26,6 @@ function BlogPosts() {
   const handleChange = (e) => {
     e.preventDefault();
     const searchTerm = e.target.value;
-    console.log(searchTerm);
     const filteredItems = posts.filter((post) => 
       post.title.toLowerCase().includes(searchTerm.toLowerCase()));
     setFilteredPosts(filteredItems);

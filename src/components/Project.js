@@ -41,6 +41,16 @@ function Project() {
           <p>{project.fullContent.overview}</p>
         </section>
 
+        {project.videoUrl !== '' && <section className="project-section">
+            <h2>Video Walkthrough</h2>
+            <video
+              src="/videos/teamNumberDash001.mov"
+              controls
+              width="100%"
+              style={{ borderRadius: 12 }}
+            />
+        </section>}
+
         <section className="project-section">
           <h2>Key Features</h2>
           <ul>
