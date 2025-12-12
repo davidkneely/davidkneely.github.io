@@ -201,7 +201,31 @@
           "tags": ["Web Development", "APIs", "Amazon Associates", "Mobile Web", "Price Comparison"],
           "liveUrl": "",
           "image": "/images/lifehacker-logo.png"
+        },
+        {
+          "id": 9,
+          "title": "Arrivals and Departures on DDR Universe 2",
+          "description": "A featured song I wrote, performed, and produced that appears in the Xbox 360 rhythm game Dance Dance Revolution Universe 2—bringing the beat to players around the world.",
+          "fullContent": {
+            "overview": "Arrivals and Departures is a song I wrote, sang on, recorded, and produced that made its way into the Xbox 360 game Dance Dance Revolution Universe 2. DDR Universe 2 is a music and dance game released for Xbox 360 in December 2007. Players step on arrows to match the beat and rhythm of songs from a huge soundtrack that spans music styles from the 1970s through modern electronic and licensed pop tracks. The game also includes modes like Freestyle Mode, where players can dance without following arrow prompts, and Quest Mode, where you travel the world and complete dance challenges as your own character.",
+            "features": [
+              "Featured track in the official Dance Dance Revolution Universe 2 soundtrack",
+              "Blends with a diverse set of licensed songs ranging from classic dance hits to modern electronic tracks",
+              "Part of a soundtrack that includes songs like \"Take Me Out\" (Franz Ferdinand) and \"Walk Like an Egyptian\" (The Bangles)",
+              "Accessible in both single-player and multiplayer modes",
+              "Game supports downloadable song packs and extended gameplay content"
+            ],
+            "technologies": [
+              "Digital Audio Workstation"
+            ],
+            "challenges": "Getting a custom track into a major console rhythm game like DDR took coordination and careful mastering so the song feels right alongside an eclectic mix of licensed music and original tracks. DDR Universe 2’s soundtrack is celebrated for its variety, hitting genres and eras that appeal to both longtime fans and newcomers alike.",
+            "outcome": "Having \"Arrivals and Departures\" featured in Dance Dance Revolution Universe 2 is a highlight of my music and game development journey. It sits among a soundtrack beloved by DDR players, and contributes to gameplay that challenges your rhythm, reflexes, and love for music. Fans of DDR appreciate the broad song list and the unique way each track gets players moving, making this inclusion especially rewarding."
+          },
+          "tags": ["Music", "Game Soundtrack", "DDR", "Xbox 360", "Rhythm Game"],
+          "liveUrl": "https://en.wikipedia.org/wiki/Dance_Dance_Revolution_Universe_2",
+          "image": "/images/danceDanceRevolution2.jpg"
         }
+
 
         
 
