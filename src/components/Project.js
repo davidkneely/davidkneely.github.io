@@ -48,6 +48,7 @@ function Project() {
               controls
               width="100%"
               style={{ borderRadius: 12 }}
+              loading="lazy"
             />
         </section>}
 
