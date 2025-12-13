@@ -1,7 +1,63 @@
 {
     "projects": [
+      {
+          "id": 1,
+          "title": "Roach Room VR",
+          "description": "A virtual reality horror game for Oculus Rift that uses immersive gameplay inspired by cognitive behavioral therapy to help players confront and overcome fear.",
+          "fullContent": {
+            "overview": "Roach Room VR is a virtual reality horror experience developed with the MemoryDump VR group at the University of Hawaii at Manoa. The project began as a playful idea inspired by my wife’s fear of cockroaches after moving to Hawaii, and evolved into an exploration of exposure-based fear acclimation. Players wake up in an unfamiliar environment where roaches crawl toward them, challenging them to endure the experience long enough to become comfortable. As development continued, the concept was refined to be more approachable, shifting from pure horror toward an interactive, game-like experience.",
+            "features": [
+              "Immersive virtual reality gameplay designed for the Oculus Rift",
+              "Exposure-based horror mechanics inspired by cognitive behavioral therapy concepts",
+              "Interactive 3D environment set in a familiar computer science lounge",
+              "Roach enemies with animated movement and behavior",
+              "A swatting mechanic using a virtual slipper to defeat roaches",
+              "Clear game loop culminating in a playable demo experience"
+            ],
+            "technologies": [
+              "Unity for VR game development and real-time interaction",
+              "C# for gameplay logic and interaction systems",
+              "Blender for 3D modeling, character rigging, and animation",
+              "Oculus Rift SDK for virtual reality integration"
+            ],
+            "challenges": "One of the biggest challenges was balancing fear with accessibility. While the original concept leaned heavily into horror, we discovered that making the game more playful and interactive significantly broadened its appeal. Integrating believable VR interactions, animating convincing roach behavior, and ensuring player comfort in a VR setting required careful iteration and testing.",
+            "outcome": "The final prototype was successfully demoed at the Information and Computer Science end-of-year celebration, where players could experience the game firsthand. The project served as a strong learning experience in VR development, game design, and 3D asset creation, and demonstrated how immersive technology can be used to explore psychological concepts in an engaging way."
+          },
+          "tags": ["Virtual Reality", "Game Development", "Unity", "Oculus Rift", "Horror"],
+          "liveUrl": "",
+          "image": "/images/cockroachHorrorGame2.jpg",
+          "videoUrl": ""
+        },
         {
-            "id": 1,
+          "id": 2,
+          "title": "Team Number Dash",
+          "description": "A fast-paced collaborative math game designed to help students build number sense, teamwork skills, and confidence through play.",
+          "fullContent": {
+            "overview": "Team Number Dash is a classroom-friendly, multiplayer math game I designed to help students practice number sense in a fun, low-pressure way. Players race together against the clock to build equations, hit targets, and solve number challenges as a team. The game was originally created as a prototype for collaborative learning, and it focuses on communication, strategy, and quick thinking—making math feel more like a fast-paced sport than a worksheet.",
+            "features": [
+              "Real-time multiplayer math challenges where players work together to reach target numbers",
+              "Clean, kid-friendly interface designed for fast decisions and group participation",
+              "Levels that gradually increase in difficulty to encourage growth and confidence",
+              "Perfect for classrooms, math clubs, or families looking for a playful way to practice math",
+              "Built-in visual feedback that helps students see how numbers combine and interact",
+              "Supports short sessions, making it easy for teachers to fit into lesson plans"
+            ],
+            "technologies": [
+              "React for building a responsive, interactive game interface",
+              "TypeScript for predictable, maintainable code",
+              "Real-time game logic optimized for quick feedback",
+              "Reusable component architecture for future game expansions"
+            ],
+            "challenges": "The biggest challenge was designing a game that feels fast, exciting, and social while still reinforcing real math skills. Classroom tools must be intuitive enough for students to pick up quickly, but sturdy enough for repeated use. Balancing difficulty, pacing, and clarity took many iterations, along with lots of testing to ensure the experience feels cooperative rather than stressful.",
+            "outcome": "Team Number Dash has become a lively way for students to practice mental math while building trust and communication within groups. Teachers love the energy it brings to the classroom, and students enjoy the sense of shared accomplishment when they solve challenges together. The prototype has already sparked interest from educators looking for more collaborative math tools."
+          },
+          "tags": ["Math Education", "React", "TypeScript", "EdTech", "Game Development"],
+          "liveUrl": "",
+          "image": "/images/teamNumberDash.png",
+          "videoUrl": "/videos/teamNumberDash001.mov"
+        },
+        {
+            "id": 3,
             "title": "Mathogen: An Educational Game for Math training",
             "description": "Mathogen is an educational game designed to make math engaging and rewarding. Inspired by Tetris, it transforms problem-solving into an endless challenge that enriches players' skills.",
             "fullContent": {
@@ -27,7 +83,7 @@
             "videoUrl": ""
         },
         {
-            "id": 2,
+            "id": 4,
             "title": "Bible Scripture Word Match",
             "description": "An engaging mobile game that helps users memorize and reinforce Bible verses by filling in missing words. Designed for iPad and iPhone, it offers an ad-free experience with no internet required.",
             "fullContent": {
@@ -50,7 +106,7 @@
             "videoUrl": ""
         },
         {
-            "id": 3,
+            "id": 5,
             "title": "Bible Scripture Typing Daily",
             "description": "A fun and educational macOS app that helps users improve their typing speed while memorizing Bible verses. Designed for all ages, it works offline and allows users to add custom verses.",
             "fullContent": {
@@ -76,7 +132,7 @@
             "videoUrl": ""
         },
         {
-            "id": 4,
+            "id": 6,
             "title": "Are You Local?",
             "description": "A fun and engaging trivia game that tests how local you are to Hawaii! Answer questions about local culture, food, and history to see where you rank.",
             "fullContent": {
@@ -103,7 +159,7 @@
             "videoUrl": ""
         },
         {
-          "id": 5,
+          "id": 7,
           "title": "Dad Jokes Watch App",
           "description": "Turn your Apple Watch into the ultimate dad joke machine and create daily moments of laughter your kids will actually ask for.",
           "fullContent": {
@@ -130,7 +186,7 @@
           "videoUrl": ""
         },
         {
-          "id": 6,
+          "id": 7,
           "title": "Affirmations Watch App",
           "description": "A focused, dad-centered affirmations app for Apple Watch that helps Dads in their 30s and 40s stay grounded, patient, confident, and intentional—right from their wrist.",
           "fullContent": {
@@ -156,7 +212,7 @@
           "videoUrl": ""
         },
         {
-          "id": 7,
+          "id": 9,
           "title": "Tap Tally Watch App",
           "description": "A fast, simple Apple Watch counter app that lets you track anything with a tap, from habits to routines to daily tasks.",
           "fullContent": {
@@ -184,7 +240,7 @@
           "videoUrl": ""
         },
         {
-          "id": 8,
+          "id": 10,
           "title": "ISBNspy",
           "description": "A fast, simple book lookup tool that helped readers instantly compare in-store book prices with Amazon long before smartphones made it easy.",
           "fullContent": {
@@ -211,7 +267,7 @@
           "videoUrl": ""
         },
         {
-          "id": 9,
+          "id": 11,
           "title": "Arrivals and Departures on DDR Universe 2",
           "description": "A featured song I wrote, performed, and produced that appears in the Xbox 360 rhythm game Dance Dance Revolution Universe 2—bringing the beat to players around the world.",
           "fullContent": {
@@ -233,35 +289,9 @@
           "liveUrl": "https://en.wikipedia.org/wiki/Dance_Dance_Revolution_Universe_2",
           "image": "/images/danceDanceRevolution2.jpg",
           "videoUrl": ""
-        },
-        {
-          "id": 10,
-          "title": "Team Number Dash",
-          "description": "A fast-paced collaborative math game designed to help students build number sense, teamwork skills, and confidence through play.",
-          "fullContent": {
-            "overview": "Team Number Dash is a classroom-friendly, multiplayer math game I designed to help students practice number sense in a fun, low-pressure way. Players race together against the clock to build equations, hit targets, and solve number challenges as a team. The game was originally created as a prototype for collaborative learning, and it focuses on communication, strategy, and quick thinking—making math feel more like a fast-paced sport than a worksheet.",
-            "features": [
-              "Real-time multiplayer math challenges where players work together to reach target numbers",
-              "Clean, kid-friendly interface designed for fast decisions and group participation",
-              "Levels that gradually increase in difficulty to encourage growth and confidence",
-              "Perfect for classrooms, math clubs, or families looking for a playful way to practice math",
-              "Built-in visual feedback that helps students see how numbers combine and interact",
-              "Supports short sessions, making it easy for teachers to fit into lesson plans"
-            ],
-            "technologies": [
-              "React for building a responsive, interactive game interface",
-              "TypeScript for predictable, maintainable code",
-              "Real-time game logic optimized for quick feedback",
-              "Reusable component architecture for future game expansions"
-            ],
-            "challenges": "The biggest challenge was designing a game that feels fast, exciting, and social while still reinforcing real math skills. Classroom tools must be intuitive enough for students to pick up quickly, but sturdy enough for repeated use. Balancing difficulty, pacing, and clarity took many iterations, along with lots of testing to ensure the experience feels cooperative rather than stressful.",
-            "outcome": "Team Number Dash has become a lively way for students to practice mental math while building trust and communication within groups. Teachers love the energy it brings to the classroom, and students enjoy the sense of shared accomplishment when they solve challenges together. The prototype has already sparked interest from educators looking for more collaborative math tools."
-          },
-          "tags": ["Math Education", "React", "TypeScript", "EdTech", "Game Development"],
-          "liveUrl": "http://64.227.45.55:3000/teacher_signin.html",
-          "image": "/images/teamNumberDash.png",
-          "videoUrl": "/videos/teamNumberDash001.mov"
         }
+        
+
 
 
 

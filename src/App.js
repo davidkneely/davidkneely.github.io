@@ -35,7 +35,7 @@ function App() {
                   building websites and apps. I'm located in Dursley, England 🇬🇧
                 </p>
                 <div className="social-links">
-                  <a href="https://drive.google.com/file/d/1wpGSdOeZc_oVidO1sOsOkB2-vMuP38Lz/view?usp=sharing" className="resume-button">
+                  <a href="https://docs.google.com/document/d/1rTgWWc1_o3Nypm5dsydI9KZvX4ysrHQAYFhz-ZmSYfw/edit?usp=sharing" className="resume-button">
                     <span>↓</span> Resume
                   </a>
                   <div className="icon-links">
