@@ -20,7 +20,7 @@ const ProjectPosts = () => {
   const handleChange = (e) => {
     e.preventDefault();
     const searchTerm = e.target.value;
-    const filteredItems = projects.filter((project) => 
+    const filteredItems = projects.filter((project) =>
       project.title.toLowerCase().includes(searchTerm.toLowerCase()));
     setFilteredProjects(filteredItems);
   };
@@ -29,8 +29,8 @@ const ProjectPosts = () => {
     <div className="projects-content">
       <h1 className="section-title">Projects</h1>
       <div className="search-container">
-      <h1>Search</h1>
-        <input type="text" placeholder="Type to search projects" name="search" onChange={handleChange}/>
+        <h1>Search</h1>
+        <input type="text" placeholder="Type to search projects" name="search" onChange={handleChange} />
       </div>
       <div className="projects-grid">
         {filteredProjects.map((project) => (

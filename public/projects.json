@@ -1,303 +1,340 @@
 {
-    "projects": [
-      {
-          "id": 1,
-          "title": "Roach Room VR",
-          "description": "A virtual reality horror game for Oculus Rift that uses immersive gameplay inspired by cognitive behavioral therapy to help players confront and overcome fear.",
-          "fullContent": {
-            "overview": "Roach Room VR is a virtual reality horror experience developed with the MemoryDump VR group at the University of Hawaii at Manoa. The project began as a playful idea inspired by my wife’s fear of cockroaches after moving to Hawaii, and evolved into an exploration of exposure-based fear acclimation. Players wake up in an unfamiliar environment where roaches crawl toward them, challenging them to endure the experience long enough to become comfortable. As development continued, the concept was refined to be more approachable, shifting from pure horror toward an interactive, game-like experience.",
-            "features": [
-              "Immersive virtual reality gameplay designed for the Oculus Rift",
-              "Exposure-based horror mechanics inspired by cognitive behavioral therapy concepts",
-              "Interactive 3D environment set in a familiar computer science lounge",
-              "Roach enemies with animated movement and behavior",
-              "A swatting mechanic using a virtual slipper to defeat roaches",
-              "Clear game loop culminating in a playable demo experience"
-            ],
-            "technologies": [
-              "Unity for VR game development and real-time interaction",
-              "C# for gameplay logic and interaction systems",
-              "Blender for 3D modeling, character rigging, and animation",
-              "Oculus Rift SDK for virtual reality integration"
-            ],
-            "challenges": "One of the biggest challenges was balancing fear with accessibility. While the original concept leaned heavily into horror, we discovered that making the game more playful and interactive significantly broadened its appeal. Integrating believable VR interactions, animating convincing roach behavior, and ensuring player comfort in a VR setting required careful iteration and testing.",
-            "outcome": "The final prototype was successfully demoed at the Information and Computer Science end-of-year celebration, where players could experience the game firsthand. The project served as a strong learning experience in VR development, game design, and 3D asset creation, and demonstrated how immersive technology can be used to explore psychological concepts in an engaging way."
-          },
-          "tags": ["Virtual Reality", "Game Development", "Unity", "Oculus Rift", "Horror"],
-          "liveUrl": "",
-          "image": "/images/cockroachHorrorGame2.jpg",
-          "videoUrl": ""
-        },
-        {
-          "id": 2,
-          "title": "Team Number Dash",
-          "description": "A fast-paced collaborative math game designed to help students build number sense, teamwork skills, and confidence through play.",
-          "fullContent": {
-            "overview": "Team Number Dash is a classroom-friendly, multiplayer math game I designed to help students practice number sense in a fun, low-pressure way. Players race together against the clock to build equations, hit targets, and solve number challenges as a team. The game was originally created as a prototype for collaborative learning, and it focuses on communication, strategy, and quick thinking—making math feel more like a fast-paced sport than a worksheet.",
-            "features": [
-              "Real-time multiplayer math challenges where players work together to reach target numbers",
-              "Clean, kid-friendly interface designed for fast decisions and group participation",
-              "Levels that gradually increase in difficulty to encourage growth and confidence",
-              "Perfect for classrooms, math clubs, or families looking for a playful way to practice math",
-              "Built-in visual feedback that helps students see how numbers combine and interact",
-              "Supports short sessions, making it easy for teachers to fit into lesson plans"
-            ],
-            "technologies": [
-              "React for building a responsive, interactive game interface",
-              "TypeScript for predictable, maintainable code",
-              "Real-time game logic optimized for quick feedback",
-              "Reusable component architecture for future game expansions"
-            ],
-            "challenges": "The biggest challenge was designing a game that feels fast, exciting, and social while still reinforcing real math skills. Classroom tools must be intuitive enough for students to pick up quickly, but sturdy enough for repeated use. Balancing difficulty, pacing, and clarity took many iterations, along with lots of testing to ensure the experience feels cooperative rather than stressful.",
-            "outcome": "Team Number Dash has become a lively way for students to practice mental math while building trust and communication within groups. Teachers love the energy it brings to the classroom, and students enjoy the sense of shared accomplishment when they solve challenges together. The prototype has already sparked interest from educators looking for more collaborative math tools."
-          },
-          "tags": ["Math Education", "React", "TypeScript", "EdTech", "Game Development"],
-          "liveUrl": "",
-          "image": "/images/teamNumberDash.png",
-          "videoUrl": "/videos/teamNumberDash001.mov"
-        },
-        {
-            "id": 3,
-            "title": "Mathogen: An Educational Game for Math training",
-            "description": "Mathogen is an educational game designed to make math engaging and rewarding. Inspired by Tetris, it transforms problem-solving into an endless challenge that enriches players' skills.",
-            "fullContent": {
-              "overview": "I've always loved video games, but I wanted to create something that not only entertained but also provided lasting value. That's how Mathogen was born—an educational game centered around math, the universal language. It draws inspiration from Tetris, where mistakes shape the experience, and every session leaves players feeling accomplished rather than empty-handed.",
-              "features": [
-                "Engaging math-based gameplay with infinite challenge",
-                "Collectible cards mechanic to keep players engaged",
-                "Made with C# in Unity and adapted for multiple platforms",
-                "Designed to be an endless runner experience, rewarding accuracy over speed",
-                "Integrated with analytics to track player engagement and improve performance"
-              ],
-              "technologies": [
-                "Objective-C using the Cocos2d-x Engine for initial iOS development",
-                "C# for Unity Development and exported to iOS",
-                "Google Admob for monetization"
-              ],
-              "challenges": "During development, I encountered multiple challenges: submission hurdles with Apple, unexpected crash reports from early users, and the need to adapt the game across different platforms. Transitioning from a timer-based model to an endless runner format also required careful design adjustments.",
-              "outcome": "Mathogen has gone through multiple iterations and continues to evolve. By removing the timer constraint and focusing on accuracy, I aim to create a game that players can enjoy endlessly while sharpening their math skills. The project has also connected me with a wider programming community, leading to opportunities in tutoring and game development."
-            },
-            "tags": ["Unity", "C#", "Educational Game", "Math", "iOS Development"],
-            "liveUrl": "https://apps.apple.com/us/app/mathogen/id323507276",
-            "image": "/images/Mathogen_icon.png",
-            "videoUrl": ""
-        },
-        {
-            "id": 4,
-            "title": "Bible Scripture Word Match",
-            "description": "An engaging mobile game that helps users memorize and reinforce Bible verses by filling in missing words. Designed for iPad and iPhone, it offers an ad-free experience with no internet required.",
-            "fullContent": {
-              "overview": "Bible Scripture Word Match is a faith-based word game that encourages users to deepen their understanding of the Bible. The game presents scripture passages with missing words, and players must select the correct word to complete the verse. With topics like love, faith, friendship, and forgiveness, this app is designed to inspire and educate.",
-              "features": [
-                "Fill-in-the-blank scripture puzzles",
-                "Levels focused on key biblical themes",
-                "No internet required for offline play"
-              ],
-              "technologies": [
-                "C# for Unity Development and exported to iOS",
-                "Google Admob for monetization"
-              ],
-              "challenges": "One challenge was designing a user-friendly interface that appeals to all age groups while ensuring a smooth offline experience. We optimized local data storage and refined the game flow to provide an enjoyable and educational gameplay experience.",
-              "outcome": "Bible Scripture Word Match has been well-received by users looking for a meaningful and engaging way to memorize scripture. The app maintains a positive rating and continues to attract new players through its simple yet effective gameplay."
-            },
-            "tags": ["Unity", "C#", "Bible", "Educational Game"],
-            "liveUrl": "https://apps.apple.com/us/app/bible-scripture-word-match/id6462538578",
-            "image": "/images/BSWM_icon.png",
-            "videoUrl": ""
-        },
-        {
-            "id": 5,
-            "title": "Bible Scripture Typing Daily",
-            "description": "A fun and educational macOS app that helps users improve their typing speed while memorizing Bible verses. Designed for all ages, it works offline and allows users to add custom verses.",
-            "fullContent": {
-              "overview": "Type the Truth is a unique typing practice app that combines scripture memorization with keyboarding skills. Originally created for the son of an assistant pastor who was learning to type, this app has since become a favorite among users looking to strengthen both their faith and typing abilities.",
-              "features": [
-                "Includes over 100 Bible verses",
-                "Allows users to add custom Bible verses",
-                "Works without an internet connection",
-                "Tracks typing speed and accuracy",
-                "Encouraging feedback and scripture-based motivation"
-              ],
-              "technologies": [
-                "Swift for macOS development",
-                "CoreData for local storage of custom verses",
-                "Apple's GameKit for progress tracking"
-              ],
-              "challenges": "One challenge was ensuring a smooth and responsive typing experience while keeping the app lightweight and offline-friendly. Optimizing text rendering and input processing was key to delivering an engaging user experience.",
-              "outcome": "Bible Scripture Typing Daily has received a 4.7-star rating on the Mac App Store, with users praising its simplicity and effectiveness. It has helped many users improve their typing skills while deepening their knowledge of scripture."
-            },
-            "tags": ["macOS", "Swift", "Bible", "Typing Game"],
-            "liveUrl": "https://apps.apple.com/us/app/bible-scripture-typing-daily/id1484895431?mt=12",
-            "image": "/images/BSTD_icon.png",
-            "videoUrl": ""
-        },
-        {
-            "id": 6,
-            "title": "Are You Local?",
-            "description": "A fun and engaging trivia game that tests how local you are to Hawaii! Answer questions about local culture, food, and history to see where you rank.",
-            "fullContent": {
-              "overview": "Hawaii Local Quiz is an entertaining mobile app that challenges users with trivia questions about Hawaii's unique culture, history, and lifestyle. Players answer multiple-choice questions and receive a 'local' ranking based on their score. The app is designed for both locals and visitors who want to test their knowledge and learn more about Hawaii.",
-              "features": [
-                "Hundreds of Hawaii-themed trivia questions",
-                "Engaging multiple-choice format",
-                "Local ranking system based on quiz performance",
-                "Works offline for on-the-go fun",
-                "Available on both iOS and Android"
-              ],
-              "technologies": [
-                "Unity for cross-platform game development",
-                "C# for game logic and interactions",
-                "Google Admob for monetization",
-                "Designed for both iOS and Android"
-              ],
-              "challenges": "Balancing the difficulty level of the questions while keeping the game fun and informative was a challenge. We refined the quiz content through user feedback to ensure a rewarding experience for both locals and newcomers.",
-              "outcome": "Hawaii Local Quiz has received positive reviews for its entertaining and educational gameplay. It has been popular among locals and visitors alike, making learning about Hawaii fun and interactive."
-            },
-            "tags": ["Unity", "C#", "Trivia Game", "Hawaii"],
-            "liveUrl": "https://apps.apple.com/us/app/are-you-local/id6466523161",
-            "image": "/images/AYL_icon.png",
-            "videoUrl": ""
-        },
-        {
-          "id": 7,
-          "title": "Dad Jokes Watch App",
-          "description": "Turn your Apple Watch into the ultimate dad joke machine and create daily moments of laughter your kids will actually ask for.",
-          "fullContent": {
-            "overview": "Dad Joke Daily is a fun and heartwarming Apple Watch app that delivers a fresh, hilarious dad joke to your wrist every single day. Designed to spark laughter and connection, this app transforms ordinary moments—breakfast, school runs, bedtime—into memorable family traditions. Instead of reaching for screens, kids will run to you asking, 'What's today’s joke, Dad?'",
-            "features": [
-              "Daily dad joke delivered right to your Apple Watch",
-              "Simple glance-and-go design for quick delivery",
-              "Perfect conversation starter at any time of day",
-              "Build lasting memories and family traditions",
-              "Zero effort, maximum laughs"
-            ],
-            "technologies": [
-              "Swift for Apple Watch development",
-              "WatchKit for seamless watchOS integration",
-              "Optimized for quick-glance complications",
-              "Available exclusively for Apple Watch"
-            ],
-            "challenges": "The biggest challenge was balancing joke quality with simplicity. We curated the perfect set of jokes to ensure they’re funny, family-friendly, and quick to deliver in just a glance.",
-            "outcome": "Dad Joke Daily has become a favorite for parents who want to connect with their kids through humor. Thousands of families now share a daily laugh, proving that the best parenting tool can sometimes be a perfectly timed pun."
-          },
-          "tags": ["watchOS", "Swift", "Dad Jokes", "Parenting", "Humor"],
-          "liveUrl": "https://apps.apple.com/us/app/dad-jokes-watch-app/id6749955835",
-          "image": "/images/dadJokesWatchPhoto.png",
-          "videoUrl": ""
-        },
-        {
-          "id": 7,
-          "title": "Affirmations Watch App",
-          "description": "A focused, dad-centered affirmations app for Apple Watch that helps Dads in their 30s and 40s stay grounded, patient, confident, and intentional—right from their wrist.",
-          "fullContent": {
-            "overview": "Affirmations Watch App is a mindful, purpose-driven experience designed specifically for Dads who juggle work, family, and personal growth. It delivers powerful, dad-focused affirmations throughout the day to help you stay calm during stress, reconnect with your purpose, and show up as the father and leader you strive to be. Whether you need patience during a tough parenting moment, confidence before a big meeting, or a reminder of the dad you're becoming—this app keeps you centered, right from your wrist.",
-            "features": [
-              "Dad-focused affirmation categories across fatherhood, patience, leadership, marriage, confidence, and more",
-              "Add your own custom affirmations tailored to your goals and family values",
-              "Ultra-simple watchOS experience designed for quick mental resets",
-              "Favorites and quick-access tools for moments when you need encouragement fast",
-              "Daily Dad Mode—set a mindset theme like Patience, Gratitude, or Leadership"
-            ],
-            "technologies": [
-              "Swift for native watchOS development",
-              "WatchKit for fast and seamless Apple Watch UI",
-              "Optimized for quick-glance interactions and minimal distraction"
-            ],
-            "challenges": "The main challenge was designing an experience that supports emotional wellbeing without overwhelming the user. The interface needed to be distraction-free while still offering depth, personalization, and powerful content that resonates specifically with modern fathers.",
-            "outcome": "Affirmations Watch App provides Dads with a reliable, uplifting tool they can use throughout their day to stay grounded and intentional. Early testers report feeling calmer during stressful moments, more connected to their identity as fathers, and more aligned with the habits and mindset they want to model for their families."
-          },
-          "tags": ["watchOS", "Swift", "Affirmations", "Parenting", "Mindfulness", "Wellbeing"],
-          "liveUrl": "https://apps.apple.com/us/app/affirmations-watch-app/id6755359641",
-          "image": "/images/affirmationsWatchPhoto.png",
-          "videoUrl": ""
-        },
-        {
-          "id": 9,
-          "title": "Tap Tally Watch App",
-          "description": "A fast, simple Apple Watch counter app that lets you track anything with a tap, from habits to routines to daily tasks.",
-          "fullContent": {
-            "overview": "Tap Tally Watch App is a clean, tap-first counter system designed specifically for Apple Watch. Whether you are tracking habits, tallying tasks, logging reps during workouts, or monitoring daily routines, Tap Tally helps you stay consistent and aware of your progress. With multiple customizable counters and instant tap-to-update interactions, you can track anything quickly and without distractions. No clutter, no complex menus, just fast and reliable counting right on your wrist.",
-            "features": [
-              "Create and manage multiple counters for habits, routines, tasks, or goals",
-              "Instant one tap interaction for fast, frictionless tallying",
-              "Custom counter labels to match exactly what you are tracking",
-              "Minimal, quick-glance design optimized for watchOS",
-              "Reset or reorder counters anytime to adapt to changing needs",
-              "Lightweight experience built for speed and simplicity"
-            ],
-            "technologies": [
-              "Swift for Apple Watch development",
-              "WatchKit for seamless watchOS UI",
-              "Optimized for quick tap interactions",
-              "Designed exclusively for Apple Watch"
-            ],
-            "challenges": "The main challenge was creating a multi-counter system that remained fast and uncluttered on the smaller Apple Watch screen. It required balancing simplicity with flexibility while keeping the core experience centered around instant tap interactions.",
-            "outcome": "Tap Tally Watch App provides users with a simple, reliable way to track repeated actions throughout their day. From fitness to productivity to everyday routines, users love how effortless it feels to keep count, stay consistent, and maintain awareness of their progress."
-          },
-          "tags": ["watchOS", "Swift", "Productivity", "Tracking", "Counters"],
-          "liveUrl": "https://apps.apple.com/us/app/tap-tally-watch-app/id6752353940",
-          "image": "/images/tapTallyWatchPhoto002.png",
-          "videoUrl": ""
-        },
-        {
-          "id": 10,
-          "title": "ISBNspy",
-          "description": "A fast, simple book lookup tool that helped readers instantly compare in-store book prices with Amazon long before smartphones made it easy.",
-          "fullContent": {
-            "overview": "ISBNspy was a lightweight web service I built in 2003 to solve a personal problem: I loved buying books at local bookstores, but I never knew if I was overpaying compared to Amazon. Mobile browsers were extremely limited at the time, so the only real solution was to build my own tool. ISBNspy let readers type in a book’s ISBN and instantly get Amazon prices, ratings, and reviews—it worked like a Google search just for books.",
-            "features": [
-              "Instant ISBN search for any book",
-              "Real-time Amazon price comparison",
-              "Live ratings and reviews from the Amazon API",
-              "Simple, fast interface optimized for early mobile browsers",
-              "Affiliate link support that generated referral revenue"
-            ],
-            "technologies": [
-              "Amazon REST API (Amazon Associates Program)",
-              "Custom-built server-side ISBN lookup service",
-              "Early mobile web optimization techniques",
-              "Real-time data fetching and caching logic"
-            ],
-            "challenges": "The main challenge was building a smooth, fast experience in a time when mobile browsers could barely load full web pages. It required careful API work, lightweight page design, and fast server responses. Years later, Amazon restricted access to ratings and reviews, which removed a core feature and led to a decline in daily users.",
-            "outcome": "ISBNspy was featured on LifeHacker and built a steady user base. The affiliate revenue even covered my book-buying habit for years. Although I eventually retired the project after Amazon changed its API rules, ISBNspy marked an important milestone in my development career and paved the way for later mobile projects like Mathogen."
-          },
-          "tags": ["Web Development", "APIs", "Amazon Associates", "Mobile Web", "Price Comparison"],
-          "liveUrl": "",
-          "image": "/images/lifehacker-logo.png",
-          "videoUrl": ""
-        },
-        {
-          "id": 11,
-          "title": "Arrivals and Departures on DDR Universe 2",
-          "description": "A featured song I wrote, performed, and produced that appears in the Xbox 360 rhythm game Dance Dance Revolution Universe 2—bringing the beat to players around the world.",
-          "fullContent": {
-            "overview": "Arrivals and Departures is a song I wrote, sang on, recorded, and produced that made its way into the Xbox 360 game Dance Dance Revolution Universe 2. DDR Universe 2 is a music and dance game released for Xbox 360 in December 2007. Players step on arrows to match the beat and rhythm of songs from a huge soundtrack that spans music styles from the 1970s through modern electronic and licensed pop tracks. The game also includes modes like Freestyle Mode, where players can dance without following arrow prompts, and Quest Mode, where you travel the world and complete dance challenges as your own character.",
-            "features": [
-              "Featured track in the official Dance Dance Revolution Universe 2 soundtrack",
-              "Blends with a diverse set of licensed songs ranging from classic dance hits to modern electronic tracks",
-              "Part of a soundtrack that includes songs like \"Take Me Out\" (Franz Ferdinand) and \"Walk Like an Egyptian\" (The Bangles)",
-              "Accessible in both single-player and multiplayer modes",
-              "Game supports downloadable song packs and extended gameplay content"
-            ],
-            "technologies": [
-              "Digital Audio Workstation"
-            ],
-            "challenges": "Getting a custom track into a major console rhythm game like DDR took coordination and careful mastering so the song feels right alongside an eclectic mix of licensed music and original tracks. DDR Universe 2’s soundtrack is celebrated for its variety, hitting genres and eras that appeal to both longtime fans and newcomers alike.",
-            "outcome": "Having \"Arrivals and Departures\" featured in Dance Dance Revolution Universe 2 is a highlight of my music and game development journey. It sits among a soundtrack beloved by DDR players, and contributes to gameplay that challenges your rhythm, reflexes, and love for music. Fans of DDR appreciate the broad song list and the unique way each track gets players moving, making this inclusion especially rewarding."
-          },
-          "tags": ["Music", "Game Soundtrack", "DDR", "Xbox 360", "Rhythm Game"],
-          "liveUrl": "https://en.wikipedia.org/wiki/Dance_Dance_Revolution_Universe_2",
-          "image": "/images/danceDanceRevolution2.jpg",
-          "videoUrl": ""
-        }
-        
-
-
-
-
-        
-
-
-        
-    ]
+  "projects": [
+    {
+      "id": 1,
+      "title": "Roach Room VR",
+      "description": "A virtual reality horror game for Oculus Rift that uses immersive gameplay inspired by cognitive behavioral therapy to help players confront and overcome fear.",
+      "fullContent": {
+        "overview": "Roach Room VR is a virtual reality horror experience developed with the MemoryDump VR group at the University of Hawaii at Manoa. The project began as a playful idea inspired by my wife’s fear of cockroaches after moving to Hawaii, and evolved into an exploration of exposure-based fear acclimation. Players wake up in an unfamiliar environment where roaches crawl toward them, challenging them to endure the experience long enough to become comfortable. As development continued, the concept was refined to be more approachable, shifting from pure horror toward an interactive, game-like experience.",
+        "features": [
+          "Immersive virtual reality gameplay designed for the Oculus Rift",
+          "Exposure-based horror mechanics inspired by cognitive behavioral therapy concepts",
+          "Interactive 3D environment set in a familiar computer science lounge",
+          "Roach enemies with animated movement and behavior",
+          "A swatting mechanic using a virtual slipper to defeat roaches",
+          "Clear game loop culminating in a playable demo experience"
+        ],
+        "technologies": [
+          "Unity for VR game development and real-time interaction",
+          "C# for gameplay logic and interaction systems",
+          "Blender for 3D modeling, character rigging, and animation",
+          "Oculus Rift SDK for virtual reality integration"
+        ],
+        "challenges": "One of the biggest challenges was balancing fear with accessibility. While the original concept leaned heavily into horror, we discovered that making the game more playful and interactive significantly broadened its appeal. Integrating believable VR interactions, animating convincing roach behavior, and ensuring player comfort in a VR setting required careful iteration and testing.",
+        "outcome": "The final prototype was successfully demoed at the Information and Computer Science end-of-year celebration, where players could experience the game firsthand. The project served as a strong learning experience in VR development, game design, and 3D asset creation, and demonstrated how immersive technology can be used to explore psychological concepts in an engaging way."
+      },
+      "tags": [
+        "Unity",
+        "C#",
+        "Oculus Rift",
+        "VR",
+        "Educational Technology"
+      ],
+      "liveUrl": "",
+      "image": "/images/cockroachHorrorGame2.jpg",
+      "videoUrl": ""
+    },
+    {
+      "id": 2,
+      "title": "Team Number Dash",
+      "description": "A fast-paced collaborative math game designed to help students build number sense, teamwork skills, and confidence through play.",
+      "fullContent": {
+        "overview": "Team Number Dash is a classroom-friendly, multiplayer math game I designed to help students practice number sense in a fun, low-pressure way. Players race together against the clock to build equations, hit targets, and solve number challenges as a team. The game was originally created as a prototype for collaborative learning, and it focuses on communication, strategy, and quick thinking—making math feel more like a fast-paced sport than a worksheet.",
+        "features": [
+          "Real-time multiplayer math challenges where players work together to reach target numbers",
+          "Clean, kid-friendly interface designed for fast decisions and group participation",
+          "Levels that gradually increase in difficulty to encourage growth and confidence",
+          "Perfect for classrooms, math clubs, or families looking for a playful way to practice math",
+          "Built-in visual feedback that helps students see how numbers combine and interact",
+          "Supports short sessions, making it easy for teachers to fit into lesson plans"
+        ],
+        "technologies": [
+          "React for building a responsive, interactive game interface",
+          "TypeScript for predictable, maintainable code",
+          "Real-time game logic optimized for quick feedback",
+          "Reusable component architecture for future game expansions"
+        ],
+        "challenges": "The biggest challenge was designing a game that feels fast, exciting, and social while still reinforcing real math skills. Classroom tools must be intuitive enough for students to pick up quickly, but sturdy enough for repeated use. Balancing difficulty, pacing, and clarity took many iterations, along with lots of testing to ensure the experience feels cooperative rather than stressful.",
+        "outcome": "Team Number Dash has become a lively way for students to practice mental math while building trust and communication within groups. Teachers love the energy it brings to the classroom, and students enjoy the sense of shared accomplishment when they solve challenges together. The prototype has already sparked interest from educators looking for more collaborative math tools."
+      },
+      "tags": [
+        "JavaScript",
+        "Node JS",
+        "Socket IO",
+        "Educational Technology"
+      ],
+      "liveUrl": "",
+      "image": "/images/teamNumberDash.png",
+      "videoUrl": "/videos/teamNumberDash001.mov"
+    },
+    {
+      "id": 3,
+      "title": "Mathogen",
+      "description": "Mathogen is an educational game designed to make math engaging and rewarding. Inspired by Tetris, it transforms problem-solving into an endless challenge that enriches players' skills.",
+      "fullContent": {
+        "overview": "I've always loved video games, but I wanted to create something that not only entertained but also provided lasting value. That's how Mathogen was born—an educational game centered around math, the universal language. It draws inspiration from Tetris, where mistakes shape the experience, and every session leaves players feeling accomplished rather than empty-handed.",
+        "features": [
+          "Engaging math-based gameplay with infinite challenge",
+          "Collectible cards mechanic to keep players engaged",
+          "Made with C# in Unity and adapted for multiple platforms",
+          "Designed to be an endless runner experience, rewarding accuracy over speed",
+          "Integrated with analytics to track player engagement and improve performance"
+        ],
+        "technologies": [
+          "Objective-C using the Cocos2d-x Engine for initial iOS development",
+          "C# for Unity Development and exported to iOS",
+          "Google Admob for monetization"
+        ],
+        "challenges": "During development, I encountered multiple challenges: submission hurdles with Apple, unexpected crash reports from early users, and the need to adapt the game across different platforms. Transitioning from a timer-based model to an endless runner format also required careful design adjustments.",
+        "outcome": "Mathogen has gone through multiple iterations and continues to evolve. By removing the timer constraint and focusing on accuracy, I aim to create a game that players can enjoy endlessly while sharpening their math skills. The project has also connected me with a wider programming community, leading to opportunities in tutoring and game development."
+      },
+      "tags": [
+        "Unity",
+        "C#",
+        "iOS",
+        "Educational Technology"
+      ],
+      "liveUrl": "https://apps.apple.com/us/app/mathogen/id323507276",
+      "image": "/images/Mathogen_icon.png",
+      "videoUrl": ""
+    },
+    {
+      "id": 4,
+      "title": "Bible Scripture Word Match",
+      "description": "An engaging mobile game that helps users memorize and reinforce Bible verses by filling in missing words. Designed for iPad and iPhone, it offers an ad-free experience with no internet required.",
+      "fullContent": {
+        "overview": "Bible Scripture Word Match is a faith-based word game that encourages users to deepen their understanding of the Bible. The game presents scripture passages with missing words, and players must select the correct word to complete the verse. With topics like love, faith, friendship, and forgiveness, this app is designed to inspire and educate.",
+        "features": [
+          "Fill-in-the-blank scripture puzzles",
+          "Levels focused on key biblical themes",
+          "No internet required for offline play"
+        ],
+        "technologies": [
+          "C# for Unity Development and exported to iOS",
+          "Google Admob for monetization"
+        ],
+        "challenges": "One challenge was designing a user-friendly interface that appeals to all age groups while ensuring a smooth offline experience. We optimized local data storage and refined the game flow to provide an enjoyable and educational gameplay experience.",
+        "outcome": "Bible Scripture Word Match has been well-received by users looking for a meaningful and engaging way to memorize scripture. The app maintains a positive rating and continues to attract new players through its simple yet effective gameplay."
+      },
+      "tags": [
+        "Unity",
+        "C#",
+        "iOS",
+        "Educational Technology"
+      ],
+      "liveUrl": "https://apps.apple.com/us/app/bible-scripture-word-match/id6462538578",
+      "image": "/images/BSWM_icon.png",
+      "videoUrl": ""
+    },
+    {
+      "id": 5,
+      "title": "Bible Scripture Typing Daily",
+      "description": "A fun and educational macOS app that helps users improve their typing speed while memorizing Bible verses. Designed for all ages, it works offline and allows users to add custom verses.",
+      "fullContent": {
+        "overview": "Type the Truth is a unique typing practice app that combines scripture memorization with keyboarding skills. Originally created for the son of an assistant pastor who was learning to type, this app has since become a favorite among users looking to strengthen both their faith and typing abilities.",
+        "features": [
+          "Includes over 100 Bible verses",
+          "Allows users to add custom Bible verses",
+          "Works without an internet connection",
+          "Tracks typing speed and accuracy",
+          "Encouraging feedback and scripture-based motivation"
+        ],
+        "technologies": [
+          "Swift for macOS development",
+          "CoreData for local storage of custom verses",
+          "Apple's GameKit for progress tracking"
+        ],
+        "challenges": "One challenge was ensuring a smooth and responsive typing experience while keeping the app lightweight and offline-friendly. Optimizing text rendering and input processing was key to delivering an engaging user experience.",
+        "outcome": "Bible Scripture Typing Daily has received a 4.7-star rating on the Mac App Store, with users praising its simplicity and effectiveness. It has helped many users improve their typing skills while deepening their knowledge of scripture."
+      },
+      "tags": [
+        "macOS",
+        "Swift",
+        "Educational Technology"
+      ],
+      "liveUrl": "https://apps.apple.com/us/app/bible-scripture-typing-daily/id1484895431?mt=12",
+      "image": "/images/BSTD_icon.png",
+      "videoUrl": ""
+    },
+    {
+      "id": 6,
+      "title": "Are You Local?",
+      "description": "A fun and engaging trivia game that tests how local you are to Hawaii! Answer questions about local culture, food, and history to see where you rank.",
+      "fullContent": {
+        "overview": "Hawaii Local Quiz is an entertaining mobile app that challenges users with trivia questions about Hawaii's unique culture, history, and lifestyle. Players answer multiple-choice questions and receive a 'local' ranking based on their score. The app is designed for both locals and visitors who want to test their knowledge and learn more about Hawaii.",
+        "features": [
+          "Hundreds of Hawaii-themed trivia questions",
+          "Engaging multiple-choice format",
+          "Local ranking system based on quiz performance",
+          "Works offline for on-the-go fun",
+          "Available on both iOS and Android"
+        ],
+        "technologies": [
+          "Unity for cross-platform game development",
+          "C# for game logic and interactions",
+          "Google Admob for monetization",
+          "Designed for both iOS and Android"
+        ],
+        "challenges": "Balancing the difficulty level of the questions while keeping the game fun and informative was a challenge. We refined the quiz content through user feedback to ensure a rewarding experience for both locals and newcomers.",
+        "outcome": "Hawaii Local Quiz has received positive reviews for its entertaining and educational gameplay. It has been popular among locals and visitors alike, making learning about Hawaii fun and interactive."
+      },
+      "tags": [
+        "Unity",
+        "C#",
+        "iOS"
+      ],
+      "liveUrl": "https://apps.apple.com/us/app/are-you-local/id6466523161",
+      "image": "/images/AYL_icon.png",
+      "videoUrl": ""
+    },
+    {
+      "id": 7,
+      "title": "Dad Jokes Watch App",
+      "description": "Turn your Apple Watch into the ultimate dad joke machine and create daily moments of laughter your kids will actually ask for.",
+      "fullContent": {
+        "overview": "Dad Joke Daily is a fun and heartwarming Apple Watch app that delivers a fresh, hilarious dad joke to your wrist every single day. Designed to spark laughter and connection, this app transforms ordinary moments—breakfast, school runs, bedtime—into memorable family traditions. Instead of reaching for screens, kids will run to you asking, 'What's today’s joke, Dad?'",
+        "features": [
+          "Daily dad joke delivered right to your Apple Watch",
+          "Simple glance-and-go design for quick delivery",
+          "Perfect conversation starter at any time of day",
+          "Build lasting memories and family traditions",
+          "Zero effort, maximum laughs"
+        ],
+        "technologies": [
+          "Swift for Apple Watch development",
+          "WatchKit for seamless watchOS integration",
+          "Optimized for quick-glance complications",
+          "Available exclusively for Apple Watch"
+        ],
+        "challenges": "The biggest challenge was balancing joke quality with simplicity. We curated the perfect set of jokes to ensure they’re funny, family-friendly, and quick to deliver in just a glance.",
+        "outcome": "Dad Joke Daily has become a favorite for parents who want to connect with their kids through humor. Thousands of families now share a daily laugh, proving that the best parenting tool can sometimes be a perfectly timed pun."
+      },
+      "tags": [
+        "watchOS",
+        "Swift"
+      ],
+      "liveUrl": "https://apps.apple.com/us/app/dad-jokes-watch-app/id6749955835",
+      "image": "/images/dadJokesWatchPhoto.png",
+      "videoUrl": ""
+    },
+    {
+      "id": 7,
+      "title": "Affirmations Watch App",
+      "description": "A focused, dad-centered affirmations app for Apple Watch that helps Dads in their 30s and 40s stay grounded, patient, confident, and intentional—right from their wrist.",
+      "fullContent": {
+        "overview": "Affirmations Watch App is a mindful, purpose-driven experience designed specifically for Dads who juggle work, family, and personal growth. It delivers powerful, dad-focused affirmations throughout the day to help you stay calm during stress, reconnect with your purpose, and show up as the father and leader you strive to be. Whether you need patience during a tough parenting moment, confidence before a big meeting, or a reminder of the dad you're becoming—this app keeps you centered, right from your wrist.",
+        "features": [
+          "Dad-focused affirmation categories across fatherhood, patience, leadership, marriage, confidence, and more",
+          "Add your own custom affirmations tailored to your goals and family values",
+          "Ultra-simple watchOS experience designed for quick mental resets",
+          "Favorites and quick-access tools for moments when you need encouragement fast",
+          "Daily Dad Mode—set a mindset theme like Patience, Gratitude, or Leadership"
+        ],
+        "technologies": [
+          "Swift for native watchOS development",
+          "WatchKit for fast and seamless Apple Watch UI",
+          "Optimized for quick-glance interactions and minimal distraction"
+        ],
+        "challenges": "The main challenge was designing an experience that supports emotional wellbeing without overwhelming the user. The interface needed to be distraction-free while still offering depth, personalization, and powerful content that resonates specifically with modern fathers.",
+        "outcome": "Affirmations Watch App provides Dads with a reliable, uplifting tool they can use throughout their day to stay grounded and intentional. Early testers report feeling calmer during stressful moments, more connected to their identity as fathers, and more aligned with the habits and mindset they want to model for their families."
+      },
+      "tags": [
+        "watchOS",
+        "Swift"
+      ],
+      "liveUrl": "https://apps.apple.com/us/app/affirmations-watch-app/id6755359641",
+      "image": "/images/affirmationsWatchPhoto.png",
+      "videoUrl": ""
+    },
+    {
+      "id": 9,
+      "title": "Tap Tally Watch App",
+      "description": "A fast, simple Apple Watch counter app that lets you track anything with a tap, from habits to routines to daily tasks.",
+      "fullContent": {
+        "overview": "Tap Tally Watch App is a clean, tap-first counter system designed specifically for Apple Watch. Whether you are tracking habits, tallying tasks, logging reps during workouts, or monitoring daily routines, Tap Tally helps you stay consistent and aware of your progress. With multiple customizable counters and instant tap-to-update interactions, you can track anything quickly and without distractions. No clutter, no complex menus, just fast and reliable counting right on your wrist.",
+        "features": [
+          "Create and manage multiple counters for habits, routines, tasks, or goals",
+          "Instant one tap interaction for fast, frictionless tallying",
+          "Custom counter labels to match exactly what you are tracking",
+          "Minimal, quick-glance design optimized for watchOS",
+          "Reset or reorder counters anytime to adapt to changing needs",
+          "Lightweight experience built for speed and simplicity"
+        ],
+        "technologies": [
+          "Swift for Apple Watch development",
+          "WatchKit for seamless watchOS UI",
+          "Optimized for quick tap interactions",
+          "Designed exclusively for Apple Watch"
+        ],
+        "challenges": "The main challenge was creating a multi-counter system that remained fast and uncluttered on the smaller Apple Watch screen. It required balancing simplicity with flexibility while keeping the core experience centered around instant tap interactions.",
+        "outcome": "Tap Tally Watch App provides users with a simple, reliable way to track repeated actions throughout their day. From fitness to productivity to everyday routines, users love how effortless it feels to keep count, stay consistent, and maintain awareness of their progress."
+      },
+      "tags": [
+        "watchOS",
+        "Swift"
+      ],
+      "liveUrl": "https://apps.apple.com/us/app/tap-tally-watch-app/id6752353940",
+      "image": "/images/tapTallyWatchPhoto002.png",
+      "videoUrl": ""
+    },
+    {
+      "id": 10,
+      "title": "ISBNspy",
+      "description": "A fast, simple book lookup tool that helped readers instantly compare in-store book prices with Amazon long before smartphones made it easy.",
+      "fullContent": {
+        "overview": "ISBNspy was a lightweight web service I built in 2003 to solve a personal problem: I loved buying books at local bookstores, but I never knew if I was overpaying compared to Amazon. Mobile browsers were extremely limited at the time, so the only real solution was to build my own tool. ISBNspy let readers type in a book’s ISBN and instantly get Amazon prices, ratings, and reviews—it worked like a Google search just for books.",
+        "features": [
+          "Instant ISBN search for any book",
+          "Real-time Amazon price comparison",
+          "Live ratings and reviews from the Amazon API",
+          "Simple, fast interface optimized for early mobile browsers",
+          "Affiliate link support that generated referral revenue"
+        ],
+        "technologies": [
+          "Amazon REST API (Amazon Associates Program)",
+          "Custom-built server-side ISBN lookup service",
+          "Early mobile web optimization techniques",
+          "Real-time data fetching and caching logic"
+        ],
+        "challenges": "The main challenge was building a smooth, fast experience in a time when mobile browsers could barely load full web pages. It required careful API work, lightweight page design, and fast server responses. Years later, Amazon restricted access to ratings and reviews, which removed a core feature and led to a decline in daily users.",
+        "outcome": "ISBNspy was featured on LifeHacker and built a steady user base. The affiliate revenue even covered my book-buying habit for years. Although I eventually retired the project after Amazon changed its API rules, ISBNspy marked an important milestone in my development career and paved the way for later mobile projects like Mathogen."
+      },
+      "tags": [
+        "PHP",
+        "SQL",
+        "APIs",
+        "Amazon Associates"
+      ],
+      "liveUrl": "",
+      "image": "/images/lifehacker-logo.png",
+      "videoUrl": ""
+    },
+    {
+      "id": 11,
+      "title": "My song is on Dance Dance Revolution",
+      "description": "A featured song I wrote, performed, and produced that appears in the Xbox 360 rhythm game Dance Dance Revolution Universe 2—bringing the beat to players around the world.",
+      "fullContent": {
+        "overview": "Arrivals and Departures is a song I wrote, sang on, recorded, and produced that made its way into the Xbox 360 game Dance Dance Revolution Universe 2. DDR Universe 2 is a music and dance game released for Xbox 360 in December 2007. Players step on arrows to match the beat and rhythm of songs from a huge soundtrack that spans music styles from the 1970s through modern electronic and licensed pop tracks. The game also includes modes like Freestyle Mode, where players can dance without following arrow prompts, and Quest Mode, where you travel the world and complete dance challenges as your own character.",
+        "features": [
+          "Featured track in the official Dance Dance Revolution Universe 2 soundtrack",
+          "Blends with a diverse set of licensed songs ranging from classic dance hits to modern electronic tracks",
+          "Part of a soundtrack that includes songs like \"Take Me Out\" (Franz Ferdinand) and \"Walk Like an Egyptian\" (The Bangles)",
+          "Accessible in both single-player and multiplayer modes",
+          "Game supports downloadable song packs and extended gameplay content"
+        ],
+        "technologies": [
+          "Digital Audio Workstation"
+        ],
+        "challenges": "Getting a custom track into a major console rhythm game like DDR took coordination and careful mastering so the song feels right alongside an eclectic mix of licensed music and original tracks. DDR Universe 2’s soundtrack is celebrated for its variety, hitting genres and eras that appeal to both longtime fans and newcomers alike.",
+        "outcome": "Having \"Arrivals and Departures\" featured in Dance Dance Revolution Universe 2 is a highlight of my music and game development journey. It sits among a soundtrack beloved by DDR players, and contributes to gameplay that challenges your rhythm, reflexes, and love for music. Fans of DDR appreciate the broad song list and the unique way each track gets players moving, making this inclusion especially rewarding."
+      },
+      "tags": [
+        "Music",
+        "Game Soundtrack"
+      ],
+      "liveUrl": "https://en.wikipedia.org/wiki/Dance_Dance_Revolution_Universe_2",
+      "image": "/images/danceDanceRevolution2.jpg",
+      "videoUrl": ""
+    }
+  ]
 }
