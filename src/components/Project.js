@@ -42,14 +42,14 @@ function Project() {
         </section>
 
         {project.videoUrl !== '' && <section className="project-section">
-            <h2>Video Walkthrough</h2>
-            <video
-              src="/videos/teamNumberDash001.mov"
-              controls
-              width="100%"
-              style={{ borderRadius: 12 }}
-              loading="lazy"
-            />
+          <h2>Video Walkthrough</h2>
+          <video
+            preload='none'
+            src="/videos/teamNumberDash001.mov"
+            controls
+            width="100%"
+            style={{ borderRadius: 12 }}
+          />
         </section>}
 
         <section className="project-section">
@@ -84,7 +84,7 @@ function Project() {
           {project.liveUrl !== '' && <a href={project.liveUrl} className="project-link" target="_blank" rel="noopener noreferrer">
             View Project
           </a>}
-          
+
         </div>
       </div>
     </div>
