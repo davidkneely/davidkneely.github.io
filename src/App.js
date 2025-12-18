@@ -5,6 +5,7 @@ import Project from './components/Project';
 import Blog from './components/Blog';
 import Post from './components/Post';
 import ExperienceToggle from './components/ExperienceToggle';
+import Skills from './components/Skills';
 
 function App() {
   return (
@@ -32,8 +33,9 @@ function App() {
                 </h1>
                 <p className="bio">
                   I'm a Full-Stack Mobile Software Engineer with 15 years of experience
-                  building websites (PHP, React, Node, SQL) and apps (Swift, Unity, C#). I'm located in Dursley, England 🇬🇧
+                  building websites and apps. I'm located in Dursley, England 🇬🇧
                 </p>
+
                 <div className="social-links">
                   <a href="https://docs.google.com/document/d/1rTgWWc1_o3Nypm5dsydI9KZvX4ysrHQAYFhz-ZmSYfw/edit?usp=sharing" className="resume-button">
                     <span>↓</span> Resume
@@ -50,6 +52,7 @@ function App() {
                     </a>
                   </div>
                 </div>
+                <Skills />
                 <ExperienceToggle />
               </div>
             </div>

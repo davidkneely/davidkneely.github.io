@@ -1,0 +1,83 @@
+.skills-section {
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.skills-title {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    color: white;
+    text-align: center;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    justify-content: center;
+}
+
+.skill-pill {
+    background: #1a1a1a;
+    color: white;
+    padding: 0.5rem 1.2rem;
+    border-radius: 2rem;
+    font-size: 0.9rem;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    border: 1px solid #333;
+    display: inline-block;
+    background: linear-gradient(135deg, rgba(74, 74, 74, 0.8), rgba(74, 74, 74, 0.4));
+    border-color: #555;
+}
+
+.skill-pill:hover {
+    transform: translateY(-2px);
+    background: linear-gradient(135deg, rgba(74, 74, 74, 0.8), rgba(74, 74, 74, 0.4));
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Add specific color styles for different skill categories */
+/* .skill-pill[href*="/skills/unity"],
+.skill-pill[href*="/skills/csharp"],
+.skill-pill[href*="/skills/oculus"],
+.skill-pill[href*="/skills/vr"] {
+  background: linear-gradient(135deg, rgba(74, 74, 74, 0.8), rgba(74, 74, 74, 0.4));
+  border-color: #555;
+}
+
+.skill-pill[href*="/skills/react"],
+.skill-pill[href*="/skills/javascript"],
+.skill-pill[href*="/skills/nodejs"] {
+  background: linear-gradient(135deg, rgba(97, 218, 251, 0.2), rgba(97, 218, 251, 0.1));
+  border-color: rgba(97, 218, 251, 0.4);
+}
+
+.skill-pill[href*="/skills/swift"],
+.skill-pill[href*="/skills/mobile"] {
+  background: linear-gradient(135deg, rgba(255, 122, 69, 0.2), rgba(255, 122, 69, 0.1));
+  border-color: rgba(255, 122, 69, 0.4);
+}
+
+.skill-pill[href*="/skills/php"],
+.skill-pill[href*="/skills/sql"],
+.skill-pill[href*="/skills/web"] {
+  background: linear-gradient(135deg, rgba(78, 158, 255, 0.2), rgba(78, 158, 255, 0.1));
+  border-color: rgba(78, 158, 255, 0.4);
+}
+
+.skill-pill[href*="/skills/ui-ux"],
+.skill-pill[href*="/skills/html-css"] {
+  background: linear-gradient(135deg, rgba(255, 71, 199, 0.2), rgba(255, 71, 199, 0.1));
+  border-color: rgba(255, 71, 199, 0.4);
+} */
+
+@media (max-width: 768px) {
+    .skills-container {
+        justify-content: center;
+    }
+
+    .skills-title {
+        text-align: center;
+    }
+}
