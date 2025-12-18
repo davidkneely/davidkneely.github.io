@@ -8,7 +8,7 @@ function BlogPosts() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch('/posts.json')
+    fetch('posts.json')
       .then(response => response.json())
       .then(data => {
         // Sort posts by date, newest first
