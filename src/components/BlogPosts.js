@@ -26,7 +26,7 @@ function BlogPosts() {
   const handleChange = (e) => {
     e.preventDefault();
     const searchTerm = e.target.value;
-    const filteredItems = posts.filter((post) => 
+    const filteredItems = posts.filter((post) =>
       post.title.toLowerCase().includes(searchTerm.toLowerCase()));
     setFilteredPosts(filteredItems);
   }
@@ -34,10 +34,10 @@ function BlogPosts() {
   return (
     <div className="blog-content">
       <h1 className="section-title">Blog Posts</h1>
-      <div className="search-container">
+      {/* <div className="search-container">
       <h1>Search</h1>
         <input type="text" placeholder="Type to search posts" name="search" onChange={handleChange} />
-      </div>
+      </div> */}
       <div className="blog-posts">
         {filteredPosts.map(post => (
           <article

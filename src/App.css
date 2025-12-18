@@ -242,6 +242,13 @@
   padding: 0.25rem 0.75rem;
   border-radius: 1rem;
   font-size: 0.8rem;
+  transition: all 0.3s ease;
+}
+
+.project-tag.highlighted-tag {
+  background: linear-gradient(135deg, rgba(78, 158, 255, 0.4), rgba(78, 158, 255, 0.2));
+  border: 1px solid rgba(78, 158, 255, 0.6);
+  color: white;
 }
 
 .project-card p {
@@ -710,4 +717,49 @@
   min-height: 50vh;
   font-size: 1.2rem;
   color: #888;
+}
+
+/* Filter styles */
+.active-filter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  background: rgba(78, 158, 255, 0.1);
+  border-radius: 0.5rem;
+  gap: 1rem;
+}
+
+.active-filter span {
+  color: #e0e0e0;
+}
+
+.active-filter strong {
+  color: white;
+}
+
+.clear-filter-btn {
+  background: rgba(78, 158, 255, 0.2);
+  color: white;
+  border: 1px solid rgba(78, 158, 255, 0.4);
+  border-radius: 1rem;
+  padding: 0.4rem 1rem;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.clear-filter-btn:hover {
+  background: rgba(78, 158, 255, 0.3);
+}
+
+.no-projects {
+  text-align: center;
+  padding: 3rem;
+  color: #888;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
 }

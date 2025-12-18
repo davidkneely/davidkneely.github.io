@@ -3,13 +3,17 @@ import { Link } from 'react-router-dom';
 import '../styles/Skills.css';
 
 const Skills = () => {
-    // Skills data with links to potential detail pages
+    // Skills data with filter tags
     const skills = [
-        { name: "Unity / C#", link: "/projects/unity" },
-        { name: "React / Node / SQLite", link: "/projects/react" },
-        { name: "Swift / SwiftUI", link: "/projects/swift" },
-        { name: "PHP / MySQL", link: "/projects/php" },
-        { name: "HTML / CSS / Javascript", link: "/projects/html-css" }
+        { name: "Unity", tag: "Unity" },
+        { name: "C#", tag: "C#" },
+        { name: "React", tag: "React" },
+        { name: "Node ", tag: "Node" },
+        { name: "SQL", tag: "SQL" },
+        { name: "Swift", tag: "Swift" },
+        { name: "HTML", tag: "HTML" },
+        { name: "CSS", tag: "CSS" },
+        { name: "Javascript", tag: "Javascript" }
     ];
 
     return (
@@ -17,7 +21,7 @@ const Skills = () => {
             <h2 className="skills-title">Technical Skills</h2>
             <div className="skills-container">
                 {skills.map((skill, index) => (
-                    <Link to={skill.link} key={index} className="skill-pill">
+                    <Link to={`/projects?skill=${skill.tag}`} key={index} className="skill-pill">
                         {skill.name}
                     </Link>
                 ))}
