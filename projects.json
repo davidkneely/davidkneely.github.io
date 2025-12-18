@@ -58,10 +58,13 @@
         "outcome": "Team Number Dash has become a lively way for students to practice mental math while building trust and communication within groups. Teachers love the energy it brings to the classroom, and students enjoy the sense of shared accomplishment when they solve challenges together. The prototype has already sparked interest from educators looking for more collaborative math tools."
       },
       "tags": [
+        "React",
         "JavaScript",
         "Node JS",
         "Socket IO",
-        "Educational Technology"
+        "Educational Technology",
+        "HTML",
+        "CSS"
       ],
       "liveUrl": "",
       "image": "/images/teamNumberDash.png",
