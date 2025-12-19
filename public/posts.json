@@ -1,381 +1,487 @@
 {
-    "posts": [
-      {
-        "id": 1,
-        "title": "Project Updates: Slomo, Inflight Entertainment App, and Bookmark Manager",
-        "date": "April 2, 2025",
-        "description": "A progress update on the Slomo music slowdown app, plans for launching an inflight entertainment app, and the technology stack decision for our bookmark manager project.",
-        "tags": ["SwiftUI", "MacOS", "Laravel", "React", "App Development"],
-        "fullContent": {
-          "introduction": "This week, we made significant progress on several projects, including our Slomo app, a potential inflight entertainment app, and a new bookmark manager project. Here’s a breakdown of what we discussed and our next steps.",
-          "sections": [
-            {
-              "title": "Slomo: A MacOS Music Slowdown App",
-              "content": "We had a productive meeting with Adam regarding Slomo, our MacOS music slowdown app built with Catalyst and SwiftUI. We've identified a few bugs: (1) The waveform does not resize properly when resizing the window, and (2) There's an issue with retrieving MP3 files from the bundle due to permission errors when restarting the app. Additionally, using Cursor AI's Auto model selection has caused errors: one where Cursor fails to recognize an existing class file and another where the Swift linter introduces issues that Cursor keeps iterating on unnecessarily. Adam will investigate these bugs this week."
-            },
-            {
-              "title": "Inflight Entertainment App: A New Launch Strategy",
-              "content": "We revisited an app we developed last year, originally pitched to local airline companies for inflight entertainment. Since those partnerships didn’t work out, we’re considering launching it ourselves on the iOS App Store for free with Google Ads. I plan to experiment with TikTok marketing to drive organic interest. This will also give me an opportunity to log into my Google AdSense account and check on an issue affecting ads in my other game, Mathogen."
-            },
-            {
-              "title": "Bookmark Manager App: Choosing the Right Stack",
-              "content": "Instead of jumping into coding with Cursor, we took a step back to research the best stack for our bookmark manager project. After evaluating our options, we decided on Laravel for the backend and React for the frontend. This week, I'll be looking into hosting solutions, and Adam and I will check in next week to finalize details and plan our next steps."
-            }
-          ],
-          "conclusion": "We’ve made great strides in debugging Slomo, pivoting our inflight entertainment app strategy, and finalizing the tech stack for our bookmark manager. Next week, we’ll continue refining these projects and making key implementation decisions. Stay tuned for more updates!"
-        }
-      },
-      {
-        "id": 2,
-        "title": "Building Better Word Search Puzzles with Code",
-        "date": "April 4, 2025",
-        "description": "How I used automation, SVGs, and a bit of creative thinking to improve the quality of my digital word search puzzle products.",
-        "tags": ["Python", "SVG", "Automation", "Small Business", "Cursor"],
-        "fullContent": {
-          "introduction": "As someone who's been building apps and websites for over 15 years, I love applying those skills to personal creative projects. One of my favorites is a small digital shop where I sell word search puzzle books. It’s fun, rewarding, and—like any product venture—full of opportunities to grow when users share feedback.",
-          "sections": [
-            {
-              "title": "Turning Criticism Into Improvement",
-              "content": "Recently, a customer left a review pointing out a duplicated word in one of my puzzles. That kind of feedback can sting, but I see it as a gift. I opened up Cursor and loaded the Python script I use to generate the puzzles. Using the Claude Sonnet 3.7 model, I updated the logic to filter out duplicates and sort the word list alphabetically. A small change, but it ensures a smoother experience for future customers—and shows them I care about the details."
-            },
-            {
-              "title": "Answer Keys Without the Manual Labor",
-              "content": "Another customer suggested including answer keys at the back of the book. Great idea—but solving every puzzle by hand wasn’t scalable. I spent a while stuck, unsure how to programmatically highlight the solution words in a clear and scalable way. Then, during a chat with my friend Adam (who needed a logo), I mentioned I’d been generating SVGs for icons using Cursor. That idea stuck with me: what if I rendered the answer keys as SVGs?"
-            },
-            {
-              "title": "The SVG Solution",
-              "content": "SVGs turned out to be the perfect format. They scale well, print cleanly, and allow for flexible layouts. I spent about 90 minutes working with Cursor to refine the rendering: early attempts either circled every letter or drew unreadable lines through diagonals. Eventually, I got the styling right—but I hit another problem. Overlapping highlights obscured shared letters, which made the solution unreadable. So I updated the generation logic to intelligently layer highlights without sacrificing clarity."
-            },
-            {
-              "title": "Overlapping Letters and Layout Challenges",
-              "content": "I also realized the puzzles weren’t overlapping words at all—each letter was used by only one word. That’s not how real puzzles work! I tweaked the code to allow for shared letters and better word placement. It felt like a small but meaningful win: not just fixing the issue, but improving the product. And now, with SVGs for both puzzles and solutions, everything looks better and is easier to manage."
-            },
-            {
-              "title": "Next Steps: Automating the Layout",
-              "content": "My next goal is to automate the layout further. I want to generate an SVG that includes the puzzle number, the word search grid, and a two-column list of hidden words—all in one go. That way, I can ditch the clunky Pages mail merge and use a clean CSV-to-SVG pipeline instead. With just three columns—puzzle, solution, and metadata—I’ll be able to produce hundreds of pages with consistent, beautiful formatting."
-            }
-          ],
-          "conclusion": "This project has reminded me how much joy there is in solving problems—not just for myself, but for the people who use my work. Whether it's refining an old Python script or designing better UX through automation, I approach every project with care, curiosity, and an eye for detail. If you’re looking for someone to help build thoughtful, well-engineered digital products, I’d love to collaborate."
-        }
-      },
-      {
-        "id": 3,
-        "title": "Streamlining Puzzle Delivery: SVGs, PDFs, and Automation",
-        "date": "April 8, 2025",
-        "description": "How I automated the creation of puzzle books and solutions for my Etsy shop using Python and Cursor AI.",
-        "tags": ["Python", "SVG", "Automation", "Etsy", "Digital Products"],
-        "fullContent": {
-          "introduction": "After a refreshing weekend away in Ireland, I was eager to dive back into my work. One of the projects I’d been planning was to improve the way I deliver my word search puzzles and solutions to customers. I had the vision and the tools ready, and I knew exactly what I wanted to achieve.",
-          "sections": [
-            {
-              "title": "Automating Puzzle Creation",
-              "content": "I started with an SVG file containing both the puzzle grid and the answer key. My goal was to programmatically add the hidden words and the puzzle ID to each SVG, and then export those completed files in bulk. I set up a Python script to handle it, which was surprisingly smooth thanks to the help of Cursor AI. With just a few tweaks, I managed to export 1,000 SVGs to a folder—exactly what I needed to streamline the process."
-            },
-            {
-              "title": "Overcoming Limitations with Mac Pages",
-              "content": "Initially, I thought about using Mac Pages for a mail merge, but I quickly hit a wall with its limitations—particularly when it came to handling images in bulk. Rather than let that slow me down, I decided to tackle it head-on. I used Cursor AI to write a Python script that would merge the SVGs into a single PDF file. This worked perfectly for both the puzzles and the solutions, and the automation saved me hours of manual work."
-            },
-            {
-              "title": "Seamlessly Updating My Etsy Shop",
-              "content": "With the PDFs created, the next step was to update my Etsy shop. I uploaded the completed puzzle PDFs and solution PDFs to Google Drive and updated the links for each product. This ensured that customers could easily download the files once they purchased them. The entire process, from creating the PDFs to updating my Etsy listings, took just two hours—efficiency at its finest."
-            },
-            {
-              "title": "Taking a Break and Gaining Perspective",
-              "content": "After a productive couple of hours, I took a 30-minute break to watch 'Love on the Spectrum' season three. Sometimes, a short break is all it takes to refresh your mind and come back with even more creative ideas. It's a reminder that balance and downtime are just as important as hard work."
-            }
-          ],
-          "conclusion": "The entire process went off without a hitch, thanks to automation and a bit of problem-solving along the way. Whether it's tackling challenges with Python, exploring new tools like Cursor AI, or updating my shop to improve the customer experience, I always strive to work efficiently and with attention to detail. If you’re looking for someone to help build and optimize digital products—whether through automation or creative problem-solving—I'd love to help bring your ideas to life."
-        }
-      },
-      {
-        "id": 4,
-        "title": "Progress, Pivots, and Planning Ahead",
-        "date": "April 10, 2025",
-        "description": "A behind-the-scenes look at the current projects I'm building, the small hurdles along the way, and how I'm thinking about what's next.",
-        "tags": ["Web Development", "App Development", "Teamwork", "Freelance"],
-        "fullContent": {
-          "introduction": "Some weeks are about big wins. Others are about progress, persistence, and the small steps that move a project forward. This week’s update is more of the latter — full of little lessons, technical tweaks, and forward motion in a few different areas. I had another great check-in with my longtime collaborator Adam, and we covered a lot of ground.",
-          "sections": [
-            {
-              "title": "App Store Hurdles & Plans for Growth",
-              "content": "I recently submitted *How Local* to the iOS App Store — always a great milestone, but this time it came with a bump. Apple rejected it because the current screenshots didn’t reflect the latest version of the app. Totally fair. I’ll be updating the visuals and resubmitting soon. \n\nOnce it's live, I'm planning to integrate a bottom banner for ads to start testing monetization. I also want to experiment with short-form video content — TikTok, Instagram, and YouTube Shorts — to try and generate some organic traction. These kinds of small bets are exciting, especially when you have a product you believe in."
-            },
-            {
-              "title": "Hosting Decisions and Tech Stack Trade-offs",
-              "content": "Adam and I dug into hosting for one of our Laravel + React projects. Originally, we hoped to run it on our shared hosting plan, but after some digging, Adam found that Node.js is going to be necessary — something the shared host doesn’t support. \n\nHe’s now looking into other options. DigitalOcean looks like a solid pick at $4/month. It’s a minor pivot, but one that will give us a lot more flexibility as we continue development."
-            },
-            {
-              "title": "Collaboration and Design Tweaks",
-              "content": "One of the best parts of working with Adam is how naturally we’ve developed a rhythm around version control, design updates, and feedback. He recently resolved a GitHub hiccup and is finalizing a new push with updated code. Once that’s in, I’ll be updating the color scheme based on our latest design direction.\n\nHe also created new buttons using SVGs with Cursor, which I’m really looking forward to seeing. Small things like icons can really shape the feel of a product, and I appreciate that we both take pride in those details."
-            },
-            {
-              "title": "Looking Ahead: Categorization with AI",
-              "content": "Our next project is starting to take shape — and one of the big technical challenges will be categorizing a large collection of data in a way that feels intuitive and smart. I don’t have a fully fleshed-out architecture yet, but that’s part of the fun.\n\nWe’re planning to leverage AI in the workflow, especially for tagging and search. Maybe we’ll even experiment with location-aware features. One big lesson from our past attempts: we’re going to be more intentional this time about how AI generates code. Specifically, we’ll make sure it sticks to a markdown file structure we define upfront. That kind of structure saves a lot of cleanup later on."
-            }
-          ],
-          "conclusion": "This kind of week is a reminder that building digital products isn’t just about code — it’s about communication, curiosity, and iteration. I love that I get to work with thoughtful collaborators, push through the little snags, and think creatively about what’s possible. If you’re looking for someone who brings both experience and excitement to a project — let’s talk."
-        }
-      },
-      {
-        "id": 5,
-        "title": "What I’ve Been Working On: Local Vibes, App Store Prep, and a Little Sudoku",
-        "date": "April 12, 2025",
-        "description": "A behind-the-scenes look at this week’s projects: improving a local trivia app, polishing UI details, and getting ready to launch a new Sudoku experience.",
-        "tags": ["Unity", "iOS", "App Development", "Indie Dev", "Soft Skills"],
-        "fullContent": {
-          "introduction": "One of my favorite things about building digital products is watching them go from idea to polished experience. This past week, I’ve been elbows-deep in code, design tweaks, and the kind of tiny UI details that make a big difference in the long run. Here’s a quick snapshot of what I’ve been up to.",
-          "sections": [
-            {
-              "title": "Fixing Bugs, Clarifying Rewards",
-              "content": "I kicked things off by fixing a tricky issue with Google AdMob that was preventing ads from displaying. It wasn’t glamorous work, but it’s the kind of thing that matters when you want a polished, professional product.\n\nAfter that, I fine-tuned the wording in the treasure chest reward box. Players weren’t always clear on what they were getting, so I rewrote the message to say clearly that prizes are random. I also added the exact odds of getting each prize—especially the coveted mathematician cards. It’s a small tweak, but it builds trust with players."
-            },
-            {
-              "title": "Are You Local? Gets a Fresh Look",
-              "content": "Next up, I gave a little extra love to *Are You Local?*, a trivia app celebrating Hawaii's local culture. I added a fun new splash screen featuring a cartoon-style uncle and aunty, both characters I created using ChatGPT’s image tools. It’s colorful, warm, and instantly gives the app a cozy, local vibe.\n\nOnce the visuals were ready, I exported the app from Unity and ran it in the iPhone XS Max simulator to capture the required 6.5-inch screenshots for the App Store. I also tested it on a 13-inch iPad to grab the larger screenshots. Everything is now submitted to Apple and waiting for review!"
-            },
-            {
-              "title": "What’s Next: TikTok, Sudoku, and New Grids",
-              "content": "While I wait on Apple’s green light, I’ve already got plans for the next steps. I’m going to create a TikTok campaign to generate organic buzz for *Are You Local?* I’ve brainstormed a few video ideas that blend humor and heart—because the app is all about community.\n\nOn the side, I’ve also started working on a new grid layout using Cursor to build out a visual for my Samurai Sudoku puzzle. I’ve already created the number sets, and I’m planning to release it on my store later this week.\n\nIt’s all coming together piece by piece."
-            }
-          ],
-          "conclusion": "This week has been a reminder that good software is made in the details—clear communication, thoughtful UX, and persistence through the technical stuff that no one sees. I care deeply about the products I work on and the people who use them. If you're looking for someone who brings heart, humor, and a ton of hands-on experience to your next digital project, let’s talk."
-        }
-      },
-      {
-        "id": 6,
-        "title": "A Busy Week of Progress and Polish",
-        "date": "April 14, 2025",
-        "description": "Wrapping up app updates, launching new puzzle products, and polishing every detail along the way.",
-        "tags": ["App Development", "Etsy", "Mobile Games", "Python", "Marketing"],
-        "fullContent": {
-          "introduction": "Some weeks are for big ideas. Others are about rolling up your sleeves and getting things done. This past week was definitely the second kind—but in the best way.",
-          "sections": [
-            {
-              "title": "Video Ads Are Live for Mathogen",
-              "content": "First, I got confirmation from Google that the video ads I integrated into *Mathogen* are now officially live. That was a nice win. There’s still a hiccup with the banner ad not showing at the bottom of the screen, but I’ll dig into that bug next. These little moments—where something works after a bunch of behind-the-scenes code wrangling—always feel good."
-            },
-            {
-              "title": "More Polish on 'Are You Local?'",
-              "content": "On the Apple side of things, I received feedback on *Are You Local?*—my trivia app all about Hawaii. I had mistakenly left in some screenshots from an older build, so I cleaned those up and resubmitted everything for review. Fingers crossed for approval soon! Once it’s live, I’m planning to spin up a TikTok account to start sharing memes and behind-the-scenes clips to build organic buzz."
-            },
-            {
-              "title": "Samurai Sudoku Launch",
-              "content": "In between app builds, I also finished something I’ve been excited about: a massive *Samurai Sudoku* puzzle pack. I wrote a Python script to generate 1,000 puzzles, and another script to stitch them all into a clean, print-ready PDF. Same for the solutions. Those are now available on my Etsy shop—and I’ve bundled them into my mega puzzle packs as well. After that, I refreshed all the product thumbnails in Canva to keep everything looking sharp and consistent."
-            },
-            {
-              "title": "Looking Ahead",
-              "content": "My next step for *Are You Local?* is to add in-app purchases for additional trivia question packs and to remove ads for users who prefer an ad-free experience. I want this app to feel thoughtful, fun, and rooted in local pride—while also supporting the work that goes into building it."
-            }
-          ],
-          "conclusion": "It’s been a steady week of progress—lots of moving parts, lots of quiet wins. I love this kind of work: refining products, listening to feedback, and staying focused on the small details that make big differences. If you're looking for someone who can help you bring your next digital idea to life—with care, clarity, and a good sense of humor—I'd love to hear from you."
-        }
-      },
-      {
-        "id": 7,
-        "title": "Making Steady Progress: App Launches, Ad Improvements, and New Marketing Ideas",
-        "date": "April 28, 2025",
-        "description": "Sharing updates from a busy week of final projects, app launches, and new marketing strategies — and how steady, thoughtful work is helping build momentum.",
-        "tags": ["App Development", "Marketing", "Soft Skills", "Client Work", "Unity"],
-        "fullContent": {
-          "introduction": "It's been a busy and exciting week. Between finishing my final grad school presentation, preparing my last paper for submission, and making strides on several app projects, I've had my hands full — but I'm grateful for the momentum that's building.",
-          "sections": [
-            {
-              "title": "Finishing Grad School and Staying Focused",
-              "content": "This week marked a big personal milestone: I finished my final presentation for grad school! Now, I’m putting the finishing touches on my final paper. Balancing school with client work has taught me a lot about communication, time management, and staying organized under pressure — skills that directly carry over into every project I build."
-            },
-            {
-              "title": "Refining Ads in Mathogen and Launching 'Are You Local?'",
-              "content": "I also spent time refining how ads are delivered in Mathogen. The banner ad at the bottom of the start page now displays correctly and feels more polished. Meanwhile, I got ads working smoothly inside 'Are You Local?' — a trivia app I'm especially proud of — and submitted it to Apple. I'm happy to share that it was approved! Launch days are always a great reminder that patient, careful iteration pays off."
-            },
-            {
-              "title": "Exploring TikTok for Marketing",
-              "content": "I’ve also been thinking about marketing strategies. I took inspiration from the creator of the Puff Count app and started exploring TikTok. By downloading the app and searching for 'Hawaii trivia,' I found top-performing videos to study. The most successful videos featured two friends competing to answer trivia questions, opening large plastic eggs to reveal smaller ones as they advanced. The visual progression was clear and rewarding to watch. I'll be sharing this idea with Adam in our meeting tonight to brainstorm next steps for promoting 'Are You Local?'."
-            },
-            {
-              "title": "Thinking Ahead: Challenges, Leaderboards, and Monetization",
-              "content": "We’re also discussing the role of interstitial ads and the possibility of offering an in-app purchase to remove ads entirely. Another idea I’m excited about is creating a daily trivia challenge, similar to Wordle — giving all players the same 10 questions each day and adding a global leaderboard. It could really help build a community around the game. Steady progress like this, week by week, keeps the momentum growing."
-            }
-          ],
-          "conclusion": "This past week reminded me how important it is to stay flexible, curious, and open to new ideas. Whether it's polishing ad delivery, launching new apps, exploring fresh marketing strategies, or dreaming up new game features, every small step adds up. I’m excited to keep the momentum going and to keep building digital products that are thoughtful, fun, and built to last."
-        }
-      },
-      {
-        "id": 8,
-        "title": "Sharing Progress, One TikTok at a Time",
-        "date": "May 1, 2025",
-        "description": "A look at the latest updates on 'Are You Local?', starting TikTok outreach, and what's next after finishing grad school.",
-        "tags": ["App Development", "TikTok", "Hawaii", "Soft Launch", "Personal Journey"],
-        "fullContent": {
-          "introduction": "This past week has been a blend of creative exploration, software tweaks, and personal milestones. I'm documenting the journey not only to stay accountable but also to share the process—wins, bumps, and all—with clients and collaborators who might enjoy seeing the behind-the-scenes of how digital products are made.",
-          "sections": [
-            {
-              "title": "Testing the Waters on TikTok",
-              "content": "This week, I started posting TikTok videos for my app *Are You Local?*. So far, I’ve had two favorites and one new follower—not viral, but it’s a start. I’m learning that consistency matters, and each video teaches me something. For example, I’ve been fine-tuning the placement of on-screen elements like the countdown timer, and making sure the phrase *Made with Aloha in Hawaii* is always visible. It’s important to me that viewers, especially locals, recognize this app as something homegrown and authentic."
-            },
-            {
-              "title": "Who’s Downloading?",
-              "content": "The app has been installed on 20 devices so far. What’s interesting is that most downloads are on desktop computers—not what I expected. iPhones come next, followed by iPads. I'm tracking all this through App Store Connect analytics. It’s fascinating to see how people are choosing to interact with the app."
-            },
-            {
-              "title": "Content Ideas for the Future",
-              "content": "While browsing trending TikToks, I came across a fun video where two people compete in a trivia challenge at a county fair, with a cash prize at the end. I love that format. It’s energetic, community-focused, and feels like something *Are You Local?* could naturally grow into. I’m not quite ready to shoot those kinds of videos yet, but I can imagine setting up a booth at a farmers market, offering small prizes to local trivia champs. It would be a great way to blend real-life interaction with the app’s digital core."
-            },
-            {
-              "title": "New Hosting, New Projects",
-              "content": "On the technical side, I signed up for a new hosting server this week so that Adam and I can get started on a Laravel and React SaaS project we’ve been planning. He sent me a detailed Medium article on how to set it up, but to be honest, it was a bit dense. So I found a walkthrough video on YouTube that breaks it down visually. Sometimes the fastest way to learn is just to see someone else do it and follow along."
-            },
-            {
-              "title": "A Big Personal Milestone",
-              "content": "Lastly, a personal update: I just completed my final grad school class! Graduation is next week, and it’s a surreal feeling. I started the program during the height of the pandemic, and after three long years, it’s finally done. That constant feeling of 'I should be working on schoolwork' is starting to fade. I’m really looking forward to the summer—to building things, collaborating with great people, and exploring the next chapter with fresh energy."
-            }
-          ],
-          "conclusion": "Whether it’s crafting an app, learning from user behavior, or creating content that connects with real people, this past week has reminded me why I love this work. Every project is a mix of strategy, empathy, and iteration. If you're looking for someone who brings not just technical skills but a real care for users, storytelling, and follow-through—I’d love to connect."
-        }
-      },
-      {
-        "id": 9,
-        "title": "What I've Been Working On: From London to Laravel",
-        "date": "May 11, 2025",
-        "description": "Reflections on recent projects, milestones, and what's next in digital product development.",
-        "tags": ["Laravel", "React", "Instructional Design", "Freelance", "Soft Skills"],
-        "fullContent": {
-          "introduction": "The past few weeks have been a whirlwind—early mornings, new skills, client work, and even a bit of TikTok. If you’ve been following along, you’ll know I’ve always believed that building great products takes more than just code. It takes communication, persistence, and a little heart. Here's a peek into what I’ve been up to lately.",
-          "sections": [
-            {
-              "title": "I Finished My Master's Degree!",
-              "content": "Well, it’s official. I graduated from the University of Hawaiʻi at Mānoa with a Master’s in Learning Design and Technology. It wasn’t easy—especially those 4 a.m. wakeups for class—but I made it through. Over the past two years, I’ve learned how to sustain learner motivation with the ARCS model, design structured outcomes using Bloom’s Revised Taxonomy, and iterate on course design using the ADDIE model. All of that theory is already influencing how I build software that teaches, engages, and adapts."
-            },
-            {
-              "title": "Laravel + React: Deployment Success",
-              "content": "This week, I was hoping to meet with Adam to walk through our latest milestone—but schedules didn’t align. Still, I was excited to get our Laravel and React project successfully deployed to the virtual machine on our hosting platform. Progress like this reminds me how far persistence can take a project. I’m currently diving deeper into Laravel’s built-in authentication and billing modules. Stripe integration is top priority, and I’m confident that once that’s in place, we’ll be unstoppable."
-            },
-            {
-              "title": "TikTok Experiments and Game Design Decisions",
-              "content": "On the marketing front, I’ve been running some TikTok tests for the game *Are You Local*. Each video is landing close to 1,000 views, which is encouraging—but the engagement rate is low. Few favorites. That tells me I either need to tighten the content strategy or give players more incentive to care. I’ve been torn between two next steps: adding a leaderboard to the game or producing more videos. Honestly? I’ve decided to do both."
-            },
-            {
-              "title": "Side Project: A Local Walking Tour App",
-              "content": "There’s another project I’m quietly passionate about: an audio-guided walking tour for our local heritage center. I haven’t built it out yet, but I’d love to mock something up soon. It blends education, community, and storytelling—three things I deeply care about. I’ve also been trying to find a local musician to collaborate with. No responses yet. I may need to rewrite my ad or go about it a different way. In the meantime, I’ve been playing drums. It keeps me grounded and creative."
-            }
-          ],
-          "conclusion": "Between building client software, finishing grad school, and exploring new creative projects, I’ve been stretching both my technical and soft skills lately. I love this kind of work—where strategy meets heart—and I’m always looking for teams and projects that share that mindset. If you're building something and want a thoughtful, reliable partner to help bring it to life, I’d love to talk."
-        }
-      },
-      {
-        "id": 10,
-        "title": "Closing Loops and Opening Doors",
-        "date": "June 12, 2025",
-        "description": "Reflecting on personal milestones, AI-assisted creativity, and Etsy experimentation—all while keeping the human side of software development in focus.",
-        "tags": ["Entrepreneurship", "Etsy", "AI Tools", "Planner Design", "Personal Growth"],
-        "fullContent": {
-          "introduction": "It’s been a full season lately—personally, creatively, and professionally. I recently got back from a trip to Hawaii where I visited family, unplugged a little, and spent time recharging. That time away, as usual, gave me space to reflect and rethink how I’m approaching my projects and clients this year.",
-          "sections": [
-            {
-              "title": "What's Selling and What's Shifting",
-              "content": "While in Hawaii, I renewed my subscription to everbee.io—a tool I use to keep tabs on what's performing well on Etsy. I noticed something interesting: the top-selling item in my niche is a planner. Not a huge surprise, but it was a helpful nudge. Sales on my Etsy shop have been slowly dipping, and I’ve been wondering if it’s just the season or if I’ve gone too quiet. Maybe both.\n\nInstead of waiting around, I’ve decided to shift into creation mode. I’m experimenting with new planners—each tailored to a different kind of person. A budget planner. A workout planner. A visual planner for people who think in images. I want to meet people where they are, and Etsy is a great place to do that."
-            },
-            {
-              "title": "Letting AI Help Me Create",
-              "content": "To speed things up, I’ve been using a tool called Cursor AI to help write the code for these planners. It’s honestly kind of wild how quickly the AI picks up on what I’m aiming to build. What used to take me hours by hand—especially trying to force Canva to do something it wasn’t built for—now takes a fraction of the time.\n\nCursor helps me go from idea to prototype without getting stuck on the boring stuff. It’s made the whole process feel more like play again, and less like grinding through glue."
-            },
-            {
-              "title": "A New Tool for Etsy Sellers",
-              "content": "Aside from the planners, I’ve been working on something I’m really excited about: an Etsy newsletter creation tool. This came out of my own pain point—wanting to communicate better with my shop followers but not having a smooth, low-effort way to do it.\n\nI’ve been quietly building the backend, testing some templates, and thinking about how to make it simple but effective. It’s one of those side projects that has the potential to grow into something much bigger."
-            },
-            {
-              "title": "Personal Milestones and Resolutions",
-              "content": "This past month, I celebrated two big things: my birthday and my graduation from grad school. At the celebration, my sister-in-law asked me what I was looking forward to in the coming year. My answer: peace. \n\nBut while driving home the next day, I realized something. What I really want is to close loops. Not just start things, but finish them. Wrap them up. Deliver. That’s where the real peace comes from for me. Not in doing less, but in completing what matters.\n\nAlso, Seth Godin just released a new book. That’s now at the top of my reading list. He always has a way of reminding me why I build things the way I do—with heart, intention, and a desire to serve."
-            }
-          ],
-          "conclusion": "Whether I’m designing tools for Etsy sellers, creating planners with AI, or just trying to finish the things I start, my work is always driven by a love of craft and a deep respect for people. Clients who’ve worked with me know that I bring that same energy to every project: clear communication, thoughtful collaboration, and a commitment to results.\n\nThis year, I’m closing loops—and opening new doors. If you're building something meaningful and want a partner who cares as much as you do, let’s talk."
-        }
-      },
-      {
-        "id": 11,
-        "title": "What I’ve Been Working On Lately (And Why It’s Been Fun)",
-        "date": "August 21, 2025",
-        "description": "A quick update on some personal and client projects, from a dad joke app to a classroom-friendly WebGL tool. Also: Laravel Herd, high scores, and a little London inspiration.",
-        "tags": ["Apps", "watchOS", "WebGL", "Laravel", "Personal Projects"],
-        "fullContent": {
-          "introduction": "Every few months, I like to post a quick update about what I’ve been building lately. It gives clients (and future clients) a peek into how I think through problems, how I build, and—maybe most important—how much I enjoy the process. Here’s what’s been going on behind the scenes.",
-          "sections": [
-            {
-              "title": "A Dad Jokes App—Built for Laughs (and Groans)",
-              "content": "Every morning, I tell my daughter a new joke. She’s 7, so the cringe is half the fun. But I was running out of clean, funny material that wasn’t buried in some paperback from 1986. So I built a simple dad jokes app for Apple Watch.\n\nIt’s a watchOS complication that sits right on the watch face. Tap it once in the morning and—boom—you get a fresh dad joke. No digging. No weird ads. Just peak dad humor on demand.\n\nMy brother has been testing it too and had one solid note: change the emoji next to the joke from the laughing-crying face to a groaning one. Honestly? He’s not wrong. The jokes are *that* good/bad."
-            },
-            {
-              "title": "A New Math App in the Works",
-              "content": "I'm starting to collaborate with someone new on a math app that will use WebGL. The idea is to build something that works in a shared classroom setting—possibly with live collaboration features.\n\nWe’re still figuring out the final scope, but the conversations have been exciting so far. Once we settle on the roadmap, I’ll start posting regular dev updates. This one’s shaping up to be something special."
-            },
-            {
-              "title": "Quick Dev Tools Update: Laravel Herd + DigitalOcean",
-              "content": "On the more technical side of things, I finally installed Laravel Herd for local development. It's been a smooth setup—fast, clean, and a nice change from some older workflows I've used.\n\nI've also spun up a new droplet on DigitalOcean so we're ready for deployment as soon as we hit a solid beta build. Feels good to have the groundwork ready ahead of time. One less thing to worry about later."
-            },
-            {
-              "title": "Are You Local? Needs High Scores",
-              "content": "One of the first games I ever built for my daughter was a little location quiz called *Are You Local?*. We still play it together now and then, and yesterday she crushed it—and then asked where her high score was.\n\nFair point.\n\nSo next up: adding a high scores page. It’ll be simple, just a way to track top players and celebrate wins, but I think it’ll give the app a nice little boost of fun (and competition)."
-            },
-            {
-              "title": "A Quick Trip to London—and a Creative Recharge",
-              "content": "I just got back from a day in London. Sometimes a change of scenery is all it takes to feel creatively recharged. There’s something about the buzz of that city that really lit a fire under me.\n\nI came home with fresh ideas and a full notebook—ready to keep building, iterating, and pushing things forward."
-            }
-          ],
-          "conclusion": "It’s been a full stretch lately—jokes, math, games, and a little travel thrown in. But that’s the sweet spot for me: making useful, fun, and thoughtful digital tools that bring people a little joy or clarity.\n\nIf you’re working on something and looking for a partner who loves the details as much as the big picture, feel free to reach out. I’d love to hear what you’re building."
-        }
-      },
-      {
-        "id": 12,
-        "title": "Hack Night in Bristol and Lessons from Feedback",
-        "date": "September 24, 2025",
-        "description": "Reflections from attending a developer meetup in Bristol, sharing my app, and learning from peer feedback.",
-        "tags": ["Meetup", "App Development", "Android", "Feedback"],
-        "fullContent": {
-          "introduction": "Last night I went to my first developer meetup since moving to England, and it reminded me how much I love being in a room full of people who care about building things with technology. This one was called Hack Night at Desk Lodge in Bristol. I wasn’t sure what to expect going in, but the night turned into something I’ll carry with me for a long time.",
-          "sections": [
-            {
-              "title": "Arriving and Meeting New Faces",
-              "content": "I showed up around 6 PM, about half an hour before the official start time. I found a bench and sat down, wondering who I should talk to first. Luckily, a friendly developer came over, introduced himself, and we started chatting. Soon, another developer joined in and shared about an app she was building about trees. It was such a welcoming start to the evening."
-            },
-            {
-              "title": "Sharing My App",
-              "content": "When it came time for introductions, I decided to go first. I shared that I’ve been working on an app called *Are You Local?*—a Hawaii trivia app that I’ve been building for over a year. The organizer, James, joked about not mentioning Hawaii because it made him too jealous. Everyone had a laugh, which made it a lot easier to keep talking and show the group what I’d built."
-            },
-            {
-              "title": "Receiving Honest Feedback",
-              "content": "Showing your work to other developers is always a mix of excitement and nerves. The group gave me thoughtful feedback I hadn’t noticed myself. For example, one person pointed out that my progress bar didn’t match the polished look of the rest of the app. Another mentioned that my countdown timer was starting before all answers were revealed, which made gameplay feel unfair. Someone else suggested that the app should let users exit early if they wanted, instead of being forced into another round. These were all things I simply hadn’t seen after staring at the same code for so long."
-            },
-            {
-              "title": "A Big Next Step",
-              "content": "The biggest takeaway for me came from two developers who asked why the app was only on iOS. Both of them used Android and wanted to try it out. That was the nudge I needed. This week I’m working on fixing Android build errors, and I already have my Google Play account set up. My goal is to have *Are You Local?* available on Android before the next Hack Night on October 7."
-            }
-          ],
-          "conclusion": "What I loved most about the event wasn’t just the feedback—it was the openness of the people I met. Events like these remind me how much better our work becomes when we’re open to new perspectives. As a developer with years of experience, I’ve learned that good communication and collaboration are just as important as writing good code. Nights like this keep me excited to keep building, keep improving, and keep connecting with people who care about technology."
-        }
-      },
-      {
-        "id": 13,
-        "title": "What I’ve Been Building This Week",
-        "date": "December 10, 2025",
-        "description": "A quick look at the updates I’ve made to my portfolio and the projects I’m preparing to share.",
-        "tags": ["React", "TypeScript", "Web Development", "Portfolio"],
-        "fullContent": {
-          "introduction": "Every week I try to set aside a little time to sharpen my skills and improve the tools I rely on for client work. This week has been full of small wins, a few late-night coding sessions, and some exciting steps forward on a couple of projects I’ve been quietly building in the background.",
-          "sections": [
-            {
-              "title": "Brushing Up on TypeScript and React",
-              "content": "I spent a good chunk of the week diving back into TypeScript and React. Even after years of experience, I like to revisit the fundamentals and try out newer patterns so I can stay sharp. One thing I focused on was polishing the search filters on my portfolio site. Now the projects and posts pages update instantly when a filter changes—no flicker, no reloads, just a smooth experience. It feels good when something small makes the whole page feel more professional."
-            },
-            {
-              "title": "Adding New Projects to the Portfolio",
-              "content": "Next up on my list is expanding the projects page itself. I’ve been finishing up a few demos and cleaning up documentation so I can publish them. Two that I’m especially excited about are ISBNspy and Team Number Dash. Both started as simple ideas, but they’ve grown into tools I’m proud to show off."
-            },
-            {
-              "title": "Sharing the MVP and Gathering Feedback",
-              "content": "This week I also posted a video walkthrough of the MVP for Team Number Dash. It’s always a little scary to share early versions of a project, but getting fresh eyes on it helps so much. A few people have already reached out with helpful feedback, and I’m starting to line up beta testers. Knowing others see potential in something you built is a pretty great feeling."
-            }
-          ],
-          "conclusion": "All in all, it’s been a productive week. I’m excited to keep adding more polished work to my portfolio and sharing what I learn along the way. If you’re someone who enjoys building thoughtful digital products—or needs help bringing one to life—I’d love to connect. Creating useful, friendly tools is what I care about most, and it’s even better when I get to build them with good people."
-        }
+  "posts": [
+    {
+      "id": 1,
+      "title": "Project Updates: Slomo, Inflight Entertainment App, and Bookmark Manager",
+      "date": "April 2, 2025",
+      "description": "A progress update on the Slomo music slowdown app, plans for launching an inflight entertainment app, and the technology stack decision for our bookmark manager project.",
+      "tags": [
+        "SwiftUI",
+        "MacOS",
+        "Laravel",
+        "React",
+        "App Development"
+      ],
+      "fullContent": {
+        "introduction": "This week, we made significant progress on several projects, including our Slomo app, a potential inflight entertainment app, and a new bookmark manager project. Here’s a breakdown of what we discussed and our next steps.",
+        "sections": [
+          {
+            "title": "Slomo: A MacOS Music Slowdown App",
+            "content": "We had a productive meeting with Adam regarding Slomo, our MacOS music slowdown app built with Catalyst and SwiftUI. We've identified a few bugs: (1) The waveform does not resize properly when resizing the window, and (2) There's an issue with retrieving MP3 files from the bundle due to permission errors when restarting the app. Additionally, using Cursor AI's Auto model selection has caused errors: one where Cursor fails to recognize an existing class file and another where the Swift linter introduces issues that Cursor keeps iterating on unnecessarily. Adam will investigate these bugs this week."
+          },
+          {
+            "title": "Inflight Entertainment App: A New Launch Strategy",
+            "content": "We revisited an app we developed last year, originally pitched to local airline companies for inflight entertainment. Since those partnerships didn’t work out, we’re considering launching it ourselves on the iOS App Store for free with Google Ads. I plan to experiment with TikTok marketing to drive organic interest. This will also give me an opportunity to log into my Google AdSense account and check on an issue affecting ads in my other game, Mathogen."
+          },
+          {
+            "title": "Bookmark Manager App: Choosing the Right Stack",
+            "content": "Instead of jumping into coding with Cursor, we took a step back to research the best stack for our bookmark manager project. After evaluating our options, we decided on Laravel for the backend and React for the frontend. This week, I'll be looking into hosting solutions, and Adam and I will check in next week to finalize details and plan our next steps."
+          }
+        ],
+        "conclusion": "We’ve made great strides in debugging Slomo, pivoting our inflight entertainment app strategy, and finalizing the tech stack for our bookmark manager. Next week, we’ll continue refining these projects and making key implementation decisions. Stay tuned for more updates!"
       }
-    ]
-  }
+    },
+    {
+      "id": 2,
+      "title": "Building Better Word Search Puzzles with Code",
+      "date": "April 4, 2025",
+      "description": "How I used automation, SVGs, and a bit of creative thinking to improve the quality of my digital word search puzzle products.",
+      "tags": [
+        "Python",
+        "SVG",
+        "Automation",
+        "Small Business",
+        "Cursor"
+      ],
+      "fullContent": {
+        "introduction": "As someone who's been building apps and websites for over 15 years, I love applying those skills to personal creative projects. One of my favorites is a small digital shop where I sell word search puzzle books. It’s fun, rewarding, and—like any product venture—full of opportunities to grow when users share feedback.",
+        "sections": [
+          {
+            "title": "Turning Criticism Into Improvement",
+            "content": "Recently, a customer left a review pointing out a duplicated word in one of my puzzles. That kind of feedback can sting, but I see it as a gift. I opened up Cursor and loaded the Python script I use to generate the puzzles. Using the Claude Sonnet 3.7 model, I updated the logic to filter out duplicates and sort the word list alphabetically. A small change, but it ensures a smoother experience for future customers—and shows them I care about the details."
+          },
+          {
+            "title": "Answer Keys Without the Manual Labor",
+            "content": "Another customer suggested including answer keys at the back of the book. Great idea—but solving every puzzle by hand wasn’t scalable. I spent a while stuck, unsure how to programmatically highlight the solution words in a clear and scalable way. Then, during a chat with my friend Adam (who needed a logo), I mentioned I’d been generating SVGs for icons using Cursor. That idea stuck with me: what if I rendered the answer keys as SVGs?"
+          },
+          {
+            "title": "The SVG Solution",
+            "content": "SVGs turned out to be the perfect format. They scale well, print cleanly, and allow for flexible layouts. I spent about 90 minutes working with Cursor to refine the rendering: early attempts either circled every letter or drew unreadable lines through diagonals. Eventually, I got the styling right—but I hit another problem. Overlapping highlights obscured shared letters, which made the solution unreadable. So I updated the generation logic to intelligently layer highlights without sacrificing clarity."
+          },
+          {
+            "title": "Overlapping Letters and Layout Challenges",
+            "content": "I also realized the puzzles weren’t overlapping words at all—each letter was used by only one word. That’s not how real puzzles work! I tweaked the code to allow for shared letters and better word placement. It felt like a small but meaningful win: not just fixing the issue, but improving the product. And now, with SVGs for both puzzles and solutions, everything looks better and is easier to manage."
+          },
+          {
+            "title": "Next Steps: Automating the Layout",
+            "content": "My next goal is to automate the layout further. I want to generate an SVG that includes the puzzle number, the word search grid, and a two-column list of hidden words—all in one go. That way, I can ditch the clunky Pages mail merge and use a clean CSV-to-SVG pipeline instead. With just three columns—puzzle, solution, and metadata—I’ll be able to produce hundreds of pages with consistent, beautiful formatting."
+          }
+        ],
+        "conclusion": "This project has reminded me how much joy there is in solving problems—not just for myself, but for the people who use my work. Whether it's refining an old Python script or designing better UX through automation, I approach every project with care, curiosity, and an eye for detail. If you’re looking for someone to help build thoughtful, well-engineered digital products, I’d love to collaborate."
+      }
+    },
+    {
+      "id": 3,
+      "title": "Streamlining Puzzle Delivery: SVGs, PDFs, and Automation",
+      "date": "April 8, 2025",
+      "description": "How I automated the creation of puzzle books and solutions for my Etsy shop using Python and Cursor AI.",
+      "tags": [
+        "Python",
+        "SVG",
+        "Automation",
+        "Etsy",
+        "Digital Products"
+      ],
+      "fullContent": {
+        "introduction": "After a refreshing weekend away in Ireland, I was eager to dive back into my work. One of the projects I’d been planning was to improve the way I deliver my word search puzzles and solutions to customers. I had the vision and the tools ready, and I knew exactly what I wanted to achieve.",
+        "sections": [
+          {
+            "title": "Automating Puzzle Creation",
+            "content": "I started with an SVG file containing both the puzzle grid and the answer key. My goal was to programmatically add the hidden words and the puzzle ID to each SVG, and then export those completed files in bulk. I set up a Python script to handle it, which was surprisingly smooth thanks to the help of Cursor AI. With just a few tweaks, I managed to export 1,000 SVGs to a folder—exactly what I needed to streamline the process."
+          },
+          {
+            "title": "Overcoming Limitations with Mac Pages",
+            "content": "Initially, I thought about using Mac Pages for a mail merge, but I quickly hit a wall with its limitations—particularly when it came to handling images in bulk. Rather than let that slow me down, I decided to tackle it head-on. I used Cursor AI to write a Python script that would merge the SVGs into a single PDF file. This worked perfectly for both the puzzles and the solutions, and the automation saved me hours of manual work."
+          },
+          {
+            "title": "Seamlessly Updating My Etsy Shop",
+            "content": "With the PDFs created, the next step was to update my Etsy shop. I uploaded the completed puzzle PDFs and solution PDFs to Google Drive and updated the links for each product. This ensured that customers could easily download the files once they purchased them. The entire process, from creating the PDFs to updating my Etsy listings, took just two hours—efficiency at its finest."
+          },
+          {
+            "title": "Taking a Break and Gaining Perspective",
+            "content": "After a productive couple of hours, I took a 30-minute break to watch 'Love on the Spectrum' season three. Sometimes, a short break is all it takes to refresh your mind and come back with even more creative ideas. It's a reminder that balance and downtime are just as important as hard work."
+          }
+        ],
+        "conclusion": "The entire process went off without a hitch, thanks to automation and a bit of problem-solving along the way. Whether it's tackling challenges with Python, exploring new tools like Cursor AI, or updating my shop to improve the customer experience, I always strive to work efficiently and with attention to detail. If you’re looking for someone to help build and optimize digital products—whether through automation or creative problem-solving—I'd love to help bring your ideas to life."
+      }
+    },
+    {
+      "id": 4,
+      "title": "Progress, Pivots, and Planning Ahead",
+      "date": "April 10, 2025",
+      "description": "A behind-the-scenes look at the current projects I'm building, the small hurdles along the way, and how I'm thinking about what's next.",
+      "tags": [
+        "Web Development",
+        "App Development",
+        "Teamwork",
+        "Freelance"
+      ],
+      "fullContent": {
+        "introduction": "Some weeks are about big wins. Others are about progress, persistence, and the small steps that move a project forward. This week’s update is more of the latter — full of little lessons, technical tweaks, and forward motion in a few different areas. I had another great check-in with my longtime collaborator Adam, and we covered a lot of ground.",
+        "sections": [
+          {
+            "title": "App Store Hurdles & Plans for Growth",
+            "content": "I recently submitted *How Local* to the iOS App Store — always a great milestone, but this time it came with a bump. Apple rejected it because the current screenshots didn’t reflect the latest version of the app. Totally fair. I’ll be updating the visuals and resubmitting soon. \n\nOnce it's live, I'm planning to integrate a bottom banner for ads to start testing monetization. I also want to experiment with short-form video content — TikTok, Instagram, and YouTube Shorts — to try and generate some organic traction. These kinds of small bets are exciting, especially when you have a product you believe in."
+          },
+          {
+            "title": "Hosting Decisions and Tech Stack Trade-offs",
+            "content": "Adam and I dug into hosting for one of our Laravel + React projects. Originally, we hoped to run it on our shared hosting plan, but after some digging, Adam found that Node.js is going to be necessary — something the shared host doesn’t support. \n\nHe’s now looking into other options. DigitalOcean looks like a solid pick at $4/month. It’s a minor pivot, but one that will give us a lot more flexibility as we continue development."
+          },
+          {
+            "title": "Collaboration and Design Tweaks",
+            "content": "One of the best parts of working with Adam is how naturally we’ve developed a rhythm around version control, design updates, and feedback. He recently resolved a GitHub hiccup and is finalizing a new push with updated code. Once that’s in, I’ll be updating the color scheme based on our latest design direction.\n\nHe also created new buttons using SVGs with Cursor, which I’m really looking forward to seeing. Small things like icons can really shape the feel of a product, and I appreciate that we both take pride in those details."
+          },
+          {
+            "title": "Looking Ahead: Categorization with AI",
+            "content": "Our next project is starting to take shape — and one of the big technical challenges will be categorizing a large collection of data in a way that feels intuitive and smart. I don’t have a fully fleshed-out architecture yet, but that’s part of the fun.\n\nWe’re planning to leverage AI in the workflow, especially for tagging and search. Maybe we’ll even experiment with location-aware features. One big lesson from our past attempts: we’re going to be more intentional this time about how AI generates code. Specifically, we’ll make sure it sticks to a markdown file structure we define upfront. That kind of structure saves a lot of cleanup later on."
+          }
+        ],
+        "conclusion": "This kind of week is a reminder that building digital products isn’t just about code — it’s about communication, curiosity, and iteration. I love that I get to work with thoughtful collaborators, push through the little snags, and think creatively about what’s possible. If you’re looking for someone who brings both experience and excitement to a project — let’s talk."
+      }
+    },
+    {
+      "id": 5,
+      "title": "What I’ve Been Working On: Local Vibes, App Store Prep, and a Little Sudoku",
+      "date": "April 12, 2025",
+      "description": "A behind-the-scenes look at this week’s projects: improving a local trivia app, polishing UI details, and getting ready to launch a new Sudoku experience.",
+      "tags": [
+        "Unity",
+        "iOS",
+        "App Development",
+        "Indie Dev",
+        "Soft Skills"
+      ],
+      "fullContent": {
+        "introduction": "One of my favorite things about building digital products is watching them go from idea to polished experience. This past week, I’ve been elbows-deep in code, design tweaks, and the kind of tiny UI details that make a big difference in the long run. Here’s a quick snapshot of what I’ve been up to.",
+        "sections": [
+          {
+            "title": "Fixing Bugs, Clarifying Rewards",
+            "content": "I kicked things off by fixing a tricky issue with Google AdMob that was preventing ads from displaying. It wasn’t glamorous work, but it’s the kind of thing that matters when you want a polished, professional product.\n\nAfter that, I fine-tuned the wording in the treasure chest reward box. Players weren’t always clear on what they were getting, so I rewrote the message to say clearly that prizes are random. I also added the exact odds of getting each prize—especially the coveted mathematician cards. It’s a small tweak, but it builds trust with players."
+          },
+          {
+            "title": "Are You Local? Gets a Fresh Look",
+            "content": "Next up, I gave a little extra love to *Are You Local?*, a trivia app celebrating Hawaii's local culture. I added a fun new splash screen featuring a cartoon-style uncle and aunty, both characters I created using ChatGPT’s image tools. It’s colorful, warm, and instantly gives the app a cozy, local vibe.\n\nOnce the visuals were ready, I exported the app from Unity and ran it in the iPhone XS Max simulator to capture the required 6.5-inch screenshots for the App Store. I also tested it on a 13-inch iPad to grab the larger screenshots. Everything is now submitted to Apple and waiting for review!"
+          },
+          {
+            "title": "What’s Next: TikTok, Sudoku, and New Grids",
+            "content": "While I wait on Apple’s green light, I’ve already got plans for the next steps. I’m going to create a TikTok campaign to generate organic buzz for *Are You Local?* I’ve brainstormed a few video ideas that blend humor and heart—because the app is all about community.\n\nOn the side, I’ve also started working on a new grid layout using Cursor to build out a visual for my Samurai Sudoku puzzle. I’ve already created the number sets, and I’m planning to release it on my store later this week.\n\nIt’s all coming together piece by piece."
+          }
+        ],
+        "conclusion": "This week has been a reminder that good software is made in the details—clear communication, thoughtful UX, and persistence through the technical stuff that no one sees. I care deeply about the products I work on and the people who use them. If you're looking for someone who brings heart, humor, and a ton of hands-on experience to your next digital project, let’s talk."
+      }
+    },
+    {
+      "id": 6,
+      "title": "A Busy Week of Progress and Polish",
+      "date": "April 14, 2025",
+      "description": "Wrapping up app updates, launching new puzzle products, and polishing every detail along the way.",
+      "tags": [
+        "App Development",
+        "Etsy",
+        "Mobile Games",
+        "Python",
+        "Marketing"
+      ],
+      "fullContent": {
+        "introduction": "Some weeks are for big ideas. Others are about rolling up your sleeves and getting things done. This past week was definitely the second kind—but in the best way.",
+        "sections": [
+          {
+            "title": "Video Ads Are Live for Mathogen",
+            "content": "First, I got confirmation from Google that the video ads I integrated into *Mathogen* are now officially live. That was a nice win. There’s still a hiccup with the banner ad not showing at the bottom of the screen, but I’ll dig into that bug next. These little moments—where something works after a bunch of behind-the-scenes code wrangling—always feel good."
+          },
+          {
+            "title": "More Polish on 'Are You Local?'",
+            "content": "On the Apple side of things, I received feedback on *Are You Local?*—my trivia app all about Hawaii. I had mistakenly left in some screenshots from an older build, so I cleaned those up and resubmitted everything for review. Fingers crossed for approval soon! Once it’s live, I’m planning to spin up a TikTok account to start sharing memes and behind-the-scenes clips to build organic buzz."
+          },
+          {
+            "title": "Samurai Sudoku Launch",
+            "content": "In between app builds, I also finished something I’ve been excited about: a massive *Samurai Sudoku* puzzle pack. I wrote a Python script to generate 1,000 puzzles, and another script to stitch them all into a clean, print-ready PDF. Same for the solutions. Those are now available on my Etsy shop—and I’ve bundled them into my mega puzzle packs as well. After that, I refreshed all the product thumbnails in Canva to keep everything looking sharp and consistent."
+          },
+          {
+            "title": "Looking Ahead",
+            "content": "My next step for *Are You Local?* is to add in-app purchases for additional trivia question packs and to remove ads for users who prefer an ad-free experience. I want this app to feel thoughtful, fun, and rooted in local pride—while also supporting the work that goes into building it."
+          }
+        ],
+        "conclusion": "It’s been a steady week of progress—lots of moving parts, lots of quiet wins. I love this kind of work: refining products, listening to feedback, and staying focused on the small details that make big differences. If you're looking for someone who can help you bring your next digital idea to life—with care, clarity, and a good sense of humor—I'd love to hear from you."
+      }
+    },
+    {
+      "id": 7,
+      "title": "Making Steady Progress: App Launches, Ad Improvements, and New Marketing Ideas",
+      "date": "April 28, 2025",
+      "description": "Sharing updates from a busy week of final projects, app launches, and new marketing strategies — and how steady, thoughtful work is helping build momentum.",
+      "tags": [
+        "App Development",
+        "Marketing",
+        "Soft Skills",
+        "Client Work",
+        "Unity"
+      ],
+      "fullContent": {
+        "introduction": "It's been a busy and exciting week. Between finishing my final grad school presentation, preparing my last paper for submission, and making strides on several app projects, I've had my hands full — but I'm grateful for the momentum that's building.",
+        "sections": [
+          {
+            "title": "Finishing Grad School and Staying Focused",
+            "content": "This week marked a big personal milestone: I finished my final presentation for grad school! Now, I’m putting the finishing touches on my final paper. Balancing school with client work has taught me a lot about communication, time management, and staying organized under pressure — skills that directly carry over into every project I build."
+          },
+          {
+            "title": "Refining Ads in Mathogen and Launching 'Are You Local?'",
+            "content": "I also spent time refining how ads are delivered in Mathogen. The banner ad at the bottom of the start page now displays correctly and feels more polished. Meanwhile, I got ads working smoothly inside 'Are You Local?' — a trivia app I'm especially proud of — and submitted it to Apple. I'm happy to share that it was approved! Launch days are always a great reminder that patient, careful iteration pays off."
+          },
+          {
+            "title": "Exploring TikTok for Marketing",
+            "content": "I’ve also been thinking about marketing strategies. I took inspiration from the creator of the Puff Count app and started exploring TikTok. By downloading the app and searching for 'Hawaii trivia,' I found top-performing videos to study. The most successful videos featured two friends competing to answer trivia questions, opening large plastic eggs to reveal smaller ones as they advanced. The visual progression was clear and rewarding to watch. I'll be sharing this idea with Adam in our meeting tonight to brainstorm next steps for promoting 'Are You Local?'."
+          },
+          {
+            "title": "Thinking Ahead: Challenges, Leaderboards, and Monetization",
+            "content": "We’re also discussing the role of interstitial ads and the possibility of offering an in-app purchase to remove ads entirely. Another idea I’m excited about is creating a daily trivia challenge, similar to Wordle — giving all players the same 10 questions each day and adding a global leaderboard. It could really help build a community around the game. Steady progress like this, week by week, keeps the momentum growing."
+          }
+        ],
+        "conclusion": "This past week reminded me how important it is to stay flexible, curious, and open to new ideas. Whether it's polishing ad delivery, launching new apps, exploring fresh marketing strategies, or dreaming up new game features, every small step adds up. I’m excited to keep the momentum going and to keep building digital products that are thoughtful, fun, and built to last."
+      }
+    },
+    {
+      "id": 8,
+      "title": "Sharing Progress, One TikTok at a Time",
+      "date": "May 1, 2025",
+      "description": "A look at the latest updates on 'Are You Local?', starting TikTok outreach, and what's next after finishing grad school.",
+      "tags": [
+        "App Development",
+        "TikTok",
+        "Hawaii",
+        "Soft Launch",
+        "Personal Journey"
+      ],
+      "fullContent": {
+        "introduction": "This past week has been a blend of creative exploration, software tweaks, and personal milestones. I'm documenting the journey not only to stay accountable but also to share the process—wins, bumps, and all—with clients and collaborators who might enjoy seeing the behind-the-scenes of how digital products are made.",
+        "sections": [
+          {
+            "title": "Testing the Waters on TikTok",
+            "content": "This week, I started posting TikTok videos for my app *Are You Local?*. So far, I’ve had two favorites and one new follower—not viral, but it’s a start. I’m learning that consistency matters, and each video teaches me something. For example, I’ve been fine-tuning the placement of on-screen elements like the countdown timer, and making sure the phrase *Made with Aloha in Hawaii* is always visible. It’s important to me that viewers, especially locals, recognize this app as something homegrown and authentic."
+          },
+          {
+            "title": "Who’s Downloading?",
+            "content": "The app has been installed on 20 devices so far. What’s interesting is that most downloads are on desktop computers—not what I expected. iPhones come next, followed by iPads. I'm tracking all this through App Store Connect analytics. It’s fascinating to see how people are choosing to interact with the app."
+          },
+          {
+            "title": "Content Ideas for the Future",
+            "content": "While browsing trending TikToks, I came across a fun video where two people compete in a trivia challenge at a county fair, with a cash prize at the end. I love that format. It’s energetic, community-focused, and feels like something *Are You Local?* could naturally grow into. I’m not quite ready to shoot those kinds of videos yet, but I can imagine setting up a booth at a farmers market, offering small prizes to local trivia champs. It would be a great way to blend real-life interaction with the app’s digital core."
+          },
+          {
+            "title": "New Hosting, New Projects",
+            "content": "On the technical side, I signed up for a new hosting server this week so that Adam and I can get started on a Laravel and React SaaS project we’ve been planning. He sent me a detailed Medium article on how to set it up, but to be honest, it was a bit dense. So I found a walkthrough video on YouTube that breaks it down visually. Sometimes the fastest way to learn is just to see someone else do it and follow along."
+          },
+          {
+            "title": "A Big Personal Milestone",
+            "content": "Lastly, a personal update: I just completed my final grad school class! Graduation is next week, and it’s a surreal feeling. I started the program during the height of the pandemic, and after three long years, it’s finally done. That constant feeling of 'I should be working on schoolwork' is starting to fade. I’m really looking forward to the summer—to building things, collaborating with great people, and exploring the next chapter with fresh energy."
+          }
+        ],
+        "conclusion": "Whether it’s crafting an app, learning from user behavior, or creating content that connects with real people, this past week has reminded me why I love this work. Every project is a mix of strategy, empathy, and iteration. If you're looking for someone who brings not just technical skills but a real care for users, storytelling, and follow-through—I’d love to connect."
+      }
+    },
+    {
+      "id": 9,
+      "title": "What I've Been Working On: From London to Laravel",
+      "date": "May 11, 2025",
+      "description": "Reflections on recent projects, milestones, and what's next in digital product development.",
+      "tags": [
+        "Laravel",
+        "React",
+        "Instructional Design",
+        "Freelance",
+        "Soft Skills"
+      ],
+      "fullContent": {
+        "introduction": "The past few weeks have been a whirlwind—early mornings, new skills, client work, and even a bit of TikTok. If you’ve been following along, you’ll know I’ve always believed that building great products takes more than just code. It takes communication, persistence, and a little heart. Here's a peek into what I’ve been up to lately.",
+        "sections": [
+          {
+            "title": "I Finished My Master's Degree!",
+            "content": "Well, it’s official. I graduated from the University of Hawaiʻi at Mānoa with a Master’s in Learning Design and Technology. It wasn’t easy—especially those 4 a.m. wakeups for class—but I made it through. Over the past two years, I’ve learned how to sustain learner motivation with the ARCS model, design structured outcomes using Bloom’s Revised Taxonomy, and iterate on course design using the ADDIE model. All of that theory is already influencing how I build software that teaches, engages, and adapts."
+          },
+          {
+            "title": "Laravel + React: Deployment Success",
+            "content": "This week, I was hoping to meet with Adam to walk through our latest milestone—but schedules didn’t align. Still, I was excited to get our Laravel and React project successfully deployed to the virtual machine on our hosting platform. Progress like this reminds me how far persistence can take a project. I’m currently diving deeper into Laravel’s built-in authentication and billing modules. Stripe integration is top priority, and I’m confident that once that’s in place, we’ll be unstoppable."
+          },
+          {
+            "title": "TikTok Experiments and Game Design Decisions",
+            "content": "On the marketing front, I’ve been running some TikTok tests for the game *Are You Local*. Each video is landing close to 1,000 views, which is encouraging—but the engagement rate is low. Few favorites. That tells me I either need to tighten the content strategy or give players more incentive to care. I’ve been torn between two next steps: adding a leaderboard to the game or producing more videos. Honestly? I’ve decided to do both."
+          },
+          {
+            "title": "Side Project: A Local Walking Tour App",
+            "content": "There’s another project I’m quietly passionate about: an audio-guided walking tour for our local heritage center. I haven’t built it out yet, but I’d love to mock something up soon. It blends education, community, and storytelling—three things I deeply care about. I’ve also been trying to find a local musician to collaborate with. No responses yet. I may need to rewrite my ad or go about it a different way. In the meantime, I’ve been playing drums. It keeps me grounded and creative."
+          }
+        ],
+        "conclusion": "Between building client software, finishing grad school, and exploring new creative projects, I’ve been stretching both my technical and soft skills lately. I love this kind of work—where strategy meets heart—and I’m always looking for teams and projects that share that mindset. If you're building something and want a thoughtful, reliable partner to help bring it to life, I’d love to talk."
+      }
+    },
+    {
+      "id": 10,
+      "title": "Closing Loops and Opening Doors",
+      "date": "June 12, 2025",
+      "description": "Reflecting on personal milestones, AI-assisted creativity, and Etsy experimentation—all while keeping the human side of software development in focus.",
+      "tags": [
+        "Entrepreneurship",
+        "Etsy",
+        "AI Tools",
+        "Planner Design",
+        "Personal Growth"
+      ],
+      "fullContent": {
+        "introduction": "It’s been a full season lately—personally, creatively, and professionally. I recently got back from a trip to Hawaii where I visited family, unplugged a little, and spent time recharging. That time away, as usual, gave me space to reflect and rethink how I’m approaching my projects and clients this year.",
+        "sections": [
+          {
+            "title": "What's Selling and What's Shifting",
+            "content": "While in Hawaii, I renewed my subscription to everbee.io—a tool I use to keep tabs on what's performing well on Etsy. I noticed something interesting: the top-selling item in my niche is a planner. Not a huge surprise, but it was a helpful nudge. Sales on my Etsy shop have been slowly dipping, and I’ve been wondering if it’s just the season or if I’ve gone too quiet. Maybe both.\n\nInstead of waiting around, I’ve decided to shift into creation mode. I’m experimenting with new planners—each tailored to a different kind of person. A budget planner. A workout planner. A visual planner for people who think in images. I want to meet people where they are, and Etsy is a great place to do that."
+          },
+          {
+            "title": "Letting AI Help Me Create",
+            "content": "To speed things up, I’ve been using a tool called Cursor AI to help write the code for these planners. It’s honestly kind of wild how quickly the AI picks up on what I’m aiming to build. What used to take me hours by hand—especially trying to force Canva to do something it wasn’t built for—now takes a fraction of the time.\n\nCursor helps me go from idea to prototype without getting stuck on the boring stuff. It’s made the whole process feel more like play again, and less like grinding through glue."
+          },
+          {
+            "title": "A New Tool for Etsy Sellers",
+            "content": "Aside from the planners, I’ve been working on something I’m really excited about: an Etsy newsletter creation tool. This came out of my own pain point—wanting to communicate better with my shop followers but not having a smooth, low-effort way to do it.\n\nI’ve been quietly building the backend, testing some templates, and thinking about how to make it simple but effective. It’s one of those side projects that has the potential to grow into something much bigger."
+          },
+          {
+            "title": "Personal Milestones and Resolutions",
+            "content": "This past month, I celebrated two big things: my birthday and my graduation from grad school. At the celebration, my sister-in-law asked me what I was looking forward to in the coming year. My answer: peace. \n\nBut while driving home the next day, I realized something. What I really want is to close loops. Not just start things, but finish them. Wrap them up. Deliver. That’s where the real peace comes from for me. Not in doing less, but in completing what matters.\n\nAlso, Seth Godin just released a new book. That’s now at the top of my reading list. He always has a way of reminding me why I build things the way I do—with heart, intention, and a desire to serve."
+          }
+        ],
+        "conclusion": "Whether I’m designing tools for Etsy sellers, creating planners with AI, or just trying to finish the things I start, my work is always driven by a love of craft and a deep respect for people. Clients who’ve worked with me know that I bring that same energy to every project: clear communication, thoughtful collaboration, and a commitment to results.\n\nThis year, I’m closing loops—and opening new doors. If you're building something meaningful and want a partner who cares as much as you do, let’s talk."
+      }
+    },
+    {
+      "id": 11,
+      "title": "What I’ve Been Working On Lately (And Why It’s Been Fun)",
+      "date": "August 21, 2025",
+      "description": "A quick update on some personal and client projects, from a dad joke app to a classroom-friendly WebGL tool. Also: Laravel Herd, high scores, and a little London inspiration.",
+      "tags": [
+        "Apps",
+        "watchOS",
+        "WebGL",
+        "Laravel",
+        "Personal Projects"
+      ],
+      "fullContent": {
+        "introduction": "Every few months, I like to post a quick update about what I’ve been building lately. It gives clients (and future clients) a peek into how I think through problems, how I build, and—maybe most important—how much I enjoy the process. Here’s what’s been going on behind the scenes.",
+        "sections": [
+          {
+            "title": "A Dad Jokes App—Built for Laughs (and Groans)",
+            "content": "Every morning, I tell my daughter a new joke. She’s 7, so the cringe is half the fun. But I was running out of clean, funny material that wasn’t buried in some paperback from 1986. So I built a simple dad jokes app for Apple Watch.\n\nIt’s a watchOS complication that sits right on the watch face. Tap it once in the morning and—boom—you get a fresh dad joke. No digging. No weird ads. Just peak dad humor on demand.\n\nMy brother has been testing it too and had one solid note: change the emoji next to the joke from the laughing-crying face to a groaning one. Honestly? He’s not wrong. The jokes are *that* good/bad."
+          },
+          {
+            "title": "A New Math App in the Works",
+            "content": "I'm starting to collaborate with someone new on a math app that will use WebGL. The idea is to build something that works in a shared classroom setting—possibly with live collaboration features.\n\nWe’re still figuring out the final scope, but the conversations have been exciting so far. Once we settle on the roadmap, I’ll start posting regular dev updates. This one’s shaping up to be something special."
+          },
+          {
+            "title": "Quick Dev Tools Update: Laravel Herd + DigitalOcean",
+            "content": "On the more technical side of things, I finally installed Laravel Herd for local development. It's been a smooth setup—fast, clean, and a nice change from some older workflows I've used.\n\nI've also spun up a new droplet on DigitalOcean so we're ready for deployment as soon as we hit a solid beta build. Feels good to have the groundwork ready ahead of time. One less thing to worry about later."
+          },
+          {
+            "title": "Are You Local? Needs High Scores",
+            "content": "One of the first games I ever built for my daughter was a little location quiz called *Are You Local?*. We still play it together now and then, and yesterday she crushed it—and then asked where her high score was.\n\nFair point.\n\nSo next up: adding a high scores page. It’ll be simple, just a way to track top players and celebrate wins, but I think it’ll give the app a nice little boost of fun (and competition)."
+          },
+          {
+            "title": "A Quick Trip to London—and a Creative Recharge",
+            "content": "I just got back from a day in London. Sometimes a change of scenery is all it takes to feel creatively recharged. There’s something about the buzz of that city that really lit a fire under me.\n\nI came home with fresh ideas and a full notebook—ready to keep building, iterating, and pushing things forward."
+          }
+        ],
+        "conclusion": "It’s been a full stretch lately—jokes, math, games, and a little travel thrown in. But that’s the sweet spot for me: making useful, fun, and thoughtful digital tools that bring people a little joy or clarity.\n\nIf you’re working on something and looking for a partner who loves the details as much as the big picture, feel free to reach out. I’d love to hear what you’re building."
+      }
+    },
+    {
+      "id": 12,
+      "title": "Hack Night in Bristol and Lessons from Feedback",
+      "date": "September 24, 2025",
+      "description": "Reflections from attending a developer meetup in Bristol, sharing my app, and learning from peer feedback.",
+      "tags": [
+        "Meetup",
+        "App Development",
+        "Android",
+        "Feedback"
+      ],
+      "fullContent": {
+        "introduction": "Last night I went to my first developer meetup since moving to England, and it reminded me how much I love being in a room full of people who care about building things with technology. This one was called Hack Night at Desk Lodge in Bristol. I wasn’t sure what to expect going in, but the night turned into something I’ll carry with me for a long time.",
+        "sections": [
+          {
+            "title": "Arriving and Meeting New Faces",
+            "content": "I showed up around 6 PM, about half an hour before the official start time. I found a bench and sat down, wondering who I should talk to first. Luckily, a friendly developer came over, introduced himself, and we started chatting. Soon, another developer joined in and shared about an app she was building about trees. It was such a welcoming start to the evening."
+          },
+          {
+            "title": "Sharing My App",
+            "content": "When it came time for introductions, I decided to go first. I shared that I’ve been working on an app called *Are You Local?*—a Hawaii trivia app that I’ve been building for over a year. The organizer, James, joked about not mentioning Hawaii because it made him too jealous. Everyone had a laugh, which made it a lot easier to keep talking and show the group what I’d built."
+          },
+          {
+            "title": "Receiving Honest Feedback",
+            "content": "Showing your work to other developers is always a mix of excitement and nerves. The group gave me thoughtful feedback I hadn’t noticed myself. For example, one person pointed out that my progress bar didn’t match the polished look of the rest of the app. Another mentioned that my countdown timer was starting before all answers were revealed, which made gameplay feel unfair. Someone else suggested that the app should let users exit early if they wanted, instead of being forced into another round. These were all things I simply hadn’t seen after staring at the same code for so long."
+          },
+          {
+            "title": "A Big Next Step",
+            "content": "The biggest takeaway for me came from two developers who asked why the app was only on iOS. Both of them used Android and wanted to try it out. That was the nudge I needed. This week I’m working on fixing Android build errors, and I already have my Google Play account set up. My goal is to have *Are You Local?* available on Android before the next Hack Night on October 7."
+          }
+        ],
+        "conclusion": "What I loved most about the event wasn’t just the feedback—it was the openness of the people I met. Events like these remind me how much better our work becomes when we’re open to new perspectives. As a developer with years of experience, I’ve learned that good communication and collaboration are just as important as writing good code. Nights like this keep me excited to keep building, keep improving, and keep connecting with people who care about technology."
+      }
+    },
+    {
+      "id": 13,
+      "title": "What I’ve Been Building This Week",
+      "date": "December 10, 2025",
+      "description": "A quick look at the updates I’ve made to my portfolio and the projects I’m preparing to share.",
+      "tags": [
+        "React",
+        "TypeScript",
+        "Web Development",
+        "Portfolio"
+      ],
+      "fullContent": {
+        "introduction": "Every week I try to set aside a little time to sharpen my skills and improve the tools I rely on for client work. This week has been full of small wins, a few late-night coding sessions, and some exciting steps forward on a couple of projects I’ve been quietly building in the background.",
+        "sections": [
+          {
+            "title": "Brushing Up on TypeScript and React",
+            "content": "I spent a good chunk of the week diving back into TypeScript and React. Even after years of experience, I like to revisit the fundamentals and try out newer patterns so I can stay sharp. One thing I focused on was polishing the search filters on my portfolio site. Now the projects and posts pages update instantly when a filter changes—no flicker, no reloads, just a smooth experience. It feels good when something small makes the whole page feel more professional."
+          },
+          {
+            "title": "Adding New Projects to the Portfolio",
+            "content": "Next up on my list is expanding the projects page itself. I’ve been finishing up a few demos and cleaning up documentation so I can publish them. Two that I’m especially excited about are ISBNspy and Team Number Dash. Both started as simple ideas, but they’ve grown into tools I’m proud to show off."
+          },
+          {
+            "title": "Sharing the MVP and Gathering Feedback",
+            "content": "This week I also posted a video walkthrough of the MVP for Team Number Dash. It’s always a little scary to share early versions of a project, but getting fresh eyes on it helps so much. A few people have already reached out with helpful feedback, and I’m starting to line up beta testers. Knowing others see potential in something you built is a pretty great feeling."
+          }
+        ],
+        "conclusion": "All in all, it’s been a productive week. I’m excited to keep adding more polished work to my portfolio and sharing what I learn along the way. If you’re someone who enjoys building thoughtful digital products—or needs help bringing one to life—I’d love to connect. Creating useful, friendly tools is what I care about most, and it’s even better when I get to build them with good people."
+      }
+    },
+    {
+      "id": 14,
+      "title": "Recording and Sharing a Product Walkthrough",
+      "date": "December 19, 2025",
+      "description": "A look at recent progress on my math game project, lessons learned from user feedback, and ongoing improvements to my portfolio.",
+      "tags": [
+        "React",
+        "JavaScript",
+        "Web Development",
+        "Product Development",
+        "Portfolio"
+      ],
+      "fullContent": {
+        "introduction": "This week focused on sharing work publicly, gathering real user feedback, and improving both a product and the way it is presented. I spent time polishing a demo, responding to a reported usability issue, and continuing to refine my portfolio so it better reflects how I build and think about software.",
+        "sections": [
+          {
+            "title": "Recording and Sharing a Product Walkthrough",
+            "content": "I recorded and published a video walkthrough of my new math game project, Team Math. After capturing the footage with OBS, I edited the video in iMovie to highlight the core features and speed up sections that were slower or repetitive. I shared the final video on LinkedIn as a way to document progress and invite feedback. Publishing work at this stage helps me stay accountable and improves the product through outside perspectives."
+          },
+          {
+            "title": "Responding to User Feedback and Fixing a Mobile Bug",
+            "content": "One of the most valuable outcomes of sharing the video was receiving feedback about a mobile usability issue. When students tapped the number pad quickly, the app sometimes interpreted the interaction as a double tap, which caused the screen to zoom instead of registering input. I investigated multiple approaches to resolve this. Adding a scaling configuration through a meta tag did not solve the problem, but implementing a custom event handler with timing constraints successfully prevented the unwanted behavior. This fix improved the experience for users and reinforced the importance of testing real interaction patterns."
+          },
+          {
+            "title": "Improving Portfolio Usability",
+            "content": "In parallel, I continued refining my personal portfolio. I added a set of technology skill buttons that allow visitors to pre filter projects based on the tools used. This makes it easier for recruiters and hiring managers to quickly find relevant examples of my work. My goal is to make the portfolio both informative and efficient, so viewers can understand my experience without unnecessary friction."
+          }
+        ],
+        "conclusion": "This week was a strong reminder of how much value comes from sharing work early, listening carefully to feedback, and iterating quickly. I am continuing to review past projects, publish updates on my blog, and improve how my work is presented. I enjoy building products that are thoughtful, usable, and responsive to real users, and I am always looking to grow through that process."
+      }
+    }
+  ]
+}

@@ -48,7 +48,7 @@ function Post() {
                   <pre className="code-block">
                     <code>
                       {paragraph.substring(
-                        paragraph.indexOf('\n') + 1, 
+                        paragraph.indexOf('\n') + 1,
                         paragraph.lastIndexOf('\n')
                       )}
                     </code>

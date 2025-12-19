@@ -92,7 +92,11 @@ function ExperienceToggle() {
               {/* <div className="experience-date">2006</div> */}
             </div>
             <ul className="experience-details">
-              <li>Creative & Technical Skills – Specialized in Software Engineering and Web Development, with additional studies in Graphic Design and Animation to enhance user experience and digital storytelling.</li>
+              <li>Specialized in Software Engineering with Java, Database Management, and Web Development</li>
+              <li>Learned Advanced Software Enginnering including version control, testing, and debugging</li>
+              <li>Organized and led the Virtual Reality Club</li>
+              <li>Won second prize in the university-wide web design competition</li>
+              <li>Learned Graphic Design and 3D-Animation for digital storytelling</li>
             </ul>
           </div>
         </div>

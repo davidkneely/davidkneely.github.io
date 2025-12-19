@@ -32,7 +32,7 @@ function App() {
                   Hi, I'm Dave <span role="img" aria-label="shaka" style={{ background: 'none', WebkitBackgroundClip: 'initial', backgroundClip: 'initial', WebkitTextFillColor: 'initial', color: 'inherit' }}>🤙</span>
                 </h1>
                 <p className="bio">
-                  I'm a Full-Stack Mobile Software Engineer with 15 years of experience
+                  I'm a Full-Stack Mobile and Unity Software Engineer with 15 years of experience
                   building websites and apps. I'm located in Dursley, England 🇬🇧
                 </p>
 
