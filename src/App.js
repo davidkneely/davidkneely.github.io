@@ -29,7 +29,7 @@ function App() {
                   <img src="/dave.jpg" alt="Profile" className="profile-image" />
                 </div>
                 <h1 className="greeting">
-                  Hi, I'm Dave <span role="img" aria-label="shaka" style={{ background: 'none', WebkitBackgroundClip: 'initial', backgroundClip: 'initial', WebkitTextFillColor: 'initial', color: 'inherit' }}>🤙</span>
+                  Aloha, I'm Dave <span role="img" aria-label="shaka" style={{ background: 'none', WebkitBackgroundClip: 'initial', backgroundClip: 'initial', WebkitTextFillColor: 'initial', color: 'inherit' }}>🤙</span>
                 </h1>
                 <p className="bio">
                   I'm a Full-Stack Mobile and Unity Software Engineer with 15 years of experience
@@ -44,7 +44,7 @@ function App() {
                     <a href="https://github.com/davidkneely" className="social-icon github">
                       <img src="/github-icon.svg" alt="GitHub" />
                     </a>
-                    <a href="https://www.linkedin.com/in/david-neely-7a180b34b/" className="social-icon linkedin">
+                    <a href="https://www.linkedin.com/in/davidkneely" className="social-icon linkedin">
                       <img src="/linkedin-icon.svg" alt="LinkedIn" />
                     </a>
                     <a href="mailto:dave@daveneely.com" className="social-icon email">
