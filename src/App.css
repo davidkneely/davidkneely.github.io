@@ -763,3 +763,19 @@
   align-items: center;
   gap: 1rem;
 }
+
+/* swing.css */
+@keyframes swing {
+  0%   { transform: rotate(0deg); }
+  20%  { transform: rotate(-50deg); }
+  40%  { transform: rotate(20deg); }
+  60%  { transform: rotate(-10deg); }
+  80%  { transform: rotate(10deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.swing {
+  display: inline-block;
+  transform-origin: center;
+  animation: swing 3s ease-in-out;
+}

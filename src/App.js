@@ -6,6 +6,8 @@ import Blog from './components/Blog';
 import Post from './components/Post';
 import ExperienceToggle from './components/ExperienceToggle';
 import Skills from './components/Skills';
+import SwingEmoji from './components/SwingEmoji';
+
 
 function App() {
   return (
@@ -29,7 +31,7 @@ function App() {
                   <img src="/dave.jpg" alt="Profile" className="profile-image" />
                 </div>
                 <h1 className="greeting">
-                  Aloha, I'm Dave <span role="img" aria-label="shaka" style={{ background: 'none', WebkitBackgroundClip: 'initial', backgroundClip: 'initial', WebkitTextFillColor: 'initial', color: 'inherit' }}>🤙</span>
+                  Aloha, I'm Dave <span role="img" aria-label="shaka" style={{ background: 'none', WebkitBackgroundClip: 'initial', backgroundClip: 'initial', WebkitTextFillColor: 'initial', color: 'inherit' }}><SwingEmoji /></span>
                 </h1>
                 <p className="bio">
                   I'm a Full-Stack Mobile and Unity Software Engineer with 15 years of experience
