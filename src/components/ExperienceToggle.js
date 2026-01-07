@@ -57,8 +57,6 @@ function ExperienceToggle() {
               </li>
               <li><strong>Managed junior IT specialists and mentored them through technical exercises, code reviews, and career-readiness coaching</strong>, combining hands-on software expertise with professional development guidance resulting in many of them getting jobs in software development right out of college.
               </li>
-              <li><strong>Independently completed courses in SQL and CDCI to successfully take on the new responsibilities</strong> resulting in uninterrupted service and seamless management of the student employment database when a key staff member left unexpectedly.
-              </li>
               <li><strong>Secured PII for over 65k students by detecting and encrypting sensitive data, identifying critical server vulnerabilities, and applying technical patches</strong>, effectively preventing potential data breaches and network intrusions.
               </li>
             </ul>
@@ -72,7 +70,7 @@ function ExperienceToggle() {
           <div className="experience-item">
             <div className="experience-header">
               <div className="experience-title">
-                <h3>M.Ed. Learning Design and Technology</h3>
+                <h3>Master’s degree in Learning Design and Technology (MEd)</h3>
                 <p className="experience-company">The University of Hawaii at Mānoa</p>
               </div>
               {/* <div className="experience-date">2025 (Completed)</div> */}
@@ -86,7 +84,7 @@ function ExperienceToggle() {
           <div className="experience-item">
             <div className="experience-header">
               <div className="experience-title">
-                <h3>Bachelor of Arts in Information and Computer Science</h3>
+                <h3>Bachelor's degree in Information and Computer Science</h3>
                 <p className="experience-company">The University of Hawaii at Mānoa</p>
               </div>
               {/* <div className="experience-date">2006</div> */}
