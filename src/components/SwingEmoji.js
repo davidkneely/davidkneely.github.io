@@ -11,7 +11,7 @@ function SwingEmoji() {
     <span
       key={animationKey}
       className="swing"
-      onMouseEnter={restartAnimation}
+      onClick={restartAnimation}
       style={{ fontSize: "3rem", cursor: "pointer" }}
     >
       🤙
