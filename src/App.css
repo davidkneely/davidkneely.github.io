@@ -35,6 +35,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -766,16 +767,46 @@
 
 /* swing.css */
 @keyframes swing {
-  0%   { transform: rotate(0deg); }
-  20%  { transform: rotate(-50deg); }
-  40%  { transform: rotate(20deg); }
-  60%  { transform: rotate(-10deg); }
-  80%  { transform: rotate(10deg); }
-  100% { transform: rotate(0deg); }
+  0% {
+    transform: rotate(0deg);
+  }
+
+  20% {
+    transform: rotate(-50deg);
+  }
+
+  40% {
+    transform: rotate(20deg);
+  }
+
+  60% {
+    transform: rotate(-10deg);
+  }
+
+  80% {
+    transform: rotate(10deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
 }
 
 .swing {
   display: inline-block;
   transform-origin: center;
   animation: swing 3s ease-in-out;
+}
+
+.footer {
+  background: #0e0e0e;
+  color: rgb(255, 255, 255);
+  padding: 0.5rem 1.2rem;
+  font-size: 0.7rem;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  border: 1px solid #333;
+  width: 100%;
+  display: inline-block;
+  border-color: #555;
 }

@@ -7,6 +7,7 @@ import Post from './components/Post';
 import ExperienceToggle from './components/ExperienceToggle';
 import Skills from './components/Skills';
 import SwingEmoji from './components/SwingEmoji';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -65,6 +66,7 @@ function App() {
           <Route path="/post/:id" element={<Post />} />
         </Routes>
       </div>
+      <Footer />
     </Router>
   );
 }
