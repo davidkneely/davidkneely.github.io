@@ -1,6 +1,96 @@
 {
   "projects": [
     {
+      "id": 4,
+      "title": "Bible Scripture Word Match",
+      "description": "An engaging mobile game that helps users memorize and reinforce Bible verses by filling in missing words. Designed for iPad and iPhone, it offers an ad-free experience with no internet required.",
+      "fullContent": {
+        "overview": "Bible Scripture Word Match is a faith-based word game that encourages users to deepen their understanding of the Bible. The game presents scripture passages with missing words, and players must select the correct word to complete the verse. With topics like love, faith, friendship, and forgiveness, this app is designed to inspire and educate.",
+        "features": [
+          "Fill-in-the-blank scripture puzzles",
+          "Levels focused on key biblical themes",
+          "No internet required for offline play"
+        ],
+        "technologies": [
+          "C# for Unity Development and exported to iOS",
+          "Google Admob for monetization"
+        ],
+        "challenges": "One challenge was designing a user-friendly interface that appeals to all age groups while ensuring a smooth offline experience. We optimized local data storage and refined the game flow to provide an enjoyable and educational gameplay experience.",
+        "outcome": "Bible Scripture Word Match has been well-received by users looking for a meaningful and engaging way to memorize scripture. The app maintains a positive rating and continues to attract new players through its simple yet effective gameplay."
+      },
+      "tags": [
+        "Unity",
+        "C#",
+        "iOS",
+        "Educational Technology"
+      ],
+      "liveUrl": "https://apps.apple.com/us/app/bible-scripture-word-match/id6462538578",
+      "image": "/images/BSWM_icon.png",
+      "videoUrl": ""
+    },
+    {
+      "id": 5,
+      "title": "Bible Scripture Typing Daily",
+      "description": "A fun and educational macOS app that helps users improve their typing speed while memorizing Bible verses. Designed for all ages, it works offline and allows users to add custom verses.",
+      "fullContent": {
+        "overview": "Type the Truth is a unique typing practice app that combines scripture memorization with keyboarding skills. Originally created for the son of an assistant pastor who was learning to type, this app has since become a favorite among users looking to strengthen both their faith and typing abilities.",
+        "features": [
+          "Includes over 100 Bible verses",
+          "Allows users to add custom Bible verses",
+          "Works without an internet connection",
+          "Tracks typing speed and accuracy",
+          "Encouraging feedback and scripture-based motivation"
+        ],
+        "technologies": [
+          "Swift for macOS development",
+          "CoreData for local storage of custom verses",
+          "Apple's GameKit for progress tracking"
+        ],
+        "challenges": "One challenge was ensuring a smooth and responsive typing experience while keeping the app lightweight and offline-friendly. Optimizing text rendering and input processing was key to delivering an engaging user experience.",
+        "outcome": "Bible Scripture Typing Daily has received a 4.7-star rating on the Mac App Store, with users praising its simplicity and effectiveness. It has helped many users improve their typing skills while deepening their knowledge of scripture."
+      },
+      "tags": [
+        "macOS",
+        "Swift",
+        "Educational Technology"
+      ],
+      "liveUrl": "https://apps.apple.com/us/app/bible-scripture-typing-daily/id1484895431?mt=12",
+      "image": "/images/BSTD_icon.png",
+      "videoUrl": ""
+    },
+    {
+      "id": 12,
+      "title": "Career Fair App",
+      "description": "A mobile app designed to help students prepare for career fairs by previewing attending employers, learning resume and networking tips, and engaging with interactive career development content.",
+      "fullContent": {
+        "overview": "The Career Fair App was created to help students better prepare for career fairs before attending in person. The app allowed students to view which employers would be attending, research organizations ahead of time, and tailor their resumes accordingly. In addition to employer listings, the app included a mini career fair guide that offered practical advice on how to approach employers, communicate effectively, and structure resumes for different opportunities. Built using Flutter with Kotlin for cross-platform delivery on iOS and Android, the app connected to a MySQL database and queried API endpoints hosted on an Apache server using PHP. Later iterations expanded the experience with interactive career fair games such as crossword puzzles and word searches, as well as 90-second interview videos where students shared insights into their career development journeys.",
+        "features": [
+          "Pre-event employer listings to help students research and prepare before attending career fairs",
+          "Built-in career fair guide with tips on networking, employer conversations, and resume structure",
+          "Cross-platform mobile support for both iOS and Android devices",
+          "Interactive career fair games including crossword puzzles and word searches",
+          "Short-form student interview videos highlighting real career development experiences"
+        ],
+        "technologies": [
+          "Flutter",
+          "Kotlin",
+          "MySQL",
+          "PHP",
+          "Apache"
+        ],
+        "challenges": "One of the main challenges was designing a scalable backend that could reliably serve employer data and media content to mobile clients while supporting future feature expansion. Ensuring smooth cross-platform performance with Flutter and integrating interactive content such as games and video interviews required careful coordination between frontend, backend, and database layers.",
+        "outcome": "The Career Fair App successfully improved how students prepared for and experienced career fairs by giving them access to employer information, practical guidance, and engaging content ahead of time. By combining career readiness resources with interactive features, the app helped students feel more confident approaching employers and better equipped to discuss their skills and goals."
+      },
+      "tags": [
+        "Mobile App",
+        "Career Development",
+        "Education"
+      ],
+      "liveUrl": "",
+      "image": "/images/mccLogoWords.png",
+      "videoUrl": ""
+    },
+    {
       "id": 1,
       "title": "Roach Room VR",
       "description": "A virtual reality horror game for Oculus Rift that uses immersive gameplay inspired by cognitive behavioral therapy to help players confront and overcome fear.",
@@ -99,64 +189,6 @@
       ],
       "liveUrl": "https://apps.apple.com/us/app/mathogen/id323507276",
       "image": "/images/Mathogen_icon.png",
-      "videoUrl": ""
-    },
-    {
-      "id": 4,
-      "title": "Bible Scripture Word Match",
-      "description": "An engaging mobile game that helps users memorize and reinforce Bible verses by filling in missing words. Designed for iPad and iPhone, it offers an ad-free experience with no internet required.",
-      "fullContent": {
-        "overview": "Bible Scripture Word Match is a faith-based word game that encourages users to deepen their understanding of the Bible. The game presents scripture passages with missing words, and players must select the correct word to complete the verse. With topics like love, faith, friendship, and forgiveness, this app is designed to inspire and educate.",
-        "features": [
-          "Fill-in-the-blank scripture puzzles",
-          "Levels focused on key biblical themes",
-          "No internet required for offline play"
-        ],
-        "technologies": [
-          "C# for Unity Development and exported to iOS",
-          "Google Admob for monetization"
-        ],
-        "challenges": "One challenge was designing a user-friendly interface that appeals to all age groups while ensuring a smooth offline experience. We optimized local data storage and refined the game flow to provide an enjoyable and educational gameplay experience.",
-        "outcome": "Bible Scripture Word Match has been well-received by users looking for a meaningful and engaging way to memorize scripture. The app maintains a positive rating and continues to attract new players through its simple yet effective gameplay."
-      },
-      "tags": [
-        "Unity",
-        "C#",
-        "iOS",
-        "Educational Technology"
-      ],
-      "liveUrl": "https://apps.apple.com/us/app/bible-scripture-word-match/id6462538578",
-      "image": "/images/BSWM_icon.png",
-      "videoUrl": ""
-    },
-    {
-      "id": 5,
-      "title": "Bible Scripture Typing Daily",
-      "description": "A fun and educational macOS app that helps users improve their typing speed while memorizing Bible verses. Designed for all ages, it works offline and allows users to add custom verses.",
-      "fullContent": {
-        "overview": "Type the Truth is a unique typing practice app that combines scripture memorization with keyboarding skills. Originally created for the son of an assistant pastor who was learning to type, this app has since become a favorite among users looking to strengthen both their faith and typing abilities.",
-        "features": [
-          "Includes over 100 Bible verses",
-          "Allows users to add custom Bible verses",
-          "Works without an internet connection",
-          "Tracks typing speed and accuracy",
-          "Encouraging feedback and scripture-based motivation"
-        ],
-        "technologies": [
-          "Swift for macOS development",
-          "CoreData for local storage of custom verses",
-          "Apple's GameKit for progress tracking"
-        ],
-        "challenges": "One challenge was ensuring a smooth and responsive typing experience while keeping the app lightweight and offline-friendly. Optimizing text rendering and input processing was key to delivering an engaging user experience.",
-        "outcome": "Bible Scripture Typing Daily has received a 4.7-star rating on the Mac App Store, with users praising its simplicity and effectiveness. It has helped many users improve their typing skills while deepening their knowledge of scripture."
-      },
-      "tags": [
-        "macOS",
-        "Swift",
-        "Educational Technology"
-      ],
-      "liveUrl": "https://apps.apple.com/us/app/bible-scripture-typing-daily/id1484895431?mt=12",
-      "image": "/images/BSTD_icon.png",
       "videoUrl": ""
     },
     {
@@ -337,33 +369,6 @@
       ],
       "liveUrl": "https://en.wikipedia.org/wiki/Dance_Dance_Revolution_Universe_2",
       "image": "/images/danceDanceRevolution2.jpg",
-      "videoUrl": ""
-    },
-    {
-      "id": 12,
-      "title": "Career Fair App",
-      "description": "A featured song I wrote, performed, and produced that appears in the Xbox 360 rhythm game Dance Dance Revolution Universe 2—bringing the beat to players around the world.",
-      "fullContent": {
-        "overview": "Arrivals and Departures is a song I wrote, sang on, recorded, and produced that made its way into the Xbox 360 game Dance Dance Revolution Universe 2. DDR Universe 2 is a music and dance game released for Xbox 360 in December 2007. Players step on arrows to match the beat and rhythm of songs from a huge soundtrack that spans music styles from the 1970s through modern electronic and licensed pop tracks. The game also includes modes like Freestyle Mode, where players can dance without following arrow prompts, and Quest Mode, where you travel the world and complete dance challenges as your own character.",
-        "features": [
-          "Featured track in the official Dance Dance Revolution Universe 2 soundtrack",
-          "Blends with a diverse set of licensed songs ranging from classic dance hits to modern electronic tracks",
-          "Part of a soundtrack that includes songs like \"Take Me Out\" (Franz Ferdinand) and \"Walk Like an Egyptian\" (The Bangles)",
-          "Accessible in both single-player and multiplayer modes",
-          "Game supports downloadable song packs and extended gameplay content"
-        ],
-        "technologies": [
-          "Digital Audio Workstation"
-        ],
-        "challenges": "Getting a custom track into a major console rhythm game like DDR took coordination and careful mastering so the song feels right alongside an eclectic mix of licensed music and original tracks. DDR Universe 2’s soundtrack is celebrated for its variety, hitting genres and eras that appeal to both longtime fans and newcomers alike.",
-        "outcome": "Having \"Arrivals and Departures\" featured in Dance Dance Revolution Universe 2 is a highlight of my music and game development journey. It sits among a soundtrack beloved by DDR players, and contributes to gameplay that challenges your rhythm, reflexes, and love for music. Fans of DDR appreciate the broad song list and the unique way each track gets players moving, making this inclusion especially rewarding."
-      },
-      "tags": [
-        "Music",
-        "Game Soundtrack"
-      ],
-      "liveUrl": "https://en.wikipedia.org/wiki/Dance_Dance_Revolution_Universe_2",
-      "image": "/images/mccLogoWords.png",
       "videoUrl": ""
     }
   ]
