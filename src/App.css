@@ -804,9 +804,7 @@
   padding: 0.5rem 1.2rem;
   font-size: 0.7rem;
   text-decoration: none;
-  transition: all 0.2s ease;
-  border: 1px solid #333;
-  width: 100%;
   display: inline-block;
   border-color: #555;
+  text-align: center;
 }
