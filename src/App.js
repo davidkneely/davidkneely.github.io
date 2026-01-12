@@ -66,7 +66,6 @@ function App() {
           <Route path="/post/:id" element={<Post />} />
         </Routes>
       </div>
-      {/* <Footer /> */}
     </Router>
   );
 }
