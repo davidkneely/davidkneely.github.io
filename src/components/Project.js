@@ -1,6 +1,20 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 
+function getYouTubeVideoId(url) {
+  const patterns = [
+    /youtu\.be\/([^?&/]+)/,
+    /youtube\.com\/watch\?v=([^?&/]+)/,
+    /youtube\.com\/embed\/([^?&/]+)/,
+    /youtube\.com\/shorts\/([^?&/]+)/,
+  ];
+  for (const pattern of patterns) {
+    const match = url.match(pattern);
+    if (match) return match[1];
+  }
+  return null;
+}
+
 function Project() {
   const [project, setProject] = useState(null);
   const { id } = useParams();
@@ -18,6 +32,8 @@ function Project() {
   if (!project) {
     return <div className="project-loading">Loading...</div>;
   }
+
+  const youtubeVideoId = getYouTubeVideoId(project.videoUrl);
 
   return (
     <div className="project-detail">
@@ -43,13 +59,24 @@ function Project() {
 
         {project.videoUrl !== '' && <section className="project-section">
           <h2>Video Walkthrough</h2>
-          <video
-            preload='none'
-            src="/videos/teamNumberDash001.mov"
-            controls
-            width="100%"
-            style={{ borderRadius: 12 }}
-          />
+          {youtubeVideoId ? (
+            <div className="video-container">
+              <iframe
+                src={`https://www.youtube.com/embed/${youtubeVideoId}`}
+                title="Video Walkthrough"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              />
+            </div>
+          ) : (
+            <video
+              preload="none"
+              src={project.videoUrl}
+              controls
+              width="100%"
+              style={{ borderRadius: 12 }}
+            />
+          )}
         </section>}
 
         <section className="project-section">
