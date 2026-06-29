@@ -1,12 +1,26 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 
+function getYouTubeVideoId(url) {
+  const patterns = [
+    /youtu\.be\/([^?&/]+)/,
+    /youtube\.com\/watch\?v=([^?&/]+)/,
+    /youtube\.com\/embed\/([^?&/]+)/,
+    /youtube\.com\/shorts\/([^?&/]+)/,
+  ];
+  for (const pattern of patterns) {
+    const match = url.match(pattern);
+    if (match) return match[1];
+  }
+  return null;
+}
+
 function Post() {
   const [post, setPost] = useState(null);
   const { id } = useParams();
 
   useEffect(() => {
-    fetch('/posts.json')
+    fetch('/posts.json', { cache: 'no-store' })
       .then(response => response.json())
       .then(data => {
         const postData = data.posts.find(p => p.id === parseInt(id));
@@ -18,6 +32,8 @@ function Post() {
   if (!post) {
     return <div className="post-loading">Loading...</div>;
   }
+
+  const youtubeVideoId = post.youtubeUrl ? getYouTubeVideoId(post.youtubeUrl) : null;
 
   return (
     <div className="post-detail">
@@ -35,6 +51,19 @@ function Post() {
       </div>
 
       <div className="post-detail-content">
+        {youtubeVideoId && (
+          <div className="post-section">
+            <div className="video-container">
+              <iframe
+                src={`https://www.youtube.com/embed/${youtubeVideoId}`}
+                title="YouTube video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              />
+            </div>
+          </div>
+        )}
+
         <div className="post-section">
           <p className="post-introduction">{post.fullContent.introduction}</p>
         </div>
